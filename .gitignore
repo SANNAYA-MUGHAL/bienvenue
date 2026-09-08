@@ -1,0 +1,21 @@
+# Environments & Dependencies
+venv/
+backend/venv/
+node_modules/
+dist/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# System & IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
