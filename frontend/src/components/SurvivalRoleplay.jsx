@@ -1,0 +1,359 @@
+import React, { useState, useEffect } from 'react';
+import { Volume2, Mic, Send, Star, Trophy, RotateCcw, ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { api } from '../services/api';
+import { speakFrench, startSpeechRecognition } from '../services/speech';
+
+export default function SurvivalRoleplay({ nativeLang = 'ur', onBack }) {
+  const [scenarios, setScenarios] = useState([]);
+  const [activeScenario, setActiveScenario] = useState(null);
+  const [currentStep, setCurrentStep] = useState(0);
+  const [messages, setMessages] = useState([]);
+  const [userInput, setUserInput] = useState('');
+  const [isRecording, setIsRecording] = useState(false);
+  const [isCompleted, setIsCompleted] = useState(false);
+  const [scorecard, setScorecard] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    loadScenariosList();
+  }, [nativeLang]);
+
+  const loadScenariosList = async () => {
+    try {
+      setLoading(true);
+      const data = await api.getScenarios(nativeLang);
+      setScenarios(data);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const startScenario = async (scId) => {
+    try {
+      const detail = await api.getScenarioDetail(scId, nativeLang);
+      setActiveScenario(detail);
+      setCurrentStep(0);
+      setIsCompleted(false);
+      setScorecard(null);
+      setUserInput('');
+
+      // First clerk message
+      const firstStep = detail.dialogue_steps[0];
+      setMessages([
+        {
+          speaker: 'clerk',
+          name: firstStep.speaker_name,
+          fr: firstStep.message_fr,
+          native: firstStep.translation_native
+        }
+      ]);
+      speakFrench(firstStep.message_fr);
+    } catch (err) {
+      console.error('Failed to start scenario:', err);
+    }
+  };
+
+  const handleSendResponse = async (textToSend) => {
+    const text = textToSend || userInput;
+    if (!text.trim() || !activeScenario) return;
+
+    // Add user message to dialogue
+    const newMessages = [
+      ...messages,
+      { speaker: 'user', name: 'Vous', fr: text }
+    ];
+    setMessages(newMessages);
+    setUserInput('');
+
+    try {
+      const turnRes = await api.submitSurvivalTurn(
+        activeScenario.id,
+        currentStep,
+        text,
+        nativeLang
+      );
+
+      if (turnRes.clerk_reply_fr) {
+        newMessages.push({
+          speaker: 'clerk',
+          name: activeScenario.dialogue_steps[0]?.speaker_name || 'Clerk',
+          fr: turnRes.clerk_reply_fr,
+          native: turnRes.clerk_reply_native
+        });
+        setMessages([...newMessages]);
+        speakFrench(turnRes.clerk_reply_fr);
+      }
+
+      if (turnRes.is_complete) {
+        setIsCompleted(true);
+        setScorecard(turnRes.scorecard || {
+          vocabulary: 5,
+          grammar: 4,
+          pronunciation: 4,
+          naturalness: 5
+        });
+      } else {
+        setCurrentStep(turnRes.next_step);
+      }
+    } catch (err) {
+      console.error('Error submitting turn:', err);
+    }
+  };
+
+  const handleVoiceRecord = () => {
+    setIsRecording(true);
+    startSpeechRecognition(
+      (result) => {
+        setIsRecording(false);
+        setUserInput(result.transcript);
+        handleSendResponse(result.transcript);
+      },
+      (err) => {
+        setIsRecording(false);
+        // Fallback for environment without microphone: insert suggested text
+        const currentSuggestion = activeScenario?.dialogue_steps[currentStep]?.suggested_reply;
+        if (currentSuggestion) {
+          setUserInput(currentSuggestion);
+          handleSendResponse(currentSuggestion);
+        }
+      },
+      () => setIsRecording(false)
+    );
+  };
+
+  // 1. SCENARIO SELECTION LIST
+  if (!activeScenario) {
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center justify-between border-b border-slate-200 pb-4">
+          <div>
+            <h2 className="text-2xl font-bold text-[#1B2A4A]">
+              🥖 {nativeLang === 'ur' ? 'زندگانی کے حقیقی حالات (Survival Mode)' : 'Situations Réelles de Survie'}
+            </h2>
+            <p className="text-xs text-slate-500 font-urdu mt-0.5">
+              {nativeLang === 'ur' ? 'پیرس میں روزمرہ کی صورتحال کی انٹرایکٹو مشق کریں۔' : 'Pratiquez des dialogues concrets de la vie quotidienne en France.'}
+            </p>
+          </div>
+        </div>
+
+        {loading ? (
+          <div className="py-12 text-center text-slate-400">Chargement des scénarios...</div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {scenarios.map((sc) => (
+              <div
+                key={sc.id}
+                onClick={() => startScenario(sc.id)}
+                className="p-5 rounded-3xl bg-white border-2 border-slate-200/80 hover:border-[#E05A47] hover:shadow-md transition cursor-pointer flex flex-col justify-between group"
+              >
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-4xl p-2.5 rounded-2xl bg-[#FDFBF7] border border-slate-100 group-hover:scale-110 transition">
+                      {sc.icon}
+                    </span>
+                    <span className="text-[11px] font-bold text-terracotta bg-orange-50 px-2.5 py-1 rounded-full uppercase">
+                      {sc.category}
+                    </span>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl font-bold text-[#1B2A4A] group-hover:text-terracotta transition font-sans">
+                      {sc.title_fr}
+                    </h3>
+                    <p className="text-xs text-slate-600 font-urdu mt-1 leading-relaxed">
+                      {sc.description}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-[#1B2A4A]">
+                  <span>{sc.total_steps} étapes de dialogue</span>
+                  <span className="text-terracotta group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition font-bold">
+                    Commencer →
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // 2. ACTIVE ROLEPLAY CHAT VIEW
+  const currentStepData = activeScenario.dialogue_steps[currentStep];
+
+  return (
+    <div className="space-y-4 max-w-2xl mx-auto">
+      {/* Top Scenario Bar */}
+      <div className="flex items-center justify-between bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <button
+          onClick={() => setActiveScenario(null)}
+          className="flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-slate-900 transition"
+        >
+          <ArrowLeft size={16} className="rtl:rotate-180" />
+          <span>{nativeLang === 'ur' ? 'واپس فہرست' : 'Retour'}</span>
+        </button>
+
+        <div className="text-center">
+          <span className="text-sm font-bold text-[#1B2A4A] flex items-center justify-center gap-1.5">
+            <span>{activeScenario.icon}</span>
+            <span>{activeScenario.title_fr}</span>
+          </span>
+        </div>
+
+        <span className="text-xs font-semibold text-slate-400">
+          Étape {Math.min(currentStep + 1, activeScenario.dialogue_steps.length)} / {activeScenario.dialogue_steps.length}
+        </span>
+      </div>
+
+      {/* Chat Dialogue Box */}
+      <div className="bg-white rounded-3xl border border-slate-200 shadow-sm p-4 sm:p-6 min-h-[360px] max-h-[480px] overflow-y-auto space-y-4 flex flex-col justify-between">
+        <div className="space-y-4">
+          {messages.map((m, idx) => {
+            const isClerk = m.speaker === 'clerk';
+            return (
+              <div
+                key={idx}
+                className={`flex flex-col ${isClerk ? 'items-start' : 'items-end'} space-y-1`}
+              >
+                <span className="text-[11px] font-bold text-slate-400 px-1">
+                  {m.name}
+                </span>
+                <div
+                  className={`max-w-[85%] p-4 rounded-2xl text-sm leading-relaxed shadow-sm ${
+                    isClerk
+                      ? 'bg-[#1B2A4A] text-white rounded-tl-sm'
+                      : 'bg-[#E05A47] text-white rounded-tr-sm'
+                  }`}
+                >
+                  <p className="font-medium font-sans">{m.fr}</p>
+                  {m.native && (
+                    <p className="text-xs text-amber-200/90 font-urdu mt-1.5 pt-1.5 border-t border-white/10">
+                      {m.native}
+                    </p>
+                  )}
+                </div>
+                {isClerk && (
+                  <button
+                    onClick={() => speakFrench(m.fr)}
+                    className="flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-slate-800 px-1"
+                  >
+                    <Volume2 size={13} />
+                    <span>Écouter</span>
+                  </button>
+                )}
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Completion Scorecard Modal Overlay */}
+        {isCompleted && scorecard && (
+          <div className="p-6 rounded-2xl bg-emerald-50 border-2 border-emerald-300 text-center space-y-4 animate-fadeIn my-4">
+            <div className="w-12 h-12 rounded-full bg-emerald-600 text-white mx-auto flex items-center justify-center text-xl shadow-md">
+              <Trophy size={24} />
+            </div>
+            <div>
+              <h4 className="text-xl font-bold text-emerald-950">
+                {nativeLang === 'ur' ? 'بہت خوب! گفتگو مکمل ہو گئی 🥐' : 'Dialogue Réussi avec Succès !'}
+              </h4>
+              <p className="text-xs text-emerald-800 font-urdu mt-1">
+                {nativeLang === 'ur' ? 'آپ نے پیرس کی اصل صورتحال کو کامیابی کے ساتھ سنبھال لیا۔' : 'Vous avez complété cette mise en situation avec aisance.'}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2">
+              <div className="bg-white p-2.5 rounded-xl border border-emerald-200">
+                <span className="text-[10px] uppercase font-bold text-slate-400 block">Vocabulaire</span>
+                <div className="flex justify-center text-amber-400 text-sm mt-0.5">
+                  {'★'.repeat(scorecard.vocabulary)}
+                </div>
+              </div>
+              <div className="bg-white p-2.5 rounded-xl border border-emerald-200">
+                <span className="text-[10px] uppercase font-bold text-slate-400 block">Grammaire</span>
+                <div className="flex justify-center text-amber-400 text-sm mt-0.5">
+                  {'★'.repeat(scorecard.grammar)}
+                </div>
+              </div>
+              <div className="bg-white p-2.5 rounded-xl border border-emerald-200">
+                <span className="text-[10px] uppercase font-bold text-slate-400 block">Prononciation</span>
+                <div className="flex justify-center text-amber-400 text-sm mt-0.5">
+                  {'★'.repeat(scorecard.pronunciation)}
+                </div>
+              </div>
+              <div className="bg-white p-2.5 rounded-xl border border-emerald-200">
+                <span className="text-[10px] uppercase font-bold text-slate-400 block">Aisance</span>
+                <div className="flex justify-center text-amber-400 text-sm mt-0.5">
+                  {'★'.repeat(scorecard.naturalness)}
+                </div>
+              </div>
+            </div>
+
+            <button
+              onClick={() => startScenario(activeScenario.id)}
+              className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md transition inline-flex items-center gap-1.5"
+            >
+              <RotateCcw size={14} />
+              <span>{nativeLang === 'ur' ? 'دوبارہ مشق کریں' : 'Rejouer ce scénario'}</span>
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* Suggested Phrase Hint */}
+      {!isCompleted && currentStepData?.suggested_reply && (
+        <div className="p-3 rounded-2xl bg-amber-50/80 border border-amber-200/80 flex items-center justify-between gap-2">
+          <div className="text-left rtl:text-right">
+            <span className="text-[10px] font-bold text-amber-800 uppercase block">
+              💡 {nativeLang === 'ur' ? 'تجویز کردہ جواب:' : 'Réponse suggérée :'}
+            </span>
+            <p className="text-xs font-semibold text-slate-800 font-sans">
+              "{currentStepData.suggested_reply}"
+            </p>
+          </div>
+          <button
+            onClick={() => handleSendResponse(currentStepData.suggested_reply)}
+            className="px-3 py-1.5 bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs rounded-xl transition shrink-0"
+          >
+            Utiliser
+          </button>
+        </div>
+      )}
+
+      {/* Response Input Bar */}
+      {!isCompleted && (
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleVoiceRecord}
+            className={`w-12 h-12 rounded-2xl flex items-center justify-center text-white transition shrink-0 shadow-md ${
+              isRecording ? 'bg-red-500 animate-pulse' : 'bg-[#1B2A4A] hover:bg-[#0F1A2E]'
+            }`}
+            title="Parler au micro"
+          >
+            <Mic size={20} />
+          </button>
+
+          <input
+            type="text"
+            value={userInput}
+            onChange={(e) => setUserInput(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && handleSendResponse()}
+            placeholder={nativeLang === 'ur' ? 'فرانسیسی میں جواب لکھیں...' : 'Écrivez votre réponse en français...'}
+            className="flex-1 px-4 py-3.5 rounded-2xl border border-slate-300 focus:outline-none focus:border-[#E05A47] text-sm bg-white font-sans"
+          />
+
+          <button
+            onClick={() => handleSendResponse()}
+            className="w-12 h-12 rounded-2xl bg-[#E05A47] hover:bg-[#C84635] text-white flex items-center justify-center transition shrink-0 shadow-md shadow-terracotta/20"
+            title="Envoyer"
+          >
+            <Send size={18} className="rtl:rotate-180" />
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
