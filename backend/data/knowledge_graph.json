@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "node_greetings",
+      "cefr_level": "A1",
+      "title_fr": "Les Salutations & La Politesse",
+      "category": "Foundations",
+      "prerequisites": [],
+      "concepts": ["bonjour", "merci", "s_il_vous_plait", "au_revoir", "pardon"]
+    },
+    {
+      "id": "node_tu_vs_vous",
+      "cefr_level": "A1",
+      "title_fr": "Tu vs Vous (Formes d'Adresse)",
+      "category": "Social Pragmatics",
+      "prerequisites": ["node_greetings"],
+      "concepts": ["tu", "vous", "politesse"]
+    },
+    {
+      "id": "node_etre_copula",
+      "cefr_level": "A1",
+      "title_fr": "Le Verbe Être (Identité & État)",
+      "category": "Verbs",
+      "prerequisites": ["node_greetings"],
+      "concepts": ["je_suis", "tu_es", "il_est", "nous_sommes", "vous_etes", "ils_sont"]
+    },
+    {
+      "id": "node_avoir_possession_age",
+      "cefr_level": "A1",
+      "title_fr": "Le Verbe Avoir (Âge, Faim, Possession)",
+      "category": "Verbs",
+      "prerequisites": ["node_etre_copula"],
+      "concepts": ["j_ai", "tu_as", "il_a", "nous_avons", "vous_avez", "ils_ont", "age", "faim"]
+    },
+    {
+      "id": "node_articles_gender",
+      "cefr_level": "A1",
+      "title_fr": "Les Articles & Le Genre (Le, La, Un, Une)",
+      "category": "Grammar",
+      "prerequisites": ["node_etre_copula"],
+      "concepts": ["le", "la", "les", "un", "une", "des"]
+    },
+    {
+      "id": "node_survival_boulangerie",
+      "cefr_level": "A1",
+      "title_fr": "La Boulangerie (Commander du Pain)",
+      "category": "Survival Commerce",
+      "prerequisites": ["node_greetings", "node_articles_gender"],
+      "concepts": ["baguette", "croissant", "je_voudrais", "combien_ca_coute"]
+    },
+    {
+      "id": "node_survival_pharmacie",
+      "cefr_level": "A1",
+      "title_fr": "La Pharmacie (Santé & Médicaments)",
+      "category": "Survival Health",
+      "prerequisites": ["node_avoir_possession_age"],
+      "concepts": ["j_ai_mal", "medicament", "ordonnance", "carte_vitale"]
+    },
+    {
+      "id": "node_survival_transport",
+      "cefr_level": "A1",
+      "title_fr": "Le Métro & Les Transports",
+      "category": "City Navigation",
+      "prerequisites": ["node_greetings", "node_articles_gender"],
+      "concepts": ["metro", "billet", "navigo", "station", "ligne"]
+    },
+    {
+      "id": "node_survival_admin_caf",
+      "cefr_level": "A1",
+      "title_fr": "L'Administration, CAF & Logement",
+      "category": "Bureaucracy & Survival",
+      "prerequisites": ["node_avoir_possession_age", "node_articles_gender"],
+      "concepts": ["bail", "loyer", "caf", "titre_de_sejour", "attestation"]
+    }
+  ]
+}
