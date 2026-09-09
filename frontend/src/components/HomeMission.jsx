@@ -135,11 +135,13 @@ export default function HomeMission({
             {nativeLang === 'ur' ? 'تجربہ کریں:' : 'Suggestions :'}
           </span>
           {[
-            { fr: 'mais', ur: 'لیکن' },
-            { fr: 'pourtant', ur: 'حالانکہ' },
-            { fr: 'bail', ur: 'کرایہ نامہ' },
-            { fr: 'loyer', ur: 'کرایہ' },
-            { fr: 'rendez-vous', ur: 'ملاقات' }
+            { fr: 'enchanté', ur: 'آپ سے مل کر خوشی ہوئی', en: 'nice to meet you' },
+            { fr: 'bonjour', ur: 'صبح بخیر / ہیلو', en: 'hello' },
+            { fr: 'merci', ur: 'شکریہ', en: 'thank you' },
+            { fr: 'bail', ur: 'کرایہ نامہ', en: 'lease' },
+            { fr: 'CAF', ur: 'ہاؤسنگ فنڈ', en: 'housing agency' },
+            { fr: 'rendez-vous', ur: 'ملاقات', en: 'appointment' },
+            { fr: 'café', ur: 'کافی', en: 'coffee' }
           ].map((chip) => (
             <button
               key={chip.fr}
@@ -149,6 +151,7 @@ export default function HomeMission({
             >
               <span className="font-sans font-bold">{chip.fr}</span>
               {nativeLang === 'ur' && <span className="font-urdu ml-1 mr-1 text-slate-500 text-[11px]">({chip.ur})</span>}
+              {nativeLang === 'en' && <span className="font-sans ml-1 text-slate-500 text-[11px]">({chip.en})</span>}
             </button>
           ))}
         </div>

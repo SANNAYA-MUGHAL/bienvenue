@@ -1,14 +1,2798 @@
 [
   {
+    "id": "card_enchante",
+    "french_term": "enchanté",
+    "ipa": "/ɑ̃.ʃɑ̃.te/",
+    "concept_type": "Politesse • خوش آمدید",
+    "phonetics": {
+      "ur": "آنشانتے (Aan-shaan-tay)",
+      "ar": "آنشانتے",
+      "hi": "Aan-shaan-tay",
+      "es": "enchanté",
+      "en": "aan-shaan-tay"
+    },
+    "translations": {
+      "ur": "آپ سے مل کر خوشی ہوئی",
+      "ar": "تشرفت بمعرفتك",
+      "hi": "आपसे मिलकर खुशी हुई",
+      "es": "encantado / mucho gusto",
+      "en": "nice to meet you / delighted"
+    },
+    "pedagogical_rules": {
+      "ur": "پہلی بار ملتے وقت کہا جاتا ہے۔ اگر بولنے والی خاتون ہو تو لکھتے وقت 'Enchantée' لکھا جاتا ہے لیکن تلفظ یکساں رہتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: تشرفت بمعرفتك. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: आपसे मिलकर खुशी हुई।",
+      "es": "Término francés cotidiano: encantado / mucho gusto.",
+      "en": "Essential everyday French expression meaning 'nice to meet you / delighted'."
+    },
+    "examples": [
+      {
+        "fr": "Bonjour, je m'appelle Tariq, enchanté !",
+        "ur": "ہیلو، میرا نام طارق ہے، آپ سے مل کر خوشی ہوئی!",
+        "ar": "تشرفت بمعرفتك",
+        "hi": "आपसे मिलकर खुशी हुई",
+        "es": "encantado / mucho gusto",
+        "en": "nice to meet you / delighted"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Bonjour, je m'appelle Tariq, enchanté !",
+      "prompt_native": {
+        "ur": "ہیلو، میرا نام طارق ہے، آپ سے مل کر خوشی ہوئی!",
+        "ar": "تشرفت بمعرفتك",
+        "hi": "आपसे मिलकर खुशी हुई",
+        "es": "encantado / mucho gusto",
+        "en": "nice to meet you / delighted"
+      }
+    }
+  },
+  {
+    "id": "card_bonjour",
+    "french_term": "bonjour",
+    "ipa": "/bɔ̃.ʒuʁ/",
+    "concept_type": "Salutation • سلام",
+    "phonetics": {
+      "ur": "بونژور (Bon-zhoor)",
+      "ar": "بونژور",
+      "hi": "Bon-zhoor",
+      "es": "bonjour",
+      "en": "bon-zhoor"
+    },
+    "translations": {
+      "ur": "صبح بخیر / ہیلو / آداب",
+      "ar": "صباح الخير / مرحباً",
+      "hi": "नमस्ते / सुप्रभात",
+      "es": "buenos días / hola",
+      "en": "hello / good morning"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں کسی بھی دکان یا دفتر میں داخل ہوتے ہی سب سے پہلے 'Bonjour' کہنا لازمی آداب میں شامل ہے۔",
+      "ar": "تعبير فرنسي أساسي: صباح الخير / مرحباً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: नमस्ते / सुप्रभात।",
+      "es": "Término francés cotidiano: buenos días / hola.",
+      "en": "Essential everyday French expression meaning 'hello / good morning'."
+    },
+    "examples": [
+      {
+        "fr": "Bonjour Monsieur, comment allez-vous ?",
+        "ur": "صبح بخیر جناب، آپ کیسے ہیں؟",
+        "ar": "صباح الخير / مرحباً",
+        "hi": "नमस्ते / सुप्रभात",
+        "es": "buenos días / hola",
+        "en": "hello / good morning"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Bonjour Monsieur, comment allez-vous ?",
+      "prompt_native": {
+        "ur": "صبح بخیر جناب، آپ کیسے ہیں؟",
+        "ar": "صباح الخير / مرحباً",
+        "hi": "नमस्ते / सुप्रभात",
+        "es": "buenos días / hola",
+        "en": "hello / good morning"
+      }
+    }
+  },
+  {
+    "id": "card_bonsoir",
+    "french_term": "bonsoir",
+    "ipa": "/bɔ̃.swaʁ/",
+    "concept_type": "Salutation du soir • شام بخیر",
+    "phonetics": {
+      "ur": "بونسوار (Bon-swahr)",
+      "ar": "بونسوار",
+      "hi": "Bon-swahr",
+      "es": "bonsoir",
+      "en": "bon-swahr"
+    },
+    "translations": {
+      "ur": "شام بخیر / شب بخیر (شام 6 بجے کے بعد)",
+      "ar": "مساء الخير",
+      "hi": "शुभ संध्या",
+      "es": "buenas tardes / noches",
+      "en": "good evening"
+    },
+    "pedagogical_rules": {
+      "ur": "شام 6 بجے کے بعد 'Bonjour' کی جگہ 'Bonsoir' بولا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: مساء الخير. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: शुभ संध्या।",
+      "es": "Término francés cotidiano: buenas tardes / noches.",
+      "en": "Essential everyday French expression meaning 'good evening'."
+    },
+    "examples": [
+      {
+        "fr": "Bonsoir Madame, une table pour deux s'il vous plaît.",
+        "ur": "شام بخیر میڈم، دو افراد کے لیے میز چاہیے برائے مہربانی۔",
+        "ar": "مساء الخير",
+        "hi": "शुभ संध्या",
+        "es": "buenas tardes / noches",
+        "en": "good evening"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Bonsoir Madame, une table pour deux s'il vous plaît.",
+      "prompt_native": {
+        "ur": "شام بخیر میڈم، دو افراد کے لیے میز چاہیے برائے مہربانی۔",
+        "ar": "مساء الخير",
+        "hi": "शुभ संध्या",
+        "es": "buenas tardes / noches",
+        "en": "good evening"
+      }
+    }
+  },
+  {
+    "id": "card_salut",
+    "french_term": "salut",
+    "ipa": "/sa.ly/",
+    "concept_type": "Salutation informelle • دوستانہ سلام",
+    "phonetics": {
+      "ur": "سالیو (Sah-loo)",
+      "ar": "سالیو",
+      "hi": "Sah-loo",
+      "es": "salut",
+      "en": "sah-loo"
+    },
+    "translations": {
+      "ur": "سلام / ہائے (دوستوں کے لیے)",
+      "ar": "مرحباً / أهلاً",
+      "hi": "हाय / नमस्ते",
+      "es": "hola / chao",
+      "en": "hi / bye (informal)"
+    },
+    "pedagogical_rules": {
+      "ur": "آخری 't' خاموش رہتا ہے۔ یہ صرف قریبی دوستوں اور ہم عمروں کے لیے ہے۔",
+      "ar": "تعبير فرنسي أساسي: مرحباً / أهلاً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: हाय / नमस्ते।",
+      "es": "Término francés cotidiano: hola / chao.",
+      "en": "Essential everyday French expression meaning 'hi / bye (informal)'."
+    },
+    "examples": [
+      {
+        "fr": "Salut mon ami, tu vas bien ?",
+        "ur": "سلام میرے دوست، تم ٹھیک ہو؟",
+        "ar": "مرحباً / أهلاً",
+        "hi": "हाय / नमस्ते",
+        "es": "hola / chao",
+        "en": "hi / bye (informal)"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Salut mon ami, tu vas bien ?",
+      "prompt_native": {
+        "ur": "سلام میرے دوست، تم ٹھیک ہو؟",
+        "ar": "مرحباً / أهلاً",
+        "hi": "हाय / नमस्ते",
+        "es": "hola / chao",
+        "en": "hi / bye (informal)"
+      }
+    }
+  },
+  {
+    "id": "card_au_revoir",
+    "french_term": "au revoir",
+    "ipa": "/o ʁə.vwaʁ/",
+    "concept_type": "Salutation • الوداع",
+    "phonetics": {
+      "ur": "او رووار (Oh-ruh-vwar)",
+      "ar": "او رووار",
+      "hi": "Oh-ruh-vwar",
+      "es": "au revoir",
+      "en": "oh-ruh-vwar"
+    },
+    "translations": {
+      "ur": "خدا حافظ / الوداع",
+      "ar": "مع السلامة / إلى اللقاء",
+      "hi": "अलविदा / फिर मिलेंगे",
+      "es": "adiós / hasta la vista",
+      "en": "goodbye"
+    },
+    "pedagogical_rules": {
+      "ur": "لفظی مطلب ہے 'دوبارہ ملنے تک'۔ رخصت ہوتے وقت بولا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: مع السلامة / إلى اللقاء. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: अलविदा / फिर मिलेंगे।",
+      "es": "Término francés cotidiano: adiós / hasta la vista.",
+      "en": "Essential everyday French expression meaning 'goodbye'."
+    },
+    "examples": [
+      {
+        "fr": "Merci beaucoup et au revoir !",
+        "ur": "بہت شکریہ اور خدا حافظ!",
+        "ar": "مع السلامة / إلى اللقاء",
+        "hi": "अलविदा / फिर मिलेंगे",
+        "es": "adiós / hasta la vista",
+        "en": "goodbye"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Merci beaucoup et au revoir !",
+      "prompt_native": {
+        "ur": "بہت شکریہ اور خدا حافظ!",
+        "ar": "مع السلامة / إلى اللقاء",
+        "hi": "अलविदा / फिर मिलेंगे",
+        "es": "adiós / hasta la vista",
+        "en": "goodbye"
+      }
+    }
+  },
+  {
+    "id": "card_a_bientot",
+    "french_term": "à bientôt",
+    "ipa": "/a bjɛ̃.to/",
+    "concept_type": "Salutation • جلد ملیں گے",
+    "phonetics": {
+      "ur": "آ بیاں تو (Ah byen-toh)",
+      "ar": "آ بیاں تو",
+      "hi": "Ah byen-toh",
+      "es": "à bientôt",
+      "en": "ah byen-toh"
+    },
+    "translations": {
+      "ur": "جلد ملیں گے / پھر ملیں گے",
+      "ar": "أراك قريباً",
+      "hi": "जल्द मिलेंगे",
+      "es": "hasta pronto",
+      "en": "see you soon"
+    },
+    "pedagogical_rules": {
+      "ur": "جب آپ کسی سے جلد دوبارہ ملنے کی امید رکھتے ہوں تو بولیں۔",
+      "ar": "تعبير فرنسي أساسي: أراك قريباً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: जल्द मिलेंगे।",
+      "es": "Término francés cotidiano: hasta pronto.",
+      "en": "Essential everyday French expression meaning 'see you soon'."
+    },
+    "examples": [
+      {
+        "fr": "Au revoir et à bientôt !",
+        "ur": "خدا حافظ اور جلد ملیں گے!",
+        "ar": "أراك قريباً",
+        "hi": "जल्द मिलेंगे",
+        "es": "hasta pronto",
+        "en": "see you soon"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Au revoir et à bientôt !",
+      "prompt_native": {
+        "ur": "خدا حافظ اور جلد ملیں گے!",
+        "ar": "أراك قريباً",
+        "hi": "जल्द मिलेंगे",
+        "es": "hasta pronto",
+        "en": "see you soon"
+      }
+    }
+  },
+  {
+    "id": "card_merci",
+    "french_term": "merci",
+    "ipa": "/mɛʁ.si/",
+    "concept_type": "Politesse • شکریہ",
+    "phonetics": {
+      "ur": "میرسی (Mehr-see)",
+      "ar": "میرسی",
+      "hi": "Mehr-see",
+      "es": "merci",
+      "en": "mehr-see"
+    },
+    "translations": {
+      "ur": "شکریہ",
+      "ar": "شكراً",
+      "hi": "धन्यवाद / शुक्रिया",
+      "es": "gracias",
+      "en": "thank you"
+    },
+    "pedagogical_rules": {
+      "ur": "زیادہ شکریہ ادا کرنے کے لیے 'Merci beaucoup' (بہت شکریہ) کہیں۔",
+      "ar": "تعبير فرنسي أساسي: شكراً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: धन्यवाद / शुक्रिया।",
+      "es": "Término francés cotidiano: gracias.",
+      "en": "Essential everyday French expression meaning 'thank you'."
+    },
+    "examples": [
+      {
+        "fr": "Merci beaucoup pour votre gentillesse.",
+        "ur": "آپ کے خلوص کا بہت شکریہ۔",
+        "ar": "شكراً",
+        "hi": "धन्यवाद / शुक्रिया",
+        "es": "gracias",
+        "en": "thank you"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Merci beaucoup pour votre gentillesse.",
+      "prompt_native": {
+        "ur": "آپ کے خلوص کا بہت شکریہ۔",
+        "ar": "شكراً",
+        "hi": "धन्यवाद / शुक्रिया",
+        "es": "gracias",
+        "en": "thank you"
+      }
+    }
+  },
+  {
+    "id": "card_sil_vous_plaît",
+    "french_term": "s'il vous plaît",
+    "ipa": "/s‿il vu plɛ/",
+    "concept_type": "Politesse • برائے مہربانی",
+    "phonetics": {
+      "ur": "سِل وو پلے (Seel-voo-play)",
+      "ar": "سِل وو پلے",
+      "hi": "Seel-voo-play",
+      "es": "s'il vous plaît",
+      "en": "seel-voo-play"
+    },
+    "translations": {
+      "ur": "برائے مہربانی / پلیز (رسمی)",
+      "ar": "من فضلكم / لو سمحتم",
+      "hi": "कृपया (औपचारिक)",
+      "es": "por favor",
+      "en": "please (polite)"
+    },
+    "pedagogical_rules": {
+      "ur": "دکانوں، دفاتر اور اجنبیوں سے بات کرتے وقت ہمیشہ استعمال کریں۔",
+      "ar": "تعبير فرنسي أساسي: من فضلكم / لو سمحتم. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कृपया (औपचारिक)।",
+      "es": "Término francés cotidiano: por favor.",
+      "en": "Essential everyday French expression meaning 'please (polite)'."
+    },
+    "examples": [
+      {
+        "fr": "Un café s'il vous plaît.",
+        "ur": "ایک کافی دیجیے، برائے مہربانی۔",
+        "ar": "من فضلكم / لو سمحتم",
+        "hi": "कृपया (औपचारिक)",
+        "es": "por favor",
+        "en": "please (polite)"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Un café s'il vous plaît.",
+      "prompt_native": {
+        "ur": "ایک کافی دیجیے، برائے مہربانی۔",
+        "ar": "من فضلكم / لو سمحتم",
+        "hi": "कृपया (औपचारिक)",
+        "es": "por favor",
+        "en": "please (polite)"
+      }
+    }
+  },
+  {
+    "id": "card_de_rien",
+    "french_term": "de rien",
+    "ipa": "/də ʁjɛ̃/",
+    "concept_type": "Politesse • کوئی بات نہیں",
+    "phonetics": {
+      "ur": "دُہ ریاں (Duh ryehn)",
+      "ar": "دُہ ریاں",
+      "hi": "Duh ryehn",
+      "es": "de rien",
+      "en": "duh ryehn"
+    },
+    "translations": {
+      "ur": "کوئی بات نہیں / خوش آمدید",
+      "ar": "عفواً / لا شكر على واجب",
+      "hi": "कोई बात नहीं",
+      "es": "de nada",
+      "en": "you're welcome"
+    },
+    "pedagogical_rules": {
+      "ur": "'Merci' کے جواب میں عام بول چال کا معیاری ردعمل۔",
+      "ar": "تعبير فرنسي أساسي: عفواً / لا شكر على واجب. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कोई बात नहीं।",
+      "es": "Término francés cotidiano: de nada.",
+      "en": "Essential everyday French expression meaning 'you're welcome'."
+    },
+    "examples": [
+      {
+        "fr": "— Merci ! — De rien, avec plaisir.",
+        "ur": "— شکریہ! — کوئی بات نہیں، خوشی سے۔",
+        "ar": "عفواً / لا شكر على واجب",
+        "hi": "कोई बात नहीं",
+        "es": "de nada",
+        "en": "you're welcome"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "— Merci ! — De rien, avec plaisir.",
+      "prompt_native": {
+        "ur": "— شکریہ! — کوئی بات نہیں، خوشی سے۔",
+        "ar": "عفواً / لا شكر على واجب",
+        "hi": "कोई बात नहीं",
+        "es": "de nada",
+        "en": "you're welcome"
+      }
+    }
+  },
+  {
+    "id": "card_pardon",
+    "french_term": "pardon",
+    "ipa": "/paʁ.dɔ̃/",
+    "concept_type": "Politesse • معذرت",
+    "phonetics": {
+      "ur": "پاردوں (Pahr-dohn)",
+      "ar": "پاردوں",
+      "hi": "Pahr-dohn",
+      "es": "pardon",
+      "en": "pahr-dohn"
+    },
+    "translations": {
+      "ur": "معاف کیجیے گا / معذرت",
+      "ar": "عذراً / عفواً",
+      "hi": "माफ़ कीजिए",
+      "es": "perdón / disculpe",
+      "en": "sorry / excuse me"
+    },
+    "pedagogical_rules": {
+      "ur": "راستہ مانگتے وقت یا کسی سے ٹکرانے پر فوری کہیں۔",
+      "ar": "تعبير فرنسي أساسي: عذراً / عفواً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: माफ़ कीजिए।",
+      "es": "Término francés cotidiano: perdón / disculpe.",
+      "en": "Essential everyday French expression meaning 'sorry / excuse me'."
+    },
+    "examples": [
+      {
+        "fr": "Pardon, je peux passer ?",
+        "ur": "معاف کیجیے گا، کیا میں گزر سکتا ہوں؟",
+        "ar": "عذراً / عفواً",
+        "hi": "माफ़ कीजिए",
+        "es": "perdón / disculpe",
+        "en": "sorry / excuse me"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Pardon, je peux passer ?",
+      "prompt_native": {
+        "ur": "معاف کیجیے گا، کیا میں گزر سکتا ہوں؟",
+        "ar": "عذراً / عفواً",
+        "hi": "माफ़ कीजिए",
+        "es": "perdón / disculpe",
+        "en": "sorry / excuse me"
+      }
+    }
+  },
+  {
+    "id": "card_excusez-moi",
+    "french_term": "excusez-moi",
+    "ipa": "/ɛk.sky.ze mwa/",
+    "concept_type": "Politesse • توجہ حاصل کرنا",
+    "phonetics": {
+      "ur": "ایکسکیوزے مووا (Ex-koo-zay mwah)",
+      "ar": "ایکسکیوزے مووا",
+      "hi": "Ex-koo-zay mwah",
+      "es": "excusez-moi",
+      "en": "ex-koo-zay mwah"
+    },
+    "translations": {
+      "ur": "معاف کیجیے گا / سنیے گا",
+      "ar": "المعذرة / لو سمحت",
+      "hi": "माफ़ कीजिएगा / सुनिए",
+      "es": "disculpe",
+      "en": "excuse me"
+    },
+    "pedagogical_rules": {
+      "ur": "اجنبیوں سے پتہ پوچھنے یا بات شروع کرنے کا بہترین شائستہ انداز۔",
+      "ar": "تعبير فرنسي أساسي: المعذرة / لو سمحت. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: माफ़ कीजिएगा / सुनिए।",
+      "es": "Término francés cotidiano: disculpe.",
+      "en": "Essential everyday French expression meaning 'excuse me'."
+    },
+    "examples": [
+      {
+        "fr": "Excusez-moi, où est la gare ?",
+        "ur": "سنیے گا، ریلوے اسٹیشن کہاں ہے؟",
+        "ar": "المعذرة / لو سمحت",
+        "hi": "माफ़ कीजिएगा / सुनिए",
+        "es": "disculpe",
+        "en": "excuse me"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Excusez-moi, où est la gare ?",
+      "prompt_native": {
+        "ur": "سنیے گا، ریلوے اسٹیشن کہاں ہے؟",
+        "ar": "المعذرة / لو سمحت",
+        "hi": "माफ़ कीजिएगा / सुनिए",
+        "es": "disculpe",
+        "en": "excuse me"
+      }
+    }
+  },
+  {
+    "id": "card_ca_va",
+    "french_term": "ça va",
+    "ipa": "/sa va/",
+    "concept_type": "Expression • خیریت",
+    "phonetics": {
+      "ur": "سا وا (Sah-vah)",
+      "ar": "سا وا",
+      "hi": "Sah-vah",
+      "es": "ça va",
+      "en": "sah-vah"
+    },
+    "translations": {
+      "ur": "کیا حال ہے؟ / سب ٹھیک ہے",
+      "ar": "كيف الحال؟ / بخير",
+      "hi": "सब ठीक है?",
+      "es": "¿cómo estás? / bien",
+      "en": "how are you? / I'm good"
+    },
+    "pedagogical_rules": {
+      "ur": "یہ سوال بھی ہے اور جواب بھی: 'Ça va ?' کا جواب 'Ça va !' ہے۔",
+      "ar": "تعبير فرنسي أساسي: كيف الحال؟ / بخير. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सब ठीक है?।",
+      "es": "Término francés cotidiano: ¿cómo estás? / bien.",
+      "en": "Essential everyday French expression meaning 'how are you? / I'm good'."
+    },
+    "examples": [
+      {
+        "fr": "— Ça va ? — Oui, ça va très bien merci.",
+        "ur": "— سب خیریت؟ — جی ہاں، بالکل ٹھیک، شکریہ۔",
+        "ar": "كيف الحال؟ / بخير",
+        "hi": "सब ठीक है?",
+        "es": "¿cómo estás? / bien",
+        "en": "how are you? / I'm good"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "— Ça va ? — Oui, ça va très bien merci.",
+      "prompt_native": {
+        "ur": "— سب خیریت؟ — جی ہاں، بالکل ٹھیک، شکریہ۔",
+        "ar": "كيف الحال؟ / بخير",
+        "hi": "सब ठीक है?",
+        "es": "¿cómo estás? / bien",
+        "en": "how are you? / I'm good"
+      }
+    }
+  },
+  {
+    "id": "card_bienvenue",
+    "french_term": "bienvenue",
+    "ipa": "/bjɛ̃.vny/",
+    "concept_type": "Accueil • خوش آمدید",
+    "phonetics": {
+      "ur": "بیاں وینیو (Byen-vuh-noo)",
+      "ar": "بیاں وینیو",
+      "hi": "Byen-vuh-noo",
+      "es": "bienvenue",
+      "en": "byen-vuh-noo"
+    },
+    "translations": {
+      "ur": "خوش آمدید",
+      "ar": "أهلاً وسهلاً",
+      "hi": "स्वागत है",
+      "es": "bienvenido",
+      "en": "welcome"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی کا پرتپاک استقبال کرنے کے لیے استعمال کریں۔",
+      "ar": "تعبير فرنسي أساسي: أهلاً وسهلاً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: स्वागत है।",
+      "es": "Término francés cotidiano: bienvenido.",
+      "en": "Essential everyday French expression meaning 'welcome'."
+    },
+    "examples": [
+      {
+        "fr": "Bienvenue à Paris !",
+        "ur": "پیرس میں خوش آمدید!",
+        "ar": "أهلاً وسهلاً",
+        "hi": "स्वागत है",
+        "es": "bienvenido",
+        "en": "welcome"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Bienvenue à Paris !",
+      "prompt_native": {
+        "ur": "پیرس میں خوش آمدید!",
+        "ar": "أهلاً وسهلاً",
+        "hi": "स्वागत है",
+        "es": "bienvenido",
+        "en": "welcome"
+      }
+    }
+  },
+  {
+    "id": "card_daccord",
+    "french_term": "d'accord",
+    "ipa": "/da.kɔʁ/",
+    "concept_type": "Accord • رضامندی",
+    "phonetics": {
+      "ur": "داکور (Dah-kor)",
+      "ar": "داکور",
+      "hi": "Dah-kor",
+      "es": "d'accord",
+      "en": "dah-kor"
+    },
+    "translations": {
+      "ur": "ٹھیک ہے / متفق / اوکے",
+      "ar": "حسناً / موافق",
+      "hi": "ठीक है / सहमत",
+      "es": "de acuerdo",
+      "en": "okay / agreed"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی بات کی تصدیق یا اتفاق ظاہر کرنے کے لیے۔",
+      "ar": "تعبير فرنسي أساسي: حسناً / موافق. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: ठीक है / सहमत।",
+      "es": "Término francés cotidiano: de acuerdo.",
+      "en": "Essential everyday French expression meaning 'okay / agreed'."
+    },
+    "examples": [
+      {
+        "fr": "D'accord, on fait comme ça.",
+        "ur": "ٹھیک ہے، ہم ایسا ہی کریں گے۔",
+        "ar": "حسناً / موافق",
+        "hi": "ठीक है / सहमत",
+        "es": "de acuerdo",
+        "en": "okay / agreed"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "D'accord, on fait comme ça.",
+      "prompt_native": {
+        "ur": "ٹھیک ہے، ہم ایسا ہی کریں گے۔",
+        "ar": "حسناً / موافق",
+        "hi": "ठीक है / सहमत",
+        "es": "de acuerdo",
+        "en": "okay / agreed"
+      }
+    }
+  },
+  {
+    "id": "card_oui",
+    "french_term": "oui",
+    "ipa": "/wi/",
+    "concept_type": "Réponse • ہاں",
+    "phonetics": {
+      "ur": "وی (Wee)",
+      "ar": "وی",
+      "hi": "Wee",
+      "es": "oui",
+      "en": "wee"
+    },
+    "translations": {
+      "ur": "جی ہاں / ہاں",
+      "ar": "نعم",
+      "hi": "हाँ",
+      "es": "sí",
+      "en": "yes"
+    },
+    "pedagogical_rules": {
+      "ur": "مثبت جواب کے لیے معیاری فرانسیسی لفظ۔",
+      "ar": "تعبير فرنسي أساسي: نعم. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: हाँ।",
+      "es": "Término francés cotidiano: sí.",
+      "en": "Essential everyday French expression meaning 'yes'."
+    },
+    "examples": [
+      {
+        "fr": "Oui, c'est exact.",
+        "ur": "جی ہاں، یہ بالکل درست ہے۔",
+        "ar": "نعم",
+        "hi": "हाँ",
+        "es": "sí",
+        "en": "yes"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Oui, c'est exact.",
+      "prompt_native": {
+        "ur": "جی ہاں، یہ بالکل درست ہے۔",
+        "ar": "نعم",
+        "hi": "हाँ",
+        "es": "sí",
+        "en": "yes"
+      }
+    }
+  },
+  {
+    "id": "card_non",
+    "french_term": "non",
+    "ipa": "/nɔ̃/",
+    "concept_type": "Réponse • نہیں",
+    "phonetics": {
+      "ur": "نوں (Nohn)",
+      "ar": "نوں",
+      "hi": "Nohn",
+      "es": "non",
+      "en": "nohn"
+    },
+    "translations": {
+      "ur": "نہیں",
+      "ar": "لا",
+      "hi": "नहीं",
+      "es": "no",
+      "en": "no"
+    },
+    "pedagogical_rules": {
+      "ur": "آخری 'n' ناک سے ادا ہوتا ہے۔ منفی جواب کے لیے۔",
+      "ar": "تعبير فرنسي أساسي: لا. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: नहीं।",
+      "es": "Término francés cotidiano: no.",
+      "en": "Essential everyday French expression meaning 'no'."
+    },
+    "examples": [
+      {
+        "fr": "Non merci, je n'en veux pas.",
+        "ur": "نہیں شکریہ، مجھے یہ نہیں چاہیے۔",
+        "ar": "لا",
+        "hi": "नहीं",
+        "es": "no",
+        "en": "no"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Non merci, je n'en veux pas.",
+      "prompt_native": {
+        "ur": "نہیں شکریہ، مجھے یہ نہیں چاہیے۔",
+        "ar": "لا",
+        "hi": "नहीं",
+        "es": "no",
+        "en": "no"
+      }
+    }
+  },
+  {
+    "id": "card_bail",
+    "french_term": "bail",
+    "ipa": "/baj/",
+    "concept_type": "Logement • کرایہ نامہ",
+    "phonetics": {
+      "ur": "بائے (Baye)",
+      "ar": "بائے",
+      "hi": "Baye",
+      "es": "bail",
+      "en": "baye"
+    },
+    "translations": {
+      "ur": "کرایہ نامہ (رینٹ ایگریمنٹ)",
+      "ar": "عقد إيجار السكن",
+      "hi": "किराया अनुबंध (लीज़)",
+      "es": "contrato de alquiler",
+      "en": "lease agreement"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں رہائش کا باقاعدہ قانونی معاہدہ۔ CAF اور ویزا کے لیے لازمی دستاویز۔",
+      "ar": "تعبير فرنسي أساسي: عقد إيجار السكن. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: किराया अनुबंध (लीज़)।",
+      "es": "Término francés cotidiano: contrato de alquiler.",
+      "en": "Essential everyday French expression meaning 'lease agreement'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai signé mon bail hier.",
+        "ur": "میں نے کل اپنے کرایہ نامے پر دستخط کیے۔",
+        "ar": "عقد إيجار السكن",
+        "hi": "किराया अनुबंध (लीज़)",
+        "es": "contrato de alquiler",
+        "en": "lease agreement"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai signé mon bail hier.",
+      "prompt_native": {
+        "ur": "میں نے کل اپنے کرایہ نامے پر دستخط کیے۔",
+        "ar": "عقد إيجار السكن",
+        "hi": "किराया अनुबंध (लीज़)",
+        "es": "contrato de alquiler",
+        "en": "lease agreement"
+      }
+    }
+  },
+  {
+    "id": "card_loyer",
+    "french_term": "loyer",
+    "ipa": "/lwa.je/",
+    "concept_type": "Logement • کرایہ",
+    "phonetics": {
+      "ur": "لووا یے (Lwah-ye)",
+      "ar": "لووا یے",
+      "hi": "Lwah-ye",
+      "es": "loyer",
+      "en": "lwah-ye"
+    },
+    "translations": {
+      "ur": "ماہانہ مکان کا کرایہ",
+      "ar": "إيجار شهري",
+      "hi": "मकान किराया",
+      "es": "alquiler",
+      "en": "rent"
+    },
+    "pedagogical_rules": {
+      "ur": "ماہانہ کرایہ جو عام طور پر بینک کے ذریعے دیا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: إيجار شهري. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मकान किराया।",
+      "es": "Término francés cotidiano: alquiler.",
+      "en": "Essential everyday French expression meaning 'rent'."
+    },
+    "examples": [
+      {
+        "fr": "Le loyer est de 500 euros par mois.",
+        "ur": "کرایہ 500 یورو ماہانہ ہے۔",
+        "ar": "إيجار شهري",
+        "hi": "मकान किराया",
+        "es": "alquiler",
+        "en": "rent"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le loyer est de 500 euros par mois.",
+      "prompt_native": {
+        "ur": "کرایہ 500 یورو ماہانہ ہے۔",
+        "ar": "إيجار شهري",
+        "hi": "मकान किराया",
+        "es": "alquiler",
+        "en": "rent"
+      }
+    }
+  },
+  {
+    "id": "card_quittance_de_loyer",
+    "french_term": "quittance de loyer",
+    "ipa": "/ki.tɑ̃s/",
+    "concept_type": "Document • کرائے کی رسید",
+    "phonetics": {
+      "ur": "کیتانس (Kee-tahns)",
+      "ar": "کیتانس",
+      "hi": "Kee-tahns",
+      "es": "quittance de loyer",
+      "en": "kee-tahns"
+    },
+    "translations": {
+      "ur": "کرائے کی سرکاری رسید (رہائش کا ثبوت)",
+      "ar": "إيصال سداد الإيجار",
+      "hi": "किराया रसीद",
+      "es": "recibo de alquiler",
+      "en": "rent receipt"
+    },
+    "pedagogical_rules": {
+      "ur": "بینک اکاؤنٹ کھولنے اور رہائشی پرمٹ کے لیے رہائش کا سب سے بنیادی ثبوت۔",
+      "ar": "تعبير فرنسي أساسي: إيصال سداد الإيجار. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: किराया रसीद।",
+      "es": "Término francés cotidiano: recibo de alquiler.",
+      "en": "Essential everyday French expression meaning 'rent receipt'."
+    },
+    "examples": [
+      {
+        "fr": "Voici mes trois dernières quittances de loyer.",
+        "ur": "یہ میری پچھلی تین ماہ کی کرائے کی رسیدیں ہیں۔",
+        "ar": "إيصال سداد الإيجار",
+        "hi": "किराया रसीद",
+        "es": "recibo de alquiler",
+        "en": "rent receipt"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Voici mes trois dernières quittances de loyer.",
+      "prompt_native": {
+        "ur": "یہ میری پچھلی تین ماہ کی کرائے کی رسیدیں ہیں۔",
+        "ar": "إيصال سداد الإيجار",
+        "hi": "किराया रसीद",
+        "es": "recibo de alquiler",
+        "en": "rent receipt"
+      }
+    }
+  },
+  {
+    "id": "card_caution",
+    "french_term": "caution",
+    "ipa": "/ko.sjɔ̃/",
+    "concept_type": "Logement • سیکیورٹی ڈپازٹ",
+    "phonetics": {
+      "ur": "کوسیوں (Koh-syohn)",
+      "ar": "کوسیوں",
+      "hi": "Koh-syohn",
+      "es": "caution",
+      "en": "koh-syohn"
+    },
+    "translations": {
+      "ur": "ضمانت کی رقم (سیکیورٹی ڈپازٹ)",
+      "ar": "مبلغ التأمين السكني",
+      "hi": "जमानत राशि (सिक्योरिटी)",
+      "es": "fianza / depósito",
+      "en": "security deposit"
+    },
+    "pedagogical_rules": {
+      "ur": "مکان لیتے وقت عام طور پر 1 سے 2 ماہ کے کرائے کے برابر رقم جمع ہوتی ہے۔",
+      "ar": "تعبير فرنسي أساسي: مبلغ التأمين السكني. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: जमानत राशि (सिक्योरिटी)।",
+      "es": "Término francés cotidiano: fianza / depósito.",
+      "en": "Essential everyday French expression meaning 'security deposit'."
+    },
+    "examples": [
+      {
+        "fr": "Le propriétaire a encaissé la caution.",
+        "ur": "مکان مالک نے ضمانت کی رقم وصول کر لی ہے۔",
+        "ar": "مبلغ التأمين السكني",
+        "hi": "जमानत राशि (सिक्योरिटी)",
+        "es": "fianza / depósito",
+        "en": "security deposit"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le propriétaire a encaissé la caution.",
+      "prompt_native": {
+        "ur": "مکان مالک نے ضمانت کی رقم وصول کر لی ہے۔",
+        "ar": "مبلغ التأمين السكني",
+        "hi": "जमानत राशि (सिक्योरिटी)",
+        "es": "fianza / depósito",
+        "en": "security deposit"
+      }
+    }
+  },
+  {
+    "id": "card_garant",
+    "french_term": "garant",
+    "ipa": "/ɡa.ʁɑ̃/",
+    "concept_type": "Logement • ضامن",
+    "phonetics": {
+      "ur": "گاراں (Gah-rahn)",
+      "ar": "گاراں",
+      "hi": "Gah-rahn",
+      "es": "garant",
+      "en": "gah-rahn"
+    },
+    "translations": {
+      "ur": "ضامن (گارنٹر)",
+      "ar": "الضامن المالي",
+      "hi": "गारंटर / ज़ामिन",
+      "es": "avalista / garante",
+      "en": "guarantor"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں مکان کرائے پر لیتے وقت مالی ضامن لازمی ہوتا ہے (یا Visale سرٹیفکیٹ)۔",
+      "ar": "تعبير فرنسي أساسي: الضامن المالي. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: गारंटर / ज़ामिन।",
+      "es": "Término francés cotidiano: avalista / garante.",
+      "en": "Essential everyday French expression meaning 'guarantor'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai la garantie Visale comme garant.",
+        "ur": "میرے پاس بطور ضامن Visale کی گارنٹی ہے۔",
+        "ar": "الضامن المالي",
+        "hi": "गारंटर / ज़ामिन",
+        "es": "avalista / garante",
+        "en": "guarantor"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai la garantie Visale comme garant.",
+      "prompt_native": {
+        "ur": "میرے پاس بطور ضامن Visale کی گارنٹی ہے۔",
+        "ar": "الضامن المالي",
+        "hi": "गारंटर / ज़ामिन",
+        "es": "avalista / garante",
+        "en": "guarantor"
+      }
+    }
+  },
+  {
+    "id": "card_caf",
+    "french_term": "CAF",
+    "ipa": "/kaf/",
+    "concept_type": "Administration • ہاؤسنگ فنڈ",
+    "phonetics": {
+      "ur": "کاف (Khaf)",
+      "ar": "کاف",
+      "hi": "Khaf",
+      "es": "caf",
+      "en": "khaf"
+    },
+    "translations": {
+      "ur": "فرانسیسی ہاؤسنگ سبسڈی ادارہ (CAF)",
+      "ar": "صندوق المساعدات العائلية والسكنية",
+      "hi": "सीएएफ (आवास सब्सिडी संस्था)",
+      "es": "CAF (ayuda de vivienda)",
+      "en": "CAF (housing agency)"
+    },
+    "pedagogical_rules": {
+      "ur": "طلباء اور تارکین وطن کو مکان کے کرائے میں مدد (APL) دینے والا سرکاری ادارہ۔",
+      "ar": "تعبير فرنسي أساسي: صندوق المساعدات العائلية والسكنية. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सीएएफ (आवास सब्सिडी संस्था)।",
+      "es": "Término francés cotidiano: CAF (ayuda de vivienda).",
+      "en": "Essential everyday French expression meaning 'CAF (housing agency)'."
+    },
+    "examples": [
+      {
+        "fr": "Mon dossier CAF est en cours de traitement.",
+        "ur": "میری CAF کی فائل پر کارروائی ہو رہی ہے۔",
+        "ar": "صندوق المساعدات العائلية والسكنية",
+        "hi": "सीएएफ (आवास सब्सिडी संस्था)",
+        "es": "CAF (ayuda de vivienda)",
+        "en": "CAF (housing agency)"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Mon dossier CAF est en cours de traitement.",
+      "prompt_native": {
+        "ur": "میری CAF کی فائل پر کارروائی ہو رہی ہے۔",
+        "ar": "صندوق المساعدات العائلية والسكنية",
+        "hi": "सीएएफ (आवास सब्सिडी संस्था)",
+        "es": "CAF (ayuda de vivienda)",
+        "en": "CAF (housing agency)"
+      }
+    }
+  },
+  {
+    "id": "card_titre_de_sejour",
+    "french_term": "titre de séjour",
+    "ipa": "/titʁ/",
+    "concept_type": "Immigration • رہائشی پرمٹ",
+    "phonetics": {
+      "ur": "تیتر دُہ سے ژور (Teetr duh say-zhoor)",
+      "ar": "تیتر دُہ سے ژور",
+      "hi": "Teetr duh say-zhoor",
+      "es": "titre de séjour",
+      "en": "teetr duh say-zhoor"
+    },
+    "translations": {
+      "ur": "رہائشی پرمٹ / ویزا کارڈ",
+      "ar": "بطاقة الإقامة الرسمية",
+      "hi": "रेजिडेंस परमिट",
+      "es": "tarjeta de residencia",
+      "en": "residence permit"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں قانونی رہائش کا بنیادی کارڈ۔ میعاد ختم ہونے سے پہلے تجدید کرائیں۔",
+      "ar": "تعبير فرنسي أساسي: بطاقة الإقامة الرسمية. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: रेजिडेंस परमिट।",
+      "es": "Término francés cotidiano: tarjeta de residencia.",
+      "en": "Essential everyday French expression meaning 'residence permit'."
+    },
+    "examples": [
+      {
+        "fr": "Mon titre de séjour est valable un an.",
+        "ur": "میرا رہائشی پرمٹ ایک سال کے لیے کارآمد ہے۔",
+        "ar": "بطاقة الإقامة الرسمية",
+        "hi": "रेजिडेंस परमिट",
+        "es": "tarjeta de residencia",
+        "en": "residence permit"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Mon titre de séjour est valable un an.",
+      "prompt_native": {
+        "ur": "میرا رہائشی پرمٹ ایک سال کے لیے کارآمد ہے۔",
+        "ar": "بطاقة الإقامة الرسمية",
+        "hi": "रेजिडेंस परमिट",
+        "es": "tarjeta de residencia",
+        "en": "residence permit"
+      }
+    }
+  },
+  {
+    "id": "card_prefecture",
+    "french_term": "préfecture",
+    "ipa": "/pʁe.fɛk.tyʁ/",
+    "concept_type": "Administration • سرکاری دفتر",
+    "phonetics": {
+      "ur": "پریفیکچر (Pray-fek-toor)",
+      "ar": "پریفیکچر",
+      "hi": "Pray-fek-toor",
+      "es": "préfecture",
+      "en": "pray-fek-toor"
+    },
+    "translations": {
+      "ur": "پریفیکچر (صوبائی حکومتی انتظامیہ کا دفتر)",
+      "ar": "مقر المحافظة (البريفيكتور)",
+      "hi": "प्रान्त प्रशासनिक कार्यालय",
+      "es": "prefectura",
+      "en": "prefecture"
+    },
+    "pedagogical_rules": {
+      "ur": "ویزے کی تجدید اور ڈرائیونگ لائسنس کے تمام معاملات پریفیکچر میں ہوتے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: مقر المحافظة (البريفيكتور). يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: प्रान्त प्रशासनिक कार्यालय।",
+      "es": "Término francés cotidiano: prefectura.",
+      "en": "Essential everyday French expression meaning 'prefecture'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai un rendez-vous à la préfecture demain.",
+        "ur": "کل میرا پریفیکچر میں اپوائنٹمنٹ ہے۔",
+        "ar": "مقر المحافظة (البريفيكتور)",
+        "hi": "प्रान्त प्रशासनिक कार्यालय",
+        "es": "prefectura",
+        "en": "prefecture"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai un rendez-vous à la préfecture demain.",
+      "prompt_native": {
+        "ur": "کل میرا پریفیکچر میں اپوائنٹمنٹ ہے۔",
+        "ar": "مقر المحافظة (البريفيكتور)",
+        "hi": "प्रान्त प्रशासनिक कार्यालय",
+        "es": "prefectura",
+        "en": "prefecture"
+      }
+    }
+  },
+  {
+    "id": "card_rendez-vous",
+    "french_term": "rendez-vous",
+    "ipa": "/ʁɑ̃.de.vu/",
+    "concept_type": "Organisation • ملاقات کا وقت",
+    "phonetics": {
+      "ur": "راندے وو (Rahn-day-voo)",
+      "ar": "راندے وو",
+      "hi": "Rahn-day-voo",
+      "es": "rendez-vous",
+      "en": "rahn-day-voo"
+    },
+    "translations": {
+      "ur": "اپوائنٹمنٹ / ملاقات کا وقت",
+      "ar": "موعد رسمي",
+      "hi": "अपॉइंटमेंट",
+      "es": "cita previa",
+      "en": "appointment"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں ڈاکٹر، بینک، یا کسی بھی سرکاری دفتر جانے کے لیے پیشگی وقت لینا لازمی ہے۔",
+      "ar": "تعبير فرنسي أساسي: موعد رسمي. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: अपॉइंटमेंट।",
+      "es": "Término francés cotidiano: cita previa.",
+      "en": "Essential everyday French expression meaning 'appointment'."
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais prendre un rendez-vous.",
+        "ur": "میں ایک اپوائنٹمنٹ لینا چاہتا ہوں۔",
+        "ar": "موعد رسمي",
+        "hi": "अपॉइंटमेंट",
+        "es": "cita previa",
+        "en": "appointment"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je voudrais prendre un rendez-vous.",
+      "prompt_native": {
+        "ur": "میں ایک اپوائنٹمنٹ لینا چاہتا ہوں۔",
+        "ar": "موعد رسمي",
+        "hi": "अपॉइंटमेंट",
+        "es": "cita previa",
+        "en": "appointment"
+      }
+    }
+  },
+  {
+    "id": "card_rib",
+    "french_term": "RIB",
+    "ipa": "/ʁib/",
+    "concept_type": "Banque • بینک فارم",
+    "phonetics": {
+      "ur": "ریب (Reeb)",
+      "ar": "ریب",
+      "hi": "Reeb",
+      "es": "rib",
+      "en": "reeb"
+    },
+    "translations": {
+      "ur": "بینک اکاؤنٹ تفصیلات کی دستاویز (IBAN)",
+      "ar": "بيان الحساب البنكي (RIB / IBAN)",
+      "hi": "बैंक विवरण (RIB)",
+      "es": "certificado bancario",
+      "en": "bank details slip"
+    },
+    "pedagogical_rules": {
+      "ur": "تنخواہ وصول کرنے یا بلوں کی ادائیگی کے لیے دی جانے والی بینک تفصیلات۔",
+      "ar": "تعبير فرنسي أساسي: بيان الحساب البنكي (RIB / IBAN). يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बैंक विवरण (RIB)।",
+      "es": "Término francés cotidiano: certificado bancario.",
+      "en": "Essential everyday French expression meaning 'bank details slip'."
+    },
+    "examples": [
+      {
+        "fr": "Envoyez-moi votre RIB par e-mail.",
+        "ur": "مجھے ای میل پر اپنا RIB بھیجیں۔",
+        "ar": "بيان الحساب البنكي (RIB / IBAN)",
+        "hi": "बैंक विवरण (RIB)",
+        "es": "certificado bancario",
+        "en": "bank details slip"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Envoyez-moi votre RIB par e-mail.",
+      "prompt_native": {
+        "ur": "مجھے ای میل پر اپنا RIB بھیجیں۔",
+        "ar": "بيان الحساب البنكي (RIB / IBAN)",
+        "hi": "बैंक विवरण (RIB)",
+        "es": "certificado bancario",
+        "en": "bank details slip"
+      }
+    }
+  },
+  {
+    "id": "card_carte_vitale",
+    "french_term": "carte vitale",
+    "ipa": "/kaʁt vi.tal/",
+    "concept_type": "Santé • ہیلتھ کارڈ",
+    "phonetics": {
+      "ur": "کارت ویتال (Kart vee-tahl)",
+      "ar": "کارت ویتال",
+      "hi": "Kart vee-tahl",
+      "es": "carte vitale",
+      "en": "kart vee-tahl"
+    },
+    "translations": {
+      "ur": "سبز فرانسیسی ہیلتھ کارڈ",
+      "ar": "البطاقة الصحية (كارت فيتال)",
+      "hi": "स्वास्थ्य बीमा कार्ड",
+      "es": "tarjeta sanitaria",
+      "en": "green health insurance card"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس کا قومی ہیلتھ کارڈ جو علاج اور ادویات کے 70 فیصد اخراجات خودکار واپس کرتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: البطاقة الصحية (كارت فيتال). يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: स्वास्थ्य बीमा कार्ड।",
+      "es": "Término francés cotidiano: tarjeta sanitaria.",
+      "en": "Essential everyday French expression meaning 'green health insurance card'."
+    },
+    "examples": [
+      {
+        "fr": "N'oubliez pas votre carte vitale.",
+        "ur": "اپنا ہیلتھ کارڈ لانا مت بھولیں۔",
+        "ar": "البطاقة الصحية (كارت فيتال)",
+        "hi": "स्वास्थ्य बीमा कार्ड",
+        "es": "tarjeta sanitaria",
+        "en": "green health insurance card"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "N'oubliez pas votre carte vitale.",
+      "prompt_native": {
+        "ur": "اپنا ہیلتھ کارڈ لانا مت بھولیں۔",
+        "ar": "البطاقة الصحية (كارت فيتال)",
+        "hi": "स्वास्थ्य बीमा कार्ड",
+        "es": "tarjeta sanitaria",
+        "en": "green health insurance card"
+      }
+    }
+  },
+  {
+    "id": "card_ordonnance",
+    "french_term": "ordonnance",
+    "ipa": "/ɔʁ.dɔ.nɑ̃s/",
+    "concept_type": "Santé • ڈاکٹر کا نسخہ",
+    "phonetics": {
+      "ur": "اوردونانس (Or-doh-nahns)",
+      "ar": "اوردونانس",
+      "hi": "Or-doh-nahns",
+      "es": "ordonnance",
+      "en": "or-doh-nahns"
+    },
+    "translations": {
+      "ur": "ڈاکٹر کا نسخہ (پریسکرپشن)",
+      "ar": "الوصفة الطبية (الروشتة)",
+      "hi": "डॉक्टर का पर्चा",
+      "es": "receta médica",
+      "en": "medical prescription"
+    },
+    "pedagogical_rules": {
+      "ur": "فارمیسی سے ادویات حاصل کرنے کے لیے ڈاکٹر کا دیا گیا سرکاری نسخہ۔",
+      "ar": "تعبير فرنسي أساسي: الوصفة الطبية (الروشتة). يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: डॉक्टर का पर्चा।",
+      "es": "Término francés cotidiano: receta médica.",
+      "en": "Essential everyday French expression meaning 'medical prescription'."
+    },
+    "examples": [
+      {
+        "fr": "Le pharmacien lit mon ordonnance.",
+        "ur": "فارماسسٹ نے میرا نسخہ پڑھا۔",
+        "ar": "الوصفة الطبية (الروشتة)",
+        "hi": "डॉक्टर का पर्चा",
+        "es": "receta médica",
+        "en": "medical prescription"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le pharmacien lit mon ordonnance.",
+      "prompt_native": {
+        "ur": "فارماسسٹ نے میرا نسخہ پڑھا۔",
+        "ar": "الوصفة الطبية (الروشتة)",
+        "hi": "डॉक्टर का पर्चा",
+        "es": "receta médica",
+        "en": "medical prescription"
+      }
+    }
+  },
+  {
+    "id": "card_pharmacie",
+    "french_term": "pharmacie",
+    "ipa": "/faʁ.ma.si/",
+    "concept_type": "Lieu • فارمیسی",
+    "phonetics": {
+      "ur": "فارماسی (Fahr-mah-see)",
+      "ar": "فارماسی",
+      "hi": "Fahr-mah-see",
+      "es": "pharmacie",
+      "en": "fahr-mah-see"
+    },
+    "translations": {
+      "ur": "دواخانہ / فارمیسی",
+      "ar": "صيدلية",
+      "hi": "दवाखाना / फार्मेसी",
+      "es": "farmacia",
+      "en": "pharmacy"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں سبز چمکتے ہوئے کراس کے نشان سے فارمیسی باآسانی پہچانی جاتی ہے۔",
+      "ar": "تعبير فرنسي أساسي: صيدلية. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: दवाखाना / फार्मेसी।",
+      "es": "Término francés cotidiano: farmacia.",
+      "en": "Essential everyday French expression meaning 'pharmacy'."
+    },
+    "examples": [
+      {
+        "fr": "La pharmacie est ouverte le dimanche.",
+        "ur": "فارمیسی اتوار کو بھی کھلی ہے۔",
+        "ar": "صيدلية",
+        "hi": "दवाखाना / फार्मेसी",
+        "es": "farmacia",
+        "en": "pharmacy"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "La pharmacie est ouverte le dimanche.",
+      "prompt_native": {
+        "ur": "فارمیسی اتوار کو بھی کھلی ہے۔",
+        "ar": "صيدلية",
+        "hi": "दवाखाना / फार्मेसी",
+        "es": "farmacia",
+        "en": "pharmacy"
+      }
+    }
+  },
+  {
+    "id": "card_medecin",
+    "french_term": "médecin",
+    "ipa": "/med.sɛ̃/",
+    "concept_type": "Profession • ڈاکٹر",
+    "phonetics": {
+      "ur": "میدساں (Med-sehn)",
+      "ar": "میدساں",
+      "hi": "Med-sehn",
+      "es": "médecin",
+      "en": "med-sehn"
+    },
+    "translations": {
+      "ur": "ڈاکٹر / معالج",
+      "ar": "طبيب / دكتور",
+      "hi": "चिकित्सक / डॉक्टर",
+      "es": "médico / doctor",
+      "en": "doctor"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں پہلے جنرل ڈاکٹر (Médecin traitant) کے پاس جانا ہوتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: طبيب / دكتور. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: चिकित्सक / डॉक्टर।",
+      "es": "Término francés cotidiano: médico / doctor.",
+      "en": "Essential everyday French expression meaning 'doctor'."
+    },
+    "examples": [
+      {
+        "fr": "Je dois consulter un médecin.",
+        "ur": "مجھے ڈاکٹر سے مشورہ کرنا ہے۔",
+        "ar": "طبيب / دكتور",
+        "hi": "चिकित्सक / डॉक्टर",
+        "es": "médico / doctor",
+        "en": "doctor"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je dois consulter un médecin.",
+      "prompt_native": {
+        "ur": "مجھے ڈاکٹر سے مشورہ کرنا ہے۔",
+        "ar": "طبيب / دكتور",
+        "hi": "चिकित्सक / डॉक्टर",
+        "es": "médico / doctor",
+        "en": "doctor"
+      }
+    }
+  },
+  {
+    "id": "card_etre",
+    "french_term": "être",
+    "ipa": "/ɛtʁ/",
+    "concept_type": "Verbe • ہونا",
+    "phonetics": {
+      "ur": "ایتر (Eh-truh)",
+      "ar": "ایتر",
+      "hi": "Eh-truh",
+      "es": "être",
+      "en": "eh-truh"
+    },
+    "translations": {
+      "ur": "ہونا (ٹو بی)",
+      "ar": "كان / يكون",
+      "hi": "होना",
+      "es": "ser / estar",
+      "en": "to be"
+    },
+    "pedagogical_rules": {
+      "ur": "عمر یا بھوک کے لیے 'être' نہیں بولتے! صرف پیشہ اور کیفیت کے لیے بولیں: Je suis étudiant.",
+      "ar": "تعبير فرنسي أساسي: كان / يكون. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: होना।",
+      "es": "Término francés cotidiano: ser / estar.",
+      "en": "Essential everyday French expression meaning 'to be'."
+    },
+    "examples": [
+      {
+        "fr": "Je suis très content de vous voir.",
+        "ur": "میں آپ کو دیکھ کر بہت خوش ہوں۔",
+        "ar": "كان / يكون",
+        "hi": "होना",
+        "es": "ser / estar",
+        "en": "to be"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je suis très content de vous voir.",
+      "prompt_native": {
+        "ur": "میں آپ کو دیکھ کر بہت خوش ہوں۔",
+        "ar": "كان / يكون",
+        "hi": "होना",
+        "es": "ser / estar",
+        "en": "to be"
+      }
+    }
+  },
+  {
+    "id": "card_avoir",
+    "french_term": "avoir",
+    "ipa": "/a.vwaʁ/",
+    "concept_type": "Verbe • رکھنا",
+    "phonetics": {
+      "ur": "آووار (Ah-vwar)",
+      "ar": "آووار",
+      "hi": "Ah-vwar",
+      "es": "avoir",
+      "en": "ah-vwar"
+    },
+    "translations": {
+      "ur": "پاس ہونا / رکھنا (ٹو ہیو)",
+      "ar": "ملك / يملك (لدي)",
+      "hi": "पास होना",
+      "es": "tener / haber",
+      "en": "to have"
+    },
+    "pedagogical_rules": {
+      "ur": "عمر اور بھوک پیاس کے لیے بولیں: J'ai 25 ans (میری عمر 25 سال ہے)، J'ai faim (مجھے بھوک لگی ہے)۔",
+      "ar": "تعبير فرنسي أساسي: ملك / يملك (لدي). يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पास होना।",
+      "es": "Término francés cotidiano: tener / haber.",
+      "en": "Essential everyday French expression meaning 'to have'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai un problème avec mon visa.",
+        "ur": "میرے ویزے کے ساتھ ایک مسئلہ ہے۔",
+        "ar": "ملك / يملك (لدي)",
+        "hi": "पास होना",
+        "es": "tener / haber",
+        "en": "to have"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai un problème avec mon visa.",
+      "prompt_native": {
+        "ur": "میرے ویزے کے ساتھ ایک مسئلہ ہے۔",
+        "ar": "ملك / يملك (لدي)",
+        "hi": "पास होना",
+        "es": "tener / haber",
+        "en": "to have"
+      }
+    }
+  },
+  {
+    "id": "card_aller",
+    "french_term": "aller",
+    "ipa": "/a.le/",
+    "concept_type": "Verbe • جانا",
+    "phonetics": {
+      "ur": "آلے (Ah-lay)",
+      "ar": "آلے",
+      "hi": "Ah-lay",
+      "es": "aller",
+      "en": "ah-lay"
+    },
+    "translations": {
+      "ur": "جانا (ٹو گو)",
+      "ar": "ذهب / يذهب",
+      "hi": "जाना",
+      "es": "ir",
+      "en": "to go"
+    },
+    "pedagogical_rules": {
+      "ur": "مستقبل کے ارادے کے لیے بھی استعمال ہوتا ہے: Je vais aller (میں جانے والا ہوں)۔",
+      "ar": "تعبير فرنسي أساسي: ذهب / يذهب. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: जाना।",
+      "es": "Término francés cotidiano: ir.",
+      "en": "Essential everyday French expression meaning 'to go'."
+    },
+    "examples": [
+      {
+        "fr": "Je vais au travail à pied.",
+        "ur": "میں پیدل کام پر جاتا ہوں۔",
+        "ar": "ذهب / يذهب",
+        "hi": "जाना",
+        "es": "ir",
+        "en": "to go"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je vais au travail à pied.",
+      "prompt_native": {
+        "ur": "میں پیدل کام پر جاتا ہوں۔",
+        "ar": "ذهب / يذهب",
+        "hi": "जाना",
+        "es": "ir",
+        "en": "to go"
+      }
+    }
+  },
+  {
+    "id": "card_faire",
+    "french_term": "faire",
+    "ipa": "/fɛʁ/",
+    "concept_type": "Verbe • کرنا",
+    "phonetics": {
+      "ur": "فیر (Fair)",
+      "ar": "فیر",
+      "hi": "Fair",
+      "es": "faire",
+      "en": "fair"
+    },
+    "translations": {
+      "ur": "کرنا / بنانا",
+      "ar": "فعل / صنع",
+      "hi": "करना / बनाना",
+      "es": "hacer",
+      "en": "to do / make"
+    },
+    "pedagogical_rules": {
+      "ur": "موسم اور روزمرہ کاموں کے لیے: Il fait beau (موسم خوشگوار ہے)۔",
+      "ar": "تعبير فرنسي أساسي: فعل / صنع. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: करना / बनाना।",
+      "es": "Término francés cotidiano: hacer.",
+      "en": "Essential everyday French expression meaning 'to do / make'."
+    },
+    "examples": [
+      {
+        "fr": "Qu'est-ce que vous faites aujourd'hui ?",
+        "ur": "آج آپ کیا کر رہے ہیں؟",
+        "ar": "فعل / صنع",
+        "hi": "करना / बनाना",
+        "es": "hacer",
+        "en": "to do / make"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Qu'est-ce que vous faites aujourd'hui ?",
+      "prompt_native": {
+        "ur": "آج آپ کیا کر رہے ہیں؟",
+        "ar": "فعل / صنع",
+        "hi": "करना / बनाना",
+        "es": "hacer",
+        "en": "to do / make"
+      }
+    }
+  },
+  {
+    "id": "card_pouvoir",
+    "french_term": "pouvoir",
+    "ipa": "/pu.vwaʁ/",
+    "concept_type": "Verbe • سکنا",
+    "phonetics": {
+      "ur": "پووار (Poo-vwar)",
+      "ar": "پووار",
+      "hi": "Poo-vwar",
+      "es": "pouvoir",
+      "en": "poo-vwar"
+    },
+    "translations": {
+      "ur": "سکنا (ٹو بی ایبل)",
+      "ar": "استطاع / يمكن",
+      "hi": "सकना",
+      "es": "poder",
+      "en": "can / to be able"
+    },
+    "pedagogical_rules": {
+      "ur": "مدد مانگنے کے لیے سنہری فقرہ: Pouvez-vous m'aider ? (کیا آپ میری مدد کر سکتے ہیں؟)۔",
+      "ar": "تعبير فرنسي أساسي: استطاع / يمكن. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सकना।",
+      "es": "Término francés cotidiano: poder.",
+      "en": "Essential everyday French expression meaning 'can / to be able'."
+    },
+    "examples": [
+      {
+        "fr": "Pouvez-vous parler plus lentement ?",
+        "ur": "کیا آپ تھوڑا آہستہ بول سکتے ہیں؟",
+        "ar": "استطاع / يمكن",
+        "hi": "सकना",
+        "es": "poder",
+        "en": "can / to be able"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Pouvez-vous parler plus lentement ?",
+      "prompt_native": {
+        "ur": "کیا آپ تھوڑا آہستہ بول سکتے ہیں؟",
+        "ar": "استطاع / يمكن",
+        "hi": "सकना",
+        "es": "poder",
+        "en": "can / to be able"
+      }
+    }
+  },
+  {
+    "id": "card_vouloir",
+    "french_term": "vouloir",
+    "ipa": "/vu.lwaʁ/",
+    "concept_type": "Verbe • چاہنا",
+    "phonetics": {
+      "ur": "وووار (Voo-lwar)",
+      "ar": "وووار",
+      "hi": "Voo-lwar",
+      "es": "vouloir",
+      "en": "voo-lwar"
+    },
+    "translations": {
+      "ur": "چاہنا (ٹو وانٹ)",
+      "ar": "أراد / يريد",
+      "hi": "चाहना",
+      "es": "querer",
+      "en": "to want"
+    },
+    "pedagogical_rules": {
+      "ur": "دکان میں براہ راست 'Je veux' نہ کہیں، بلکہ ہمیشہ 'Je voudrais' (شائستہ چاہت) کہیں۔",
+      "ar": "تعبير فرنسي أساسي: أراد / يريد. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: चाहना।",
+      "es": "Término francés cotidiano: querer.",
+      "en": "Essential everyday French expression meaning 'to want'."
+    },
+    "examples": [
+      {
+        "fr": "Je veux apprendre le français.",
+        "ur": "میں فرانسیسی سیکھنا چاہتا ہوں۔",
+        "ar": "أراد / يريد",
+        "hi": "चाहना",
+        "es": "querer",
+        "en": "to want"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je veux apprendre le français.",
+      "prompt_native": {
+        "ur": "میں فرانسیسی سیکھنا چاہتا ہوں۔",
+        "ar": "أراد / يريد",
+        "hi": "चाहना",
+        "es": "querer",
+        "en": "to want"
+      }
+    }
+  },
+  {
+    "id": "card_je_voudrais",
+    "french_term": "je voudrais",
+    "ipa": "/ʒə vu.dʁɛ/",
+    "concept_type": "Politesse • فرمائش",
+    "phonetics": {
+      "ur": "ژُہ وودرے (Zhuh voo-dray)",
+      "ar": "ژُہ وودرے",
+      "hi": "Zhuh voo-dray",
+      "es": "je voudrais",
+      "en": "zhuh voo-dray"
+    },
+    "translations": {
+      "ur": "مجھے چاہیے / میں چاہوں گا",
+      "ar": "أود / أرجو",
+      "hi": "मुझे चाहिए",
+      "es": "quisiera",
+      "en": "I would like"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی بھی دکان، کیفے یا دفتر میں آرڈر کرنے یا درخواست کرنے کا شائستہ ترین فقرہ۔",
+      "ar": "تعبير فرنسي أساسي: أود / أرجو. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मुझे चाहिए।",
+      "es": "Término francés cotidiano: quisiera.",
+      "en": "Essential everyday French expression meaning 'I would like'."
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais un verre d'eau s'il vous plaît.",
+        "ur": "مجھے ایک گلاس پانی چاہیے برائے مہربانی۔",
+        "ar": "أود / أرجو",
+        "hi": "मुझे चाहिए",
+        "es": "quisiera",
+        "en": "I would like"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je voudrais un verre d'eau s'il vous plaît.",
+      "prompt_native": {
+        "ur": "مجھے ایک گلاس پانی چاہیے برائے مہربانی۔",
+        "ar": "أود / أرجو",
+        "hi": "मुझे चाहिए",
+        "es": "quisiera",
+        "en": "I would like"
+      }
+    }
+  },
+  {
+    "id": "card_savoir",
+    "french_term": "savoir",
+    "ipa": "/sa.vwaʁ/",
+    "concept_type": "Verbe • جاننا",
+    "phonetics": {
+      "ur": "ساووار (Sah-vwar)",
+      "ar": "ساووار",
+      "hi": "Sah-vwar",
+      "es": "savoir",
+      "en": "sah-vwar"
+    },
+    "translations": {
+      "ur": "جاننا / معلوم ہونا (معلومات)",
+      "ar": "عرف / يعلم",
+      "hi": "जानना",
+      "es": "saber",
+      "en": "to know (facts)"
+    },
+    "pedagogical_rules": {
+      "ur": "حقیقت یا طریقہ جاننے کے لیے: Je sais nager (مجھے تیرنا آتا ہے)۔",
+      "ar": "تعبير فرنسي أساسي: عرف / يعلم. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: जानना।",
+      "es": "Término francés cotidiano: saber.",
+      "en": "Essential everyday French expression meaning 'to know (facts)'."
+    },
+    "examples": [
+      {
+        "fr": "Je ne sais pas où c'est.",
+        "ur": "مجھے نہیں معلوم کہ یہ کہاں ہے۔",
+        "ar": "عرف / يعلم",
+        "hi": "जानना",
+        "es": "saber",
+        "en": "to know (facts)"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je ne sais pas où c'est.",
+      "prompt_native": {
+        "ur": "مجھے نہیں معلوم کہ یہ کہاں ہے۔",
+        "ar": "عرف / يعلم",
+        "hi": "जानना",
+        "es": "saber",
+        "en": "to know (facts)"
+      }
+    }
+  },
+  {
+    "id": "card_connaître",
+    "french_term": "connaître",
+    "ipa": "/kɔ.nɛtʁ/",
+    "concept_type": "Verbe • پہچاننا",
+    "phonetics": {
+      "ur": "کونتر (Koh-neh-truh)",
+      "ar": "کونتر",
+      "hi": "Koh-neh-truh",
+      "es": "connaître",
+      "en": "koh-neh-truh"
+    },
+    "translations": {
+      "ur": "جاننا / پہچاننا (کسی شخص یا جگہ کو)",
+      "ar": "عرف شخصاً أو مكاناً",
+      "hi": "पहचानना / जानना",
+      "es": "conocer",
+      "en": "to know (people/places)"
+    },
+    "pedagogical_rules": {
+      "ur": "لوگوں اور شہروں کے لیے استعمال ہوتا ہے: Je connais Paris (میں پیرس سے واقف ہوں)۔",
+      "ar": "تعبير فرنسي أساسي: عرف شخصاً أو مكاناً. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पहचानना / जानना।",
+      "es": "Término francés cotidiano: conocer.",
+      "en": "Essential everyday French expression meaning 'to know (people/places)'."
+    },
+    "examples": [
+      {
+        "fr": "Vous connaissez un bon médecin ?",
+        "ur": "کیا آپ کسی اچھے ڈاکٹر کو جانتے ہیں؟",
+        "ar": "عرف شخصاً أو مكاناً",
+        "hi": "पहचानना / जानना",
+        "es": "conocer",
+        "en": "to know (people/places)"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Vous connaissez un bon médecin ?",
+      "prompt_native": {
+        "ur": "کیا آپ کسی اچھے ڈاکٹر کو جانتے ہیں؟",
+        "ar": "عرف شخصاً أو مكاناً",
+        "hi": "पहचानना / जानना",
+        "es": "conocer",
+        "en": "to know (people/places)"
+      }
+    }
+  },
+  {
+    "id": "card_comprendre",
+    "french_term": "comprendre",
+    "ipa": "/kɔ̃.pʁɑ̃dʁ/",
+    "concept_type": "Verbe • سمجھنا",
+    "phonetics": {
+      "ur": "کوں پراندر (Kohn-prahn-druh)",
+      "ar": "کوں پراندر",
+      "hi": "Kohn-prahn-druh",
+      "es": "comprendre",
+      "en": "kohn-prahn-druh"
+    },
+    "translations": {
+      "ur": "سمجھنا",
+      "ar": "فهم / يفهم",
+      "hi": "समझना",
+      "es": "comprender / entender",
+      "en": "to understand"
+    },
+    "pedagogical_rules": {
+      "ur": "نہ سمجھ آنے پر فوراً کہیں: Je ne comprends pas (مجھے سمجھ نہیں آ رہی)۔",
+      "ar": "تعبير فرنسي أساسي: فهم / يفهم. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: समझना।",
+      "es": "Término francés cotidiano: comprender / entender.",
+      "en": "Essential everyday French expression meaning 'to understand'."
+    },
+    "examples": [
+      {
+        "fr": "Je comprends un peu le français.",
+        "ur": "میں تھوڑی بہت فرانسیسی سمجھتا ہوں۔",
+        "ar": "فهم / يفهم",
+        "hi": "समझना",
+        "es": "comprender / entender",
+        "en": "to understand"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je comprends un peu le français.",
+      "prompt_native": {
+        "ur": "میں تھوڑی بہت فرانسیسی سمجھتا ہوں۔",
+        "ar": "فهم / يفهم",
+        "hi": "समझना",
+        "es": "comprender / entender",
+        "en": "to understand"
+      }
+    }
+  },
+  {
+    "id": "card_parler",
+    "french_term": "parler",
+    "ipa": "/paʁ.le/",
+    "concept_type": "Verbe • بولنا",
+    "phonetics": {
+      "ur": "پارلے (Pahr-lay)",
+      "ar": "پارلے",
+      "hi": "Pahr-lay",
+      "es": "parler",
+      "en": "pahr-lay"
+    },
+    "translations": {
+      "ur": "بولنا / گفتگو کرنا",
+      "ar": "تكلم / تحدث",
+      "hi": "बोलना",
+      "es": "hablar",
+      "en": "to speak"
+    },
+    "pedagogical_rules": {
+      "ur": "زبان بولنے کے لیے: Je parle ourdou et anglais (میں اردو اور انگریزی بولتا ہوں)۔",
+      "ar": "تعبير فرنسي أساسي: تكلم / تحدث. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बोलना।",
+      "es": "Término francés cotidiano: hablar.",
+      "en": "Essential everyday French expression meaning 'to speak'."
+    },
+    "examples": [
+      {
+        "fr": "Parlez-vous français ?",
+        "ur": "کیا آپ فرانسیسی بولتے ہیں؟",
+        "ar": "تكلم / تحدث",
+        "hi": "बोलना",
+        "es": "hablar",
+        "en": "to speak"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Parlez-vous français ?",
+      "prompt_native": {
+        "ur": "کیا آپ فرانسیسی بولتے ہیں؟",
+        "ar": "تكلم / تحدث",
+        "hi": "बोलना",
+        "es": "hablar",
+        "en": "to speak"
+      }
+    }
+  },
+  {
+    "id": "card_manger",
+    "french_term": "manger",
+    "ipa": "/mɑ̃.ʒe/",
+    "concept_type": "Verbe • کھانا",
+    "phonetics": {
+      "ur": "مانژے (Mahn-zhay)",
+      "ar": "مانژے",
+      "hi": "Mahn-zhay",
+      "es": "manger",
+      "en": "mahn-zhay"
+    },
+    "translations": {
+      "ur": "کھانا کھانا",
+      "ar": "أكل / يأكل",
+      "hi": "खाना",
+      "es": "comer",
+      "en": "to eat"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی ثقافت میں دوپہر کا کھانا ایک اہم سماجی سرگرمی ہے۔",
+      "ar": "تعبير فرنسي أساسي: أكل / يأكل. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: खाना।",
+      "es": "Término francés cotidiano: comer.",
+      "en": "Essential everyday French expression meaning 'to eat'."
+    },
+    "examples": [
+      {
+        "fr": "On va manger ensemble ?",
+        "ur": "کیا ہم اکٹھے کھانا کھانے چلیں؟",
+        "ar": "أكل / يأكل",
+        "hi": "खाना",
+        "es": "comer",
+        "en": "to eat"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "On va manger ensemble ?",
+      "prompt_native": {
+        "ur": "کیا ہم اکٹھے کھانا کھانے چلیں؟",
+        "ar": "أكل / يأكل",
+        "hi": "खाना",
+        "es": "comer",
+        "en": "to eat"
+      }
+    }
+  },
+  {
+    "id": "card_boire",
+    "french_term": "boire",
+    "ipa": "/bwaʁ/",
+    "concept_type": "Verbe • پینا",
+    "phonetics": {
+      "ur": "بوار (Bwahr)",
+      "ar": "بوار",
+      "hi": "Bwahr",
+      "es": "boire",
+      "en": "bwahr"
+    },
+    "translations": {
+      "ur": "پینا",
+      "ar": "شرب / يشرب",
+      "hi": "पीना",
+      "es": "beber / tomar",
+      "en": "to drink"
+    },
+    "pedagogical_rules": {
+      "ur": "پانی، چائے یا کافی پینے کے لیے۔",
+      "ar": "تعبير فرنسي أساسي: شرب / يشرب. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पीना।",
+      "es": "Término francés cotidiano: beber / tomar.",
+      "en": "Essential everyday French expression meaning 'to drink'."
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais boire quelque chose de chaud.",
+        "ur": "میں کوئی گرم چیز پینا چاہتا ہوں۔",
+        "ar": "شرب / يشرب",
+        "hi": "पीना",
+        "es": "beber / tomar",
+        "en": "to drink"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je voudrais boire quelque chose de chaud.",
+      "prompt_native": {
+        "ur": "میں کوئی گرم چیز پینا چاہتا ہوں۔",
+        "ar": "شرب / يشرب",
+        "hi": "पीना",
+        "es": "beber / tomar",
+        "en": "to drink"
+      }
+    }
+  },
+  {
+    "id": "card_dormir",
+    "french_term": "dormir",
+    "ipa": "/dɔʁ.miʁ/",
+    "concept_type": "Verbe • سونا",
+    "phonetics": {
+      "ur": "دورمیر (Dor-meer)",
+      "ar": "دورمیر",
+      "hi": "Dor-meer",
+      "es": "dormir",
+      "en": "dor-meer"
+    },
+    "translations": {
+      "ur": "سونا / آرام کرنا",
+      "ar": "نام / ينام",
+      "hi": "सोना",
+      "es": "dormir",
+      "en": "to sleep"
+    },
+    "pedagogical_rules": {
+      "ur": "آرام اور نیند کے لیے فعل۔",
+      "ar": "تعبير فرنسي أساسي: نام / ينام. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सोना।",
+      "es": "Término francés cotidiano: dormir.",
+      "en": "Essential everyday French expression meaning 'to sleep'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai besoin de dormir huit heures.",
+        "ur": "مجھے آٹھ گھنٹے سونے کی ضرورت ہے۔",
+        "ar": "نام / ينام",
+        "hi": "सोना",
+        "es": "dormir",
+        "en": "to sleep"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai besoin de dormir huit heures.",
+      "prompt_native": {
+        "ur": "مجھے آٹھ گھنٹے سونے کی ضرورت ہے۔",
+        "ar": "نام / ينام",
+        "hi": "सोना",
+        "es": "dormir",
+        "en": "to sleep"
+      }
+    }
+  },
+  {
+    "id": "card_acheter",
+    "french_term": "acheter",
+    "ipa": "/aʃ.te/",
+    "concept_type": "Verbe • خریدنا",
+    "phonetics": {
+      "ur": "آشتے (Ahsh-tay)",
+      "ar": "آشتے",
+      "hi": "Ahsh-tay",
+      "es": "acheter",
+      "en": "ahsh-tay"
+    },
+    "translations": {
+      "ur": "خریدنا",
+      "ar": "اشترى / يشتري",
+      "hi": "खरीदना",
+      "es": "comprar",
+      "en": "to buy"
+    },
+    "pedagogical_rules": {
+      "ur": "دکانوں اور مارکیٹ میں خریداری کے لیے۔",
+      "ar": "تعبير فرنسي أساسي: اشترى / يشتري. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: खरीदना।",
+      "es": "Término francés cotidiano: comprar.",
+      "en": "Essential everyday French expression meaning 'to buy'."
+    },
+    "examples": [
+      {
+        "fr": "Je dois acheter du pain et du lait.",
+        "ur": "مجھے روٹی اور دودھ خریدنا ہے۔",
+        "ar": "اشترى / يشتري",
+        "hi": "खरीदना",
+        "es": "comprar",
+        "en": "to buy"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je dois acheter du pain et du lait.",
+      "prompt_native": {
+        "ur": "مجھے روٹی اور دودھ خریدنا ہے۔",
+        "ar": "اشترى / يشتري",
+        "hi": "खरीदना",
+        "es": "comprar",
+        "en": "to buy"
+      }
+    }
+  },
+  {
+    "id": "card_payer",
+    "french_term": "payer",
+    "ipa": "/pɛ.je/",
+    "concept_type": "Verbe • ادا کرنا",
+    "phonetics": {
+      "ur": "پئیے (Peh-yay)",
+      "ar": "پئیے",
+      "hi": "Peh-yay",
+      "es": "payer",
+      "en": "peh-yay"
+    },
+    "translations": {
+      "ur": "ادائیگی کرنا / پیسے دینا",
+      "ar": "دفع الحساب",
+      "hi": "भुगतान करना",
+      "es": "pagar",
+      "en": "to pay"
+    },
+    "pedagogical_rules": {
+      "ur": "بل ادا کرنے کے لیے: Je peux payer par carte ? (کیا میں کارڈ سے ادا کر سکتا ہوں؟)۔",
+      "ar": "تعبير فرنسي أساسي: دفع الحساب. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: भुगतान करना।",
+      "es": "Término francés cotidiano: pagar.",
+      "en": "Essential everyday French expression meaning 'to pay'."
+    },
+    "examples": [
+      {
+        "fr": "Vous pouvez payer en espèces ou par carte.",
+        "ur": "آپ نقد یا کارڈ کے ذریعے ادائیگی کر سکتے ہیں۔",
+        "ar": "دفع الحساب",
+        "hi": "भुगतान करना",
+        "es": "pagar",
+        "en": "to pay"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Vous pouvez payer en espèces ou par carte.",
+      "prompt_native": {
+        "ur": "آپ نقد یا کارڈ کے ذریعے ادائیگی کر سکتے ہیں۔",
+        "ar": "دفع الحساب",
+        "hi": "भुगतान करना",
+        "es": "pagar",
+        "en": "to pay"
+      }
+    }
+  },
+  {
+    "id": "card_chercher",
+    "french_term": "chercher",
+    "ipa": "/ʃɛʁ.ʃe/",
+    "concept_type": "Verbe • تلاش کرنا",
+    "phonetics": {
+      "ur": "شیرشے (Sher-shay)",
+      "ar": "شیرشے",
+      "hi": "Sher-shay",
+      "es": "chercher",
+      "en": "sher-shay"
+    },
+    "translations": {
+      "ur": "تلاش کرنا / ڈھونڈنا",
+      "ar": "بحث / يبحث عن",
+      "hi": "खोजना / ढूंढना",
+      "es": "buscar",
+      "en": "to look for / search"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی چیز یا راستے کو تلاش کرنے کے لیے۔",
+      "ar": "تعبير فرنسي أساسي: بحث / يبحث عن. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: खोजना / ढूंढना।",
+      "es": "Término francés cotidiano: buscar.",
+      "en": "Essential everyday French expression meaning 'to look for / search'."
+    },
+    "examples": [
+      {
+        "fr": "Je cherche la station de métro.",
+        "ur": "میں میٹرو اسٹیشن تلاش کر رہا ہوں۔",
+        "ar": "بحث / يبحث عن",
+        "hi": "खोजना / ढूंढना",
+        "es": "buscar",
+        "en": "to look for / search"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je cherche la station de métro.",
+      "prompt_native": {
+        "ur": "میں میٹرو اسٹیشن تلاش کر رہا ہوں۔",
+        "ar": "بحث / يبحث عن",
+        "hi": "खोजना / ढूंढना",
+        "es": "buscar",
+        "en": "to look for / search"
+      }
+    }
+  },
+  {
+    "id": "card_trouver",
+    "french_term": "trouver",
+    "ipa": "/tʁu.ve/",
+    "concept_type": "Verbe • پانا / ملنا",
+    "phonetics": {
+      "ur": "ترووے (Troo-vay)",
+      "ar": "ترووے",
+      "hi": "Troo-vay",
+      "es": "trouver",
+      "en": "troo-vay"
+    },
+    "translations": {
+      "ur": "ملنا / تلاش کر لینا / پانا",
+      "ar": "وجد / يعثر على",
+      "hi": "पाना / मिलना",
+      "es": "encontrar",
+      "en": "to find"
+    },
+    "pedagogical_rules": {
+      "ur": "کوئی چیز مل جانے یا رائے دینے کے لیے: Je trouve ça très bien.",
+      "ar": "تعبير فرنسي أساسي: وجد / يعثر على. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पाना / मिलना।",
+      "es": "Término francés cotidiano: encontrar.",
+      "en": "Essential everyday French expression meaning 'to find'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai enfin trouvé un logement !",
+        "ur": "مجھے بالآخر رہائش مل گئی ہے!",
+        "ar": "وجد / يعثر على",
+        "hi": "पाना / मिलना",
+        "es": "encontrar",
+        "en": "to find"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai enfin trouvé un logement !",
+      "prompt_native": {
+        "ur": "مجھے بالآخر رہائش مل گئی ہے!",
+        "ar": "وجد / يعثر على",
+        "hi": "पाना / मिलना",
+        "es": "encontrar",
+        "en": "to find"
+      }
+    }
+  },
+  {
+    "id": "card_habiter",
+    "french_term": "habiter",
+    "ipa": "/a.bi.te/",
+    "concept_type": "Verbe • رہنا",
+    "phonetics": {
+      "ur": "آبیتے (Ah-bee-tay)",
+      "ar": "آبیتے",
+      "hi": "Ah-bee-tay",
+      "es": "habiter",
+      "en": "ah-bee-tay"
+    },
+    "translations": {
+      "ur": "رہائش پذیر ہونا / رہنا",
+      "ar": "سكن / يعيش في",
+      "hi": "रहना / निवास करना",
+      "es": "vivir / residir",
+      "en": "to live / reside"
+    },
+    "pedagogical_rules": {
+      "ur": "'h' خاموش ہے: J'habite à Paris (میں پیرس میں رہتا ہوں)۔",
+      "ar": "تعبير فرنسي أساسي: سكن / يعيش في. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: रहना / निवास करना।",
+      "es": "Término francés cotidiano: vivir / residir.",
+      "en": "Essential everyday French expression meaning 'to live / reside'."
+    },
+    "examples": [
+      {
+        "fr": "Où habitez-vous ?",
+        "ur": "آپ کہاں رہتے ہیں؟",
+        "ar": "سكن / يعيش في",
+        "hi": "रहना / निवास करना",
+        "es": "vivir / residir",
+        "en": "to live / reside"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Où habitez-vous ?",
+      "prompt_native": {
+        "ur": "آپ کہاں رہتے ہیں؟",
+        "ar": "سكن / يعيش في",
+        "hi": "रहना / निवास करना",
+        "es": "vivir / residir",
+        "en": "to live / reside"
+      }
+    }
+  },
+  {
+    "id": "card_travailler",
+    "french_term": "travailler",
+    "ipa": "/tʁa.va.je/",
+    "concept_type": "Verbe • کام کرنا",
+    "phonetics": {
+      "ur": "تراوائیے (Trah-vah-yay)",
+      "ar": "تراوائیے",
+      "hi": "Trah-vah-yay",
+      "es": "travailler",
+      "en": "trah-vah-yay"
+    },
+    "translations": {
+      "ur": "کام کرنا / ملازمت کرنا",
+      "ar": "عمل / يشتغل",
+      "hi": "काम करना",
+      "es": "trabajar",
+      "en": "to work"
+    },
+    "pedagogical_rules": {
+      "ur": "ملازمت اور پیشے کے حوالے سے استعمال ہوتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: عمل / يشتغل. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: काम करना।",
+      "es": "Término francés cotidiano: trabajar.",
+      "en": "Essential everyday French expression meaning 'to work'."
+    },
+    "examples": [
+      {
+        "fr": "Je travaille dans un restaurant.",
+        "ur": "میں ایک ریستوران میں کام کرتا ہوں۔",
+        "ar": "عمل / يشتغل",
+        "hi": "काम करना",
+        "es": "trabajar",
+        "en": "to work"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je travaille dans un restaurant.",
+      "prompt_native": {
+        "ur": "میں ایک ریستوران میں کام کرتا ہوں۔",
+        "ar": "عمل / يشتغل",
+        "hi": "काम करना",
+        "es": "trabajar",
+        "en": "to work"
+      }
+    }
+  },
+  {
+    "id": "card_aimer",
+    "french_term": "aimer",
+    "ipa": "/e.me/",
+    "concept_type": "Verbe • پسند کرنا",
+    "phonetics": {
+      "ur": "ایمے (Eh-may)",
+      "ar": "ایمے",
+      "hi": "Eh-may",
+      "es": "aimer",
+      "en": "eh-may"
+    },
+    "translations": {
+      "ur": "پسند کرنا / محبت کرنا",
+      "ar": "أحب / يفضل",
+      "hi": "पसंद करना",
+      "es": "amar / gustar",
+      "en": "to like / love"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی چیز کو پسند کرنے کے لیے: J'aime la cuisine française.",
+      "ar": "تعبير فرنسي أساسي: أحب / يفضل. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पसंद करना।",
+      "es": "Término francés cotidiano: amar / gustar.",
+      "en": "Essential everyday French expression meaning 'to like / love'."
+    },
+    "examples": [
+      {
+        "fr": "J'aime beaucoup voyager en train.",
+        "ur": "مجھے ٹرین میں سفر کرنا بہت پسند ہے۔",
+        "ar": "أحب / يفضل",
+        "hi": "पसंद करना",
+        "es": "amar / gustar",
+        "en": "to like / love"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'aime beaucoup voyager en train.",
+      "prompt_native": {
+        "ur": "مجھے ٹرین میں سفر کرنا بہت پسند ہے۔",
+        "ar": "أحب / يفضل",
+        "hi": "पसंद करना",
+        "es": "amar / gustar",
+        "en": "to like / love"
+      }
+    }
+  },
+  {
+    "id": "card_ou",
+    "french_term": "où",
+    "ipa": "/u/",
+    "concept_type": "Interrogatif • کہاں",
+    "phonetics": {
+      "ur": "اوو (Oo)",
+      "ar": "اوو",
+      "hi": "Oo",
+      "es": "où",
+      "en": "oo"
+    },
+    "translations": {
+      "ur": "کہاں",
+      "ar": "أين",
+      "hi": "कहाँ",
+      "es": "dónde",
+      "en": "where"
+    },
+    "pedagogical_rules": {
+      "ur": "اوپر نشان کے ساتھ 'où' کا مطلب 'کہاں' ہے۔ بغیر نشان کے 'ou' کا مطلب 'یا' ہے۔",
+      "ar": "تعبير فرنسي أساسي: أين. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कहाँ।",
+      "es": "Término francés cotidiano: dónde.",
+      "en": "Essential everyday French expression meaning 'where'."
+    },
+    "examples": [
+      {
+        "fr": "Où sont les toilettes s'il vous plaît ?",
+        "ur": "واش روم کہاں ہے برائے مہربانی؟",
+        "ar": "أين",
+        "hi": "कहाँ",
+        "es": "dónde",
+        "en": "where"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Où sont les toilettes s'il vous plaît ?",
+      "prompt_native": {
+        "ur": "واش روم کہاں ہے برائے مہربانی؟",
+        "ar": "أين",
+        "hi": "कहाँ",
+        "es": "dónde",
+        "en": "where"
+      }
+    }
+  },
+  {
+    "id": "card_quand",
+    "french_term": "quand",
+    "ipa": "/kɑ̃/",
+    "concept_type": "Interrogatif • کب",
+    "phonetics": {
+      "ur": "کاں (Kahn)",
+      "ar": "کاں",
+      "hi": "Kahn",
+      "es": "quand",
+      "en": "kahn"
+    },
+    "translations": {
+      "ur": "کب / کس وقت",
+      "ar": "متى",
+      "hi": "कब",
+      "es": "cuándo",
+      "en": "when"
+    },
+    "pedagogical_rules": {
+      "ur": "وقت پوچھنے کے لیے: Quand part le bus ? (بس کب روانہ ہوتی ہے؟)۔",
+      "ar": "تعبير فرنسي أساسي: متى. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कब।",
+      "es": "Término francés cotidiano: cuándo.",
+      "en": "Essential everyday French expression meaning 'when'."
+    },
+    "examples": [
+      {
+        "fr": "Quand commence le cours de français ?",
+        "ur": "فرانسیسی کی کلاس کب شروع ہوتی ہے؟",
+        "ar": "متى",
+        "hi": "कब",
+        "es": "cuándo",
+        "en": "when"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Quand commence le cours de français ?",
+      "prompt_native": {
+        "ur": "فرانسیسی کی کلاس کب شروع ہوتی ہے؟",
+        "ar": "متى",
+        "hi": "कब",
+        "es": "cuándo",
+        "en": "when"
+      }
+    }
+  },
+  {
+    "id": "card_comment",
+    "french_term": "comment",
+    "ipa": "/kɔ.mɑ̃/",
+    "concept_type": "Interrogatif • کیسے",
+    "phonetics": {
+      "ur": "کوماں (Koh-mahn)",
+      "ar": "کوماں",
+      "hi": "Koh-mahn",
+      "es": "comment",
+      "en": "koh-mahn"
+    },
+    "translations": {
+      "ur": "کیسے / کس طرح",
+      "ar": "كيف",
+      "hi": "कैसे",
+      "es": "cómo",
+      "en": "how"
+    },
+    "pedagogical_rules": {
+      "ur": "نام اور حال پوچھنے کے لیے: Comment vous vous appelez ?",
+      "ar": "تعبير فرنسي أساسي: كيف. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कैसे।",
+      "es": "Término francés cotidiano: cómo.",
+      "en": "Essential everyday French expression meaning 'how'."
+    },
+    "examples": [
+      {
+        "fr": "Comment ça marche ?",
+        "ur": "یہ کیسے کام کرتا ہے؟",
+        "ar": "كيف",
+        "hi": "कैसे",
+        "es": "cómo",
+        "en": "how"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Comment ça marche ?",
+      "prompt_native": {
+        "ur": "یہ کیسے کام کرتا ہے؟",
+        "ar": "كيف",
+        "hi": "कैसे",
+        "es": "cómo",
+        "en": "how"
+      }
+    }
+  },
+  {
+    "id": "card_pourquoi",
+    "french_term": "pourquoi",
+    "ipa": "/puʁ.kwa/",
+    "concept_type": "Interrogatif • کیوں",
+    "phonetics": {
+      "ur": "پورکووا (Poor-kwah)",
+      "ar": "پورکووا",
+      "hi": "Poor-kwah",
+      "es": "pourquoi",
+      "en": "poor-kwah"
+    },
+    "translations": {
+      "ur": "کیوں",
+      "ar": "لماذا",
+      "hi": "क्यों",
+      "es": "por qué",
+      "en": "why"
+    },
+    "pedagogical_rules": {
+      "ur": "جواب دینے کے لیے 'Parce que' (کیونکہ) سے شروع کریں۔",
+      "ar": "تعبير فرنسي أساسي: لماذا. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: क्यों।",
+      "es": "Término francés cotidiano: por qué.",
+      "en": "Essential everyday French expression meaning 'why'."
+    },
+    "examples": [
+      {
+        "fr": "Pourquoi le magasin est fermé ?",
+        "ur": "دکان کیوں بند ہے؟",
+        "ar": "لماذا",
+        "hi": "क्यों",
+        "es": "por qué",
+        "en": "why"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Pourquoi le magasin est fermé ?",
+      "prompt_native": {
+        "ur": "دکان کیوں بند ہے؟",
+        "ar": "لماذا",
+        "hi": "क्यों",
+        "es": "por qué",
+        "en": "why"
+      }
+    }
+  },
+  {
+    "id": "card_qui",
+    "french_term": "qui",
+    "ipa": "/ki/",
+    "concept_type": "Interrogatif • کون",
+    "phonetics": {
+      "ur": "کی (Kee)",
+      "ar": "کی",
+      "hi": "Kee",
+      "es": "qui",
+      "en": "kee"
+    },
+    "translations": {
+      "ur": "کون",
+      "ar": "من",
+      "hi": "कौन",
+      "es": "quién",
+      "en": "who"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی شخص کے بارے میں پوچھنے کے لیے۔",
+      "ar": "تعبير فرنسي أساسي: من. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कौन।",
+      "es": "Término francés cotidiano: quién.",
+      "en": "Essential everyday French expression meaning 'who'."
+    },
+    "examples": [
+      {
+        "fr": "Qui est votre professeur ?",
+        "ur": "آپ کے استاد کون ہیں؟",
+        "ar": "من",
+        "hi": "कौन",
+        "es": "quién",
+        "en": "who"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Qui est votre professeur ?",
+      "prompt_native": {
+        "ur": "آپ کے استاد کون ہیں؟",
+        "ar": "من",
+        "hi": "कौन",
+        "es": "quién",
+        "en": "who"
+      }
+    }
+  },
+  {
+    "id": "card_quoi",
+    "french_term": "quoi",
+    "ipa": "/kwa/",
+    "concept_type": "Interrogatif • کیا",
+    "phonetics": {
+      "ur": "کووا (Kwah)",
+      "ar": "کووا",
+      "hi": "Kwah",
+      "es": "quoi",
+      "en": "kwah"
+    },
+    "translations": {
+      "ur": "کیا",
+      "ar": "ماذا / ما",
+      "hi": "क्या",
+      "es": "qué",
+      "en": "what"
+    },
+    "pedagogical_rules": {
+      "ur": "عام گفتگو میں بات دہرانے کے لیے پوچھا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: ماذا / ما. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: क्या।",
+      "es": "Término francés cotidiano: qué.",
+      "en": "Essential everyday French expression meaning 'what'."
+    },
+    "examples": [
+      {
+        "fr": "C'est quoi ça ?",
+        "ur": "یہ کیا چیز ہے؟",
+        "ar": "ماذا / ما",
+        "hi": "क्या",
+        "es": "qué",
+        "en": "what"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "C'est quoi ça ?",
+      "prompt_native": {
+        "ur": "یہ کیا چیز ہے؟",
+        "ar": "ماذا / ما",
+        "hi": "क्या",
+        "es": "qué",
+        "en": "what"
+      }
+    }
+  },
+  {
+    "id": "card_combien",
+    "french_term": "combien",
+    "ipa": "/kɔ̃.bjɛ̃/",
+    "concept_type": "Interrogatif • کتنا",
+    "phonetics": {
+      "ur": "کوں بیاں (Kohn-byehn)",
+      "ar": "کوں بیاں",
+      "hi": "Kohn-byehn",
+      "es": "combien",
+      "en": "kohn-byehn"
+    },
+    "translations": {
+      "ur": "کتنا / کتنی قیمت ہے",
+      "ar": "كم / بكم",
+      "hi": "कितना",
+      "es": "cuánto",
+      "en": "how much"
+    },
+    "pedagogical_rules": {
+      "ur": "قیمت پوچھنے کا آسان ترین طریقہ: C'est combien s'il vous plaît ?",
+      "ar": "تعبير فرنسي أساسي: كم / بكم. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कितना।",
+      "es": "Término francés cotidiano: cuánto.",
+      "en": "Essential everyday French expression meaning 'how much'."
+    },
+    "examples": [
+      {
+        "fr": "Combien coûte ce livre ?",
+        "ur": "اس کتاب کی کیا قیمت ہے؟",
+        "ar": "كم / بكم",
+        "hi": "कितना",
+        "es": "cuánto",
+        "en": "how much"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Combien coûte ce livre ?",
+      "prompt_native": {
+        "ur": "اس کتاب کی کیا قیمت ہے؟",
+        "ar": "كم / بكم",
+        "hi": "कितना",
+        "es": "cuánto",
+        "en": "how much"
+      }
+    }
+  },
+  {
     "id": "card_mais",
     "french_term": "mais",
     "ipa": "/mɛ/",
     "concept_type": "Conjonction • تضاد",
     "phonetics": {
       "ur": "مے (Meh)",
-      "ar": "ميه (Mè)",
-      "hi": "मे (Meh)",
-      "es": "me",
+      "ar": "مے",
+      "hi": "Meh",
+      "es": "mais",
       "en": "meh"
     },
     "translations": {
@@ -20,38 +2804,30 @@
     },
     "pedagogical_rules": {
       "ur": "یہ لفظ دو متضاد باتوں کو جوڑنے کے لیے استعمال ہوتا ہے۔ فرانسیسی زبان میں یہ ہمیشہ دو جملوں کے درمیان آتا ہے، بالکل جیسے اردو میں 'لیکن' استعمال ہوتا ہے۔",
-      "ar": "حرف عطف يُستخدم للربط بين جملتين متناقضتين تماماً مثل 'لكن' في اللغة العربية، ويقع دائماً بين الجملتين.",
-      "hi": "यह शब्द दो विरोधी विचारों को जोड़ने के लिए प्रयोग होता है, ठीक जैसे हिंदी में 'लेकिन' का प्रयोग होता है।",
-      "es": "Conjunción adversativa idéntica a 'pero'. Se coloca entre dos proposiciones contrastantes.",
-      "en": "Used to express contrast between two clauses. Placed directly between them."
+      "ar": "تعبير فرنسي أساسي: لكن. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: लेकिन।",
+      "es": "Término francés cotidiano: pero.",
+      "en": "Essential everyday French expression meaning 'but'."
     },
     "examples": [
       {
         "fr": "Je veux sortir, mais il pleut.",
         "ur": "میں باہر جانا چاہتی ہوں، لیکن بارش ہو رہی ہے۔",
-        "ar": "أريد الخروج، لكنها تمطر.",
-        "hi": "मैं बाहर जाना चाहता हूँ, लेकिन बारिश हो रही है।",
-        "es": "Quiero salir, pero está lloviendo.",
-        "en": "I want to go out, but it's raining."
-      },
-      {
-        "fr": "Je suis fatiguée mais heureuse.",
-        "ur": "میں تھکی ہوئی ہوں لیکن خوش ہوں۔",
-        "ar": "أنا متعبة لكني سعيدة.",
-        "hi": "मैं थका हुआ हूँ लेकिन खुश हूँ।",
-        "es": "Estoy cansada pero feliz.",
-        "en": "I am tired but happy."
+        "ar": "لكن",
+        "hi": "लेकिन",
+        "es": "pero",
+        "en": "but"
       }
     ],
     "practice_prompt": {
       "type": "speak_or_type",
-      "prompt_fr": "Je veux venir, mais je travaille.",
+      "prompt_fr": "Je veux sortir, mais il pleut.",
       "prompt_native": {
-        "ur": "میں آنا چاہتی ہوں، لیکن میں کام کرتی ہوں۔",
-        "ar": "أريد المجيء، لكني أعمل.",
-        "hi": "मैं आना चाहता हूँ, लेकिन मैं काम करता हूँ।",
-        "es": "Quiero venir, pero trabajo.",
-        "en": "I want to come, but I work."
+        "ur": "میں باہر جانا چاہتی ہوں، لیکن بارش ہو رہی ہے۔",
+        "ar": "لكن",
+        "hi": "लेकिन",
+        "es": "pero",
+        "en": "but"
       }
     }
   },
@@ -59,137 +2835,143 @@
     "id": "card_pourtant",
     "french_term": "pourtant",
     "ipa": "/puʁ.tɑ̃/",
-    "concept_type": "Adverbe / Conjonction • بایں ہمہ",
+    "concept_type": "Adverbe • حالانکہ",
     "phonetics": {
-      "ur": "پُورتاں (Poor-tahn)",
-      "ar": "بورتون (Pour-tan)",
-      "hi": "पूरताँ (Poor-tan)",
-      "es": "purtan",
+      "ur": "پورتاں (Poor-tahn)",
+      "ar": "پورتاں",
+      "hi": "Poor-tahn",
+      "es": "pourtant",
       "en": "poor-tahn"
     },
     "translations": {
-      "ur": "پھر بھی / اس کے باوجود",
-      "ar": "ومع ذلك / ورغم ذلك",
-      "hi": "फिर भी / इसके बावजूद",
-      "es": "sin embargo / no obstante",
-      "en": "yet / nevertheless"
+      "ur": "حالانکہ / اس کے باوجود",
+      "ar": "ومع ذلك",
+      "hi": "फिर भी",
+      "es": "sin embargo",
+      "en": "yet / however"
     },
     "pedagogical_rules": {
-      "ur": "'pourtant' کا مفہوم 'لیکن' سے زیادہ گہرا ہے۔ جب کوئی نتیجہ توقع کے خلاف ہو تو اردو میں جیسے ہم کہتے ہیں 'اس کے باوجود'، وہاں فرانسیسی میں pourtant آتا ہے۔",
-      "ar": "أقوى في الدلالة من 'mais'. تُفيد المفارقة غير المتوقعة وتعني 'ومع ذلك' أو 'رغم ذلك'.",
-      "hi": "यह 'लेकिन' से अधिक गहरा है। जब कोई परिणाम उम्मीद के विपरीत हो ('इसके बावजूद'), तब 'pourtant' का उपयोग होता है।",
-      "es": "Indica una contradicción más fuerte que 'pero'. Equivale a 'sin embargo' o 'a pesar de todo'.",
-      "en": "Expresses an unexpected contrast or concession, equivalent to 'yet' or 'nevertheless'."
+      "ur": "'Pourtant' غیر متوقع نتیجے کے اظہار کے لیے آتا ہے، جیسے اردو میں 'حالانکہ'۔",
+      "ar": "تعبير فرنسي أساسي: ومع ذلك. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: फिर भी।",
+      "es": "Término francés cotidiano: sin embargo.",
+      "en": "Essential everyday French expression meaning 'yet / however'."
     },
     "examples": [
       {
-        "fr": "Il fait froid, pourtant il ne neige pas.",
-        "ur": "سردی ہے، پھر بھی برف نہیں گر رہی۔",
-        "ar": "الجو بارد، ومع ذلك لا يتساقط الثلج.",
-        "hi": "ठंड है, फिर भी बर्फ नहीं गिर रही है।",
-        "es": "Hace frío, sin embargo no nieva.",
-        "en": "It is cold, yet it is not snowing."
-      }
-    ],
-    "practice_prompt": {
-      "type": "fill_in_blank",
-      "prompt_fr": "Il a révisé, ___ il a raté son examen.",
-      "correct_answer": "pourtant"
-    }
-  },
-  {
-    "id": "card_bail",
-    "french_term": "bail",
-    "ipa": "/baj/",
-    "concept_type": "Nom masculin • کرایہ نامہ",
-    "phonetics": {
-      "ur": "بائے (Baye)",
-      "ar": "باي (Baye)",
-      "hi": "बाय (Baye)",
-      "es": "bai",
-      "en": "bye"
-    },
-    "translations": {
-      "ur": "کرایہ نامہ (رینٹ ایگریمنٹ)",
-      "ar": "عقد إيجار السكن",
-      "hi": "किराया अनुबंध (लीज)",
-      "es": "contrato de arrendamiento",
-      "en": "lease / rental contract"
-    },
-    "pedagogical_rules": {
-      "ur": "فرانس میں کرائے کے مکان کا باقاعدہ قانونی معاہدہ 'bail' کہلاتا ہے۔ CAF (ہاؤسنگ الاؤنس) اور ویزا کی تجدید کے لیے یہ دستاویز لازمی ہے۔",
-      "ar": "الوثيقة القانونية الأساسية لاستئجار شقة في فرنسا. مطلوبة إلزامياً لفتح ملف المساعدة السكنية CAF ولتجديد الإقامة.",
-      "hi": "फ्रांस में किराए के मकान का कानूनी दस्तावेज। यह CAF और वीजा नवीनीकरण के लिए अनिवार्य है।",
-      "es": "El contrato legal de alquiler en Francia. Imprescindible para trámites de la CAF y residencia.",
-      "en": "The official residential lease contract in France, essential for housing subsidies (CAF) and residency."
-    },
-    "examples": [
-      {
-        "fr": "J'ai signé mon bail hier.",
-        "ur": "میں نے کل اپنے مکان کا کرایہ نامہ دستخط کیا۔",
-        "ar": "وقعت عقد الإيجار أمس.",
-        "hi": "मैंने कल अपना रेंटल लीज साइन किया।",
-        "es": "Firmé mi contrato de alquiler ayer.",
-        "en": "I signed my lease yesterday."
+        "fr": "Il fait froid, pourtant il y a du soleil.",
+        "ur": "سردی ہے، حالانکہ دھوپ نکلی ہوئی ہے۔",
+        "ar": "ومع ذلك",
+        "hi": "फिर भी",
+        "es": "sin embargo",
+        "en": "yet / however"
       }
     ],
     "practice_prompt": {
       "type": "speak_or_type",
-      "prompt_fr": "Voici une copie de mon bail.",
+      "prompt_fr": "Il fait froid, pourtant il y a du soleil.",
       "prompt_native": {
-        "ur": "یہ میرے کرایہ نامے کی نقل ہے۔",
-        "ar": "هذه نسخة من عقد إيجاري.",
-        "hi": "यह मेरे लीज की प्रति है।",
-        "es": "Aquí tiene una copia de mi contrato.",
-        "en": "Here is a copy of my lease."
+        "ur": "سردی ہے، حالانکہ دھوپ نکلی ہوئی ہے۔",
+        "ar": "ومع ذلك",
+        "hi": "फिर भी",
+        "es": "sin embargo",
+        "en": "yet / however"
       }
     }
   },
   {
-    "id": "card_caf",
-    "french_term": "CAF",
-    "ipa": "/kaf/",
-    "concept_type": "Administration • امداد اطفال و مکان",
+    "id": "card_pain",
+    "french_term": "pain",
+    "ipa": "/pɛ̃/",
+    "concept_type": "Alimentation • روٹی",
     "phonetics": {
-      "ur": "کاف (Kaf)",
-      "ar": "كاف (Kaf)",
-      "hi": "काफ (Kaf)",
-      "es": "caf",
-      "en": "kaf"
+      "ur": "پاں (Pehn)",
+      "ar": "پاں",
+      "hi": "Pehn",
+      "es": "pain",
+      "en": "pehn"
     },
     "translations": {
-      "ur": "کاف (فرانسیسی سرکاری ہاؤسنگ سبسڈی ادارہ)",
-      "ar": "صندوق التعويضات العائلية (مساعدات السكن)",
-      "hi": "सीएएफ (फ़्रांस की आवास सब्सिडी संस्था)",
-      "es": "Fondo de subsidios familiares y de vivienda",
-      "en": "Family Allocation Fund (Housing subsidy agency)"
+      "ur": "روٹی / باگیٹ",
+      "ar": "خبز",
+      "hi": "रोटी / ब्रेड",
+      "es": "pan",
+      "en": "bread"
     },
     "pedagogical_rules": {
-      "ur": "Caisse d'Allocations Familiales کا مخفف۔ ہر طالب علم اور نیا آنے والا رہائشی مکان کے کرائے میں مدد کے لیے 'APL' کی درخواست اسی ادارے کو دیتا ہے۔",
-      "ar": "المؤسسة الحكومية المسؤولة عن تقديم معونات السكن (APL) للطلاب والمقيمين في فرنسا.",
-      "hi": "छात्रों और नए प्रवासियों को आवास किराया सहायता देने वाली फ्रांसीसी सरकारी एजेंसी।",
-      "es": "Organismo público francés que otorga subsidios de vivienda (APL) a estudiantes y residentes.",
-      "en": "The French governmental organization providing monthly housing subsidies (APL) to students and residents."
+      "ur": "فرانسیسی کھانوں کا لازمی جزو جو ہر ریستوران میں مفت پیش کیا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: خبز. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: रोटी / ब्रेड।",
+      "es": "Término francés cotidiano: pan.",
+      "en": "Essential everyday French expression meaning 'bread'."
     },
     "examples": [
       {
-        "fr": "J'ai envoyé mon dossier à la CAF.",
-        "ur": "میں نے اپنے کاغذات کاف (CAF) کو جمع کروا دیے ہیں۔",
-        "ar": "أرسلت ملفي إلى مؤسسة الكاف (CAF).",
-        "hi": "मैंने अपनी फाइल सीएएफ को भेज दी है।",
-        "es": "Envié mi expediente a la CAF.",
-        "en": "I sent my application to the CAF."
+        "fr": "Du pain frais chaque matin.",
+        "ur": "ہر صبح تازہ روٹی۔",
+        "ar": "خبز",
+        "hi": "रोटी / ब्रेड",
+        "es": "pan",
+        "en": "bread"
       }
     ],
     "practice_prompt": {
       "type": "speak_or_type",
-      "prompt_fr": "Mon numéro d'allocataire CAF.",
+      "prompt_fr": "Du pain frais chaque matin.",
       "prompt_native": {
-        "ur": "میرا کاف اکاؤنٹ نمبر۔",
-        "ar": "رقم المستفيد الخاص بي في الكاف.",
-        "hi": "मेरा सीएएफ लाभार्थी नंबर।",
-        "es": "Mi número de beneficiario de la CAF.",
-        "en": "My CAF beneficiary number."
+        "ur": "ہر صبح تازہ روٹی۔",
+        "ar": "خبز",
+        "hi": "रोटी / ब्रेड",
+        "es": "pan",
+        "en": "bread"
+      }
+    }
+  },
+  {
+    "id": "card_baguette",
+    "french_term": "baguette",
+    "ipa": "/ba.ɡɛt/",
+    "concept_type": "Alimentation • باگیٹ",
+    "phonetics": {
+      "ur": "باگیٹ (Bah-get)",
+      "ar": "باگیٹ",
+      "hi": "Bah-get",
+      "es": "baguette",
+      "en": "bah-get"
+    },
+    "translations": {
+      "ur": "فرانسیسی لمبی روٹی (باگیٹ)",
+      "ar": "خبز باجيت فرنسي",
+      "hi": "बागेट ब्रेड",
+      "es": "baguette",
+      "en": "baguette bread"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس کی عالمی شہرت یافتہ کرسپی روٹی۔ بیکری سے 'Une tradition' مانگیں!",
+      "ar": "تعبير فرنسي أساسي: خبز باجيت فرنسي. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बागेट ब्रेड।",
+      "es": "Término francés cotidiano: baguette.",
+      "en": "Essential everyday French expression meaning 'baguette bread'."
+    },
+    "examples": [
+      {
+        "fr": "Une baguette bien cuite s'il vous plaît.",
+        "ur": "ایک اچھی طرح پکی ہوئی باگیٹ دیجیے۔",
+        "ar": "خبز باجيت فرنسي",
+        "hi": "बागेट ब्रेड",
+        "es": "baguette",
+        "en": "baguette bread"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Une baguette bien cuite s'il vous plaît.",
+      "prompt_native": {
+        "ur": "ایک اچھی طرح پکی ہوئی باگیٹ دیجیے۔",
+        "ar": "خبز باجيت فرنسي",
+        "hi": "बागेट ब्रेड",
+        "es": "baguette",
+        "en": "baguette bread"
       }
     }
   },
@@ -197,151 +2979,431 @@
     "id": "card_croissant",
     "french_term": "croissant",
     "ipa": "/kʁwa.sɑ̃/",
-    "concept_type": "Nom masculin • بیکری",
+    "concept_type": "Viennoiserie • کرواساں",
     "phonetics": {
-      "ur": "کرواسـاں (Kwah-sahn)",
-      "ar": "كرواسون (Kroi-san)",
-      "hi": "क्रुआसाँ (Kroo-ah-sahn)",
-      "es": "cruasán",
-      "en": "kwah-sahn"
+      "ur": "کرواساں (Krwah-sahn)",
+      "ar": "کرواساں",
+      "hi": "Krwah-sahn",
+      "es": "croissant",
+      "en": "krwah-sahn"
     },
     "translations": {
-      "ur": "کرواساں (فرانسیسی ہلال نما پیسٹری)",
-      "ar": "كرواسون (فطيرة فرنسية هلالية)",
-      "hi": "क्रॉसेंट (फ्रांसीसी पेस्ट्री)",
-      "es": "cruasán",
-      "en": "croissant"
+      "ur": "کرواساں مکھن والی پیسٹری",
+      "ar": "كرواسون فرنسي",
+      "hi": "क्रुआसाँ",
+      "es": "croissant",
+      "en": "croissant pastry"
     },
     "pedagogical_rules": {
-      "ur": "فرانسیسی بیکری کا بنیادی نشان۔ آخری حرف 't' بولا نہیں جاتا، اور درمیانی 'r' کی آواز گلے کے اوپری حصے سے نکلتی ہے۔",
-      "ar": "الرمز الأشهر للمخبوزات الفرنسية. الحرف الأخير 't' صامت تماماً، والراء حنجرية ناعمة.",
-      "hi": "फ़्रांस की प्रसिद्ध पेस्ट्री। अंतिम अक्षर 't' मूक (silent) होता है।",
-      "es": "Famoso bollo hojaldrado francés. La 't' final es muda.",
-      "en": "The quintessential French viennoiserie. The final 't' is silent."
+      "ur": "ناشتے کا سب سے پسندیدہ جزو۔ آخری 't' خاموش رہتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: كرواسون فرنسي. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: क्रुआसाँ।",
+      "es": "Término francés cotidiano: croissant.",
+      "en": "Essential everyday French expression meaning 'croissant pastry'."
     },
     "examples": [
       {
-        "fr": "Je voudrais deux croissants, s'il vous plaît.",
-        "ur": "مجھے برائے مہربانی دو کرواساں چاہیے۔",
-        "ar": "أريد قطعتي كرواسون من فضلك.",
-        "hi": "कृपया मुझे दो क्रॉसेंट दीजिए।",
-        "es": "Quisiera dos cruasanes, por favor.",
-        "en": "I would like two croissants, please."
+        "fr": "Deux croissants au beurre s'il vous plaît.",
+        "ur": "دو مکھن والے کرواساں دیجیے۔",
+        "ar": "كرواسون فرنسي",
+        "hi": "क्रुआसाँ",
+        "es": "croissant",
+        "en": "croissant pastry"
       }
     ],
     "practice_prompt": {
       "type": "speak_or_type",
-      "prompt_fr": "Un croissant au beurre.",
+      "prompt_fr": "Deux croissants au beurre s'il vous plaît.",
       "prompt_native": {
-        "ur": "ایک مکھن والا کرواساں۔",
-        "ar": "كرواسون بالزبدة.",
-        "hi": "एक मक्खन वाला क्रॉसेंट।",
-        "es": "Un cruasán de mantequilla.",
-        "en": "A butter croissant."
+        "ur": "دو مکھن والے کرواساں دیجیے۔",
+        "ar": "كرواسون فرنسي",
+        "hi": "क्रुआसाँ",
+        "es": "croissant",
+        "en": "croissant pastry"
       }
     }
   },
   {
-    "id": "card_je_voudrais",
-    "french_term": "je voudrais",
-    "ipa": "/ʒə vu.dʁɛ/",
-    "concept_type": "Formule de politesse • ادب و احترام",
+    "id": "card_cafe",
+    "french_term": "café",
+    "ipa": "/ka.fe/",
+    "concept_type": "Boisson • کافی",
     "phonetics": {
-      "ur": "ژے وودرے (Zhe voo-dreh)",
-      "ar": "جو فودغي (Je voudrè)",
-      "hi": "झ़ वूद्रे (Jhe voo-dray)",
-      "es": "ye vudré",
-      "en": "zhuh voo-dreh"
+      "ur": "کافے (Kah-fay)",
+      "ar": "کافے",
+      "hi": "Kah-fay",
+      "es": "café",
+      "en": "kah-fay"
     },
     "translations": {
-      "ur": "میں چاہتی ہوں / مجھے پسند ہوگا (باادب درخواست)",
-      "ar": "أود لو سمحت / أرغب (صيغة أدبية راقية)",
-      "hi": "मैं चाहूँगा / कृपया मुझे चाहिए (विनम्र निवेदन)",
-      "es": "quisiera / me gustaría",
-      "en": "I would like (polite conditional)"
+      "ur": "کافی / ایسپریسو",
+      "ar": "قهوة",
+      "hi": "कॉफ़ी",
+      "es": "café",
+      "en": "coffee / espresso"
     },
     "pedagogical_rules": {
-      "ur": "دکان، ریستوران یا سرکاری دفتر میں کبھی 'Je veux' (مجھے چاہیے) مت کہیں۔ فرانسیسی معاشرے میں ہمیشہ شائستہ فعل 'Je voudrais' استعمال کیا جاتا ہے۔",
-      "ar": "في المقهى أو الإدارة لا تقل أبداً 'Je veux' (أريد)، بل استخدم دائماً صيغة الأدب 'Je voudrais' (أود/أرغب).",
-      "hi": "दुकान या कार्यालय में कभी 'Je veux' (मुझे चाहिए) न कहें। हमेशा विनम्रता के लिए 'Je voudrais' का उपयोग करें।",
-      "es": "Evita decir 'Je veux' (quiero) en comercios. Usa siempre el condicional de cortesía 'Je voudrais'.",
-      "en": "Never use 'Je veux' (I want) when ordering or asking for service; always use polite 'Je voudrais'."
+      "ur": "فرانس میں 'un café' کا مطلب چھوٹا بلیک ایسپریسو ہوتا ہے۔ دودھ کے لیے 'café au lait' کہیں۔",
+      "ar": "تعبير فرنسي أساسي: قهوة. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कॉफ़ी।",
+      "es": "Término francés cotidiano: café.",
+      "en": "Essential everyday French expression meaning 'coffee / espresso'."
     },
     "examples": [
       {
-        "fr": "Bonjour, je voudrais un café s'il vous plaît.",
-        "ur": "سلام، مجھے برائے مہربانی ایک کافی چاہیے۔",
-        "ar": "مرحباً، أود فنجان قهوة من فضلك.",
-        "hi": "नमस्ते, कृपया मुझे एक कॉफी चाहिए।",
-        "es": "Buenos días, quisiera un café por favor.",
-        "en": "Hello, I would like a coffee please."
+        "fr": "Un café serré au comptoir.",
+        "ur": "کاؤنٹر پر ایک تیز ایسپریسو۔",
+        "ar": "قهوة",
+        "hi": "कॉफ़ी",
+        "es": "café",
+        "en": "coffee / espresso"
       }
     ],
     "practice_prompt": {
       "type": "speak_or_type",
-      "prompt_fr": "Je voudrais une baguette.",
+      "prompt_fr": "Un café serré au comptoir.",
       "prompt_native": {
-        "ur": "مجھے ایک باگیٹ چاہیے۔",
-        "ar": "أود رغيف باجيت.",
-        "hi": "मुझे एक बैगेट चाहिए।",
-        "es": "Quisiera una baguette.",
-        "en": "I would like a baguette."
+        "ur": "کاؤنٹر پر ایک تیز ایسپریسو۔",
+        "ar": "قهوة",
+        "hi": "कॉफ़ी",
+        "es": "café",
+        "en": "coffee / espresso"
       }
     }
   },
   {
-    "id": "card_tu_vs_vous",
-    "french_term": "Tu vs Vous",
-    "ipa": "/ty/ vs /vu/",
-    "concept_type": "Pronom • آداب تخاطب",
+    "id": "card_the",
+    "french_term": "thé",
+    "ipa": "/te/",
+    "concept_type": "Boisson • چائے",
     "phonetics": {
-      "ur": "تُو بمقابلہ آپ (Tu vs Voo)",
-      "ar": "أنتَ بمقابلة حضرتكم/أنتم",
-      "hi": "तू/तुम बनाम आप",
-      "es": "tú vs usted",
-      "en": "tu vs vous"
+      "ur": "تے (Tay)",
+      "ar": "تے",
+      "hi": "Tay",
+      "es": "thé",
+      "en": "tay"
     },
     "translations": {
-      "ur": "تم (بے تکلف) بمقابلہ آپ (باادب / بزرگ / اجنبی)",
-      "ar": "أنت (للأصدقاء) مقابل أنتم/حضرتكم (للاحترام والرسميات)",
-      "hi": "तू/तुम (अनौपचारिक) बनाम आप (आदरणीय/अपरिचित)",
-      "es": "tú (informal) vs usted (formal)",
-      "en": "you (informal) vs you (formal/plural)"
+      "ur": "چائے",
+      "ar": "شاي",
+      "hi": "चाय",
+      "es": "té",
+      "en": "tea"
     },
     "pedagogical_rules": {
-      "ur": "انگریزی میں صرف ایک 'You' ہوتا ہے جس سے لوگ الجھ جاتے ہیں، لیکن اردو بولنے والوں کے لیے یہ بہت آسان ہے: فرانسیسی 'Tu' اردو کا 'تم' ہے، اور فرانسیسی 'Vous' اردو کا باادب لفظ 'آپ' ہے۔ دکاندار، افسر اور انجان شخص کے ساتھ ہمیشہ 'Vous' بولیں۔",
-      "ar": "على عكس الإنجليزية، الفرنسية تميز بدقة: 'Tu' للمقربين والأصدقاء، و'Vous' للاحترام التام مع الغرباء ومسؤولي الإدارة وكبار السن.",
-      "hi": "अंग्रेजी में केवल 'You' होता है, परंतु फ्रेंच में हिंदी की तरह स्पष्ट अंतर है: 'Tu' = तुम/तू, और 'Vous' = आदरणीय 'आप'। अजनबियों और अधिकारियों के साथ हमेशा 'Vous' बोलें।",
-      "es": "Distinción idéntica al español: 'Tu' equivale a 'tú' (tutear) y 'Vous' equivale a 'usted' (vosear).",
-      "en": "French strictly distinguishes between informal singular (Tu) and formal/plural (Vous)."
+      "ur": "سبز یا کالی چائے مانگنے کے لیے: du thé vert / du thé noir.",
+      "ar": "تعبير فرنسي أساسي: شاي. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: चाय।",
+      "es": "Término francés cotidiano: té.",
+      "en": "Essential everyday French expression meaning 'tea'."
     },
     "examples": [
       {
-        "fr": "Comment vous vous appelez ?",
-        "ur": "آپ کا نام کیا ہے؟ (باادب)",
-        "ar": "ما هو اسم حضرتكم؟ (صيغة احترام)",
-        "hi": "आपका नाम क्या है? (आदरणीय)",
-        "es": "¿Cómo se llama usted?",
-        "en": "What is your name? (Formal)"
-      },
-      {
-        "fr": "Comment tu t'appelles ?",
-        "ur": "تمہارا نام کیا ہے؟ (دوستانہ)",
-        "ar": "ما اسمك؟ (صيغة ودية)",
-        "hi": "तुम्हारा नाम क्या है? (अनौपचारिक)",
-        "es": "¿Cómo te llamas tú?",
-        "en": "What is your name? (Informal)"
+        "fr": "Un thé à la menthe s'il vous plaît.",
+        "ur": "پودینے والی چائے دیجیے برائے مہربانی۔",
+        "ar": "شاي",
+        "hi": "चाय",
+        "es": "té",
+        "en": "tea"
       }
     ],
     "practice_prompt": {
       "type": "speak_or_type",
-      "prompt_fr": "Bonjour Madame, comment allez-vous ?",
+      "prompt_fr": "Un thé à la menthe s'il vous plaît.",
       "prompt_native": {
-        "ur": "آداب میڈم، آپ کیسی ہیں؟",
-        "ar": "صباح الخير سيدتي، كيف حال حضرتكم؟",
-        "hi": "नमस्ते मैडम, आप कैसी हैं?",
-        "es": "Buenos días señora, ¿cómo está usted?",
-        "en": "Hello Madam, how are you? (Formal)"
+        "ur": "پودینے والی چائے دیجیے برائے مہربانی۔",
+        "ar": "شاي",
+        "hi": "चाय",
+        "es": "té",
+        "en": "tea"
+      }
+    }
+  },
+  {
+    "id": "card_eau",
+    "french_term": "eau",
+    "ipa": "/o/",
+    "concept_type": "Boisson • پانی",
+    "phonetics": {
+      "ur": "او (Oh)",
+      "ar": "او",
+      "hi": "Oh",
+      "es": "eau",
+      "en": "oh"
+    },
+    "translations": {
+      "ur": "پانی",
+      "ar": "ماء",
+      "hi": "पानी",
+      "es": "agua",
+      "en": "water"
+    },
+    "pedagogical_rules": {
+      "ur": "ریستوران میں مفت پینے کے نلکے کا پانی مانگنے کے لیے: Une carafe d'eau s'il vous plaît.",
+      "ar": "تعبير فرنسي أساسي: ماء. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पानी।",
+      "es": "Término francés cotidiano: agua.",
+      "en": "Essential everyday French expression meaning 'water'."
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais de l'eau fraîche.",
+        "ur": "مجھے ٹھنڈا پانی چاہیے۔",
+        "ar": "ماء",
+        "hi": "पानी",
+        "es": "agua",
+        "en": "water"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je voudrais de l'eau fraîche.",
+      "prompt_native": {
+        "ur": "مجھے ٹھنڈا پانی چاہیے۔",
+        "ar": "ماء",
+        "hi": "पानी",
+        "es": "agua",
+        "en": "water"
+      }
+    }
+  },
+  {
+    "id": "card_addition",
+    "french_term": "addition",
+    "ipa": "/a.di.sjɔ̃/",
+    "concept_type": "Restauration • بل",
+    "phonetics": {
+      "ur": "آدیسیوں (Ah-dee-syohn)",
+      "ar": "آدیسیوں",
+      "hi": "Ah-dee-syohn",
+      "es": "addition",
+      "en": "ah-dee-syohn"
+    },
+    "translations": {
+      "ur": "ریستوران کا بل / حساب",
+      "ar": "فاتورة الحساب",
+      "hi": "बिल / हिसाब",
+      "es": "la cuenta",
+      "en": "the bill / check"
+    },
+    "pedagogical_rules": {
+      "ur": "کھانے کے بعد بل مانگنے کے لیے بولیں: L'addition s'il vous plaît.",
+      "ar": "تعبير فرنسي أساسي: فاتورة الحساب. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बिल / हिसाब।",
+      "es": "Término francés cotidiano: la cuenta.",
+      "en": "Essential everyday French expression meaning 'the bill / check'."
+    },
+    "examples": [
+      {
+        "fr": "On peut avoir l'addition s'il vous plaît ?",
+        "ur": "کیا ہمیں بل مل سکتا ہے برائے مہربانی؟",
+        "ar": "فاتورة الحساب",
+        "hi": "बिल / हिसाब",
+        "es": "la cuenta",
+        "en": "the bill / check"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "On peut avoir l'addition s'il vous plaît ?",
+      "prompt_native": {
+        "ur": "کیا ہمیں بل مل سکتا ہے برائے مہربانی؟",
+        "ar": "فاتورة الحساب",
+        "hi": "बिल / हिसाब",
+        "es": "la cuenta",
+        "en": "the bill / check"
+      }
+    }
+  },
+  {
+    "id": "card_train",
+    "french_term": "train",
+    "ipa": "/tʁɛ̃/",
+    "concept_type": "Transport • ٹرین",
+    "phonetics": {
+      "ur": "تراں (Trehn)",
+      "ar": "تراں",
+      "hi": "Trehn",
+      "es": "train",
+      "en": "trehn"
+    },
+    "translations": {
+      "ur": "ریل گاڑی / ٹرین",
+      "ar": "قطار",
+      "hi": "ट्रेन / रेल",
+      "es": "tren",
+      "en": "train"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی تیز رفتار ریل گاڑی کو TGV کہا جاتا ہے۔ اسٹیشن کو 'gare' کہتے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: قطار. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: ट्रेन / रेल।",
+      "es": "Término francés cotidiano: tren.",
+      "en": "Essential everyday French expression meaning 'train'."
+    },
+    "examples": [
+      {
+        "fr": "Le train part dans dix minutes.",
+        "ur": "ٹرین دس منٹ میں روانہ ہو رہی ہے۔",
+        "ar": "قطار",
+        "hi": "ट्रेन / रेल",
+        "es": "tren",
+        "en": "train"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le train part dans dix minutes.",
+      "prompt_native": {
+        "ur": "ٹرین دس منٹ میں روانہ ہو رہی ہے۔",
+        "ar": "قطار",
+        "hi": "ट्रेन / रेल",
+        "es": "tren",
+        "en": "train"
+      }
+    }
+  },
+  {
+    "id": "card_gare",
+    "french_term": "gare",
+    "ipa": "/ɡaʁ/",
+    "concept_type": "Transport • ریلوے اسٹیشن",
+    "phonetics": {
+      "ur": "گار (Gahr)",
+      "ar": "گار",
+      "hi": "Gahr",
+      "es": "gare",
+      "en": "gahr"
+    },
+    "translations": {
+      "ur": "ریلوے اسٹیشن",
+      "ar": "محطة القطار",
+      "hi": "रेलवे स्टेशन",
+      "es": "estación de tren",
+      "en": "train station"
+    },
+    "pedagogical_rules": {
+      "ur": "ریلوے اسٹیشن کے لیے ہمیشہ 'la gare' بولا جاتا ہے (station نہیں)۔",
+      "ar": "تعبير فرنسي أساسي: محطة القطار. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: रेलवे स्टेशन।",
+      "es": "Término francés cotidiano: estación de tren.",
+      "en": "Essential everyday French expression meaning 'train station'."
+    },
+    "examples": [
+      {
+        "fr": "Je vous retrouve devant la gare.",
+        "ur": "میں آپ کو اسٹیشن کے سامنے ملتا ہوں۔",
+        "ar": "محطة القطار",
+        "hi": "रेलवे स्टेशन",
+        "es": "estación de tren",
+        "en": "train station"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je vous retrouve devant la gare.",
+      "prompt_native": {
+        "ur": "میں آپ کو اسٹیشن کے سامنے ملتا ہوں۔",
+        "ar": "محطة القطار",
+        "hi": "रेलवे स्टेशन",
+        "es": "estación de tren",
+        "en": "train station"
+      }
+    }
+  },
+  {
+    "id": "card_metro",
+    "french_term": "métro",
+    "ipa": "/me.tʁo/",
+    "concept_type": "Transport • میٹرو",
+    "phonetics": {
+      "ur": "مے ترو (May-troh)",
+      "ar": "مے ترو",
+      "hi": "May-troh",
+      "es": "métro",
+      "en": "may-troh"
+    },
+    "translations": {
+      "ur": "زیر زمین میٹرو ٹرین",
+      "ar": "مترو الأنفاق",
+      "hi": "मेट्रो रेल",
+      "es": "metro",
+      "en": "metro / subway"
+    },
+    "pedagogical_rules": {
+      "ur": "پیرس اور بڑے شہروں میں تیز ترین سفری ذریعہ۔",
+      "ar": "تعبير فرنسي أساسي: مترو الأنفاق. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मेट्रो रेल।",
+      "es": "Término francés cotidiano: metro.",
+      "en": "Essential everyday French expression meaning 'metro / subway'."
+    },
+    "examples": [
+      {
+        "fr": "La ligne 1 du métro est automatique.",
+        "ur": "میٹرو کی لائن 1 خودکار (بغیر ڈرائیور) ہے۔",
+        "ar": "مترو الأنفاق",
+        "hi": "मेट्रो रेल",
+        "es": "metro",
+        "en": "metro / subway"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "La ligne 1 du métro est automatique.",
+      "prompt_native": {
+        "ur": "میٹرو کی لائن 1 خودکار (بغیر ڈرائیور) ہے۔",
+        "ar": "مترو الأنفاق",
+        "hi": "मेट्रो रेल",
+        "es": "metro",
+        "en": "metro / subway"
+      }
+    }
+  },
+  {
+    "id": "card_billet",
+    "french_term": "billet",
+    "ipa": "/bi.jɛ/",
+    "concept_type": "Transport • ٹکٹ",
+    "phonetics": {
+      "ur": "بئیے (Bee-yay)",
+      "ar": "بئیے",
+      "hi": "Bee-yay",
+      "es": "billet",
+      "en": "bee-yay"
+    },
+    "translations": {
+      "ur": "ٹکٹ (ٹرین یا طیارے کا)",
+      "ar": "تذكرة سفر",
+      "hi": "टिकट",
+      "es": "billete / boleto",
+      "en": "ticket"
+    },
+    "pedagogical_rules": {
+      "ur": "آخری 't' خاموش ہے۔ بس یا میٹرو کے چھوٹے ٹکٹ کو 'ticket' بھی کہتے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: تذكرة سفر. يُستخدم يومياً في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: टिकट।",
+      "es": "Término francés cotidiano: billete / boleto.",
+      "en": "Essential everyday French expression meaning 'ticket'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai réservé mon billet en ligne.",
+        "ur": "میں نے آن لائن اپنا ٹکٹ بک کروایا ہے۔",
+        "ar": "تذكرة سفر",
+        "hi": "टिकट",
+        "es": "billete / boleto",
+        "en": "ticket"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai réservé mon billet en ligne.",
+      "prompt_native": {
+        "ur": "میں نے آن لائن اپنا ٹکٹ بک کروایا ہے۔",
+        "ar": "تذكرة سفر",
+        "hi": "टिकट",
+        "es": "billete / boleto",
+        "en": "ticket"
       }
     }
   }

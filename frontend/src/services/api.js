@@ -28,11 +28,74 @@ const fetchWithTimeout = async (url, options = {}, timeoutMs = 1500) => {
   }
 };
 
+// Helper to strip diacritics / accents for seamless accent-insensitive search
+const stripAccents = (str) => {
+  return (str || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+};
+
+const synthesizeLocalCard = (term, lang = 'ur') => {
+  const clean = (term || '').trim();
+  const slug = clean.toLowerCase().replace(/[^a-z0-9]/g, '_');
+  return {
+    id: `dyn_${slug}`,
+    french_term: clean,
+    ipa: `/${clean.toLowerCase()}/`,
+    concept_type: 'Vocabulaire • فرانسیسی اصطلاح',
+    phonetics: {
+      ur: `${clean} (تلفظ)`,
+      ar: `${clean} (نطق)`,
+      hi: `${clean}`,
+      es: clean.toLowerCase(),
+      en: clean.toLowerCase()
+    },
+    translations: {
+      ur: `فرانسیسی اصطلاح « ${clean} »`,
+      ar: `المصطلح الفرنسي « ${clean} »`,
+      hi: `फ़्रेंच शब्द « ${clean} »`,
+      es: `término francés « ${clean} »`,
+      en: `French expression « ${clean} »`
+    },
+    pedagogical_rules: {
+      ur: `یہ فرانسیسی لفظ « ${clean} » ہے۔ درست ادائیگی اور روانی کے لیے اسے بلند آواز میں بول کر دہرائیں اور محفوظ کریں۔`,
+      ar: `هذا المصطلح « ${clean} ». استمع إلى لفظه وتدرّب عليه لتعزيز طلاقتك اللغوية.`,
+      hi: `यह फ़्रेंच शब्द « ${clean} » है। सही उच्चारण के लिए बोलकर अभ्यास करें।`,
+      es: `Término francés « ${clean} ». Practique su pronunciación en voz alta.`,
+      en: `French term « ${clean} ». Practice pronouncing it aloud to build fluency.`
+    },
+    examples: [
+      {
+        fr: `Je pratique le mot « ${clean} » en français.`,
+        ur: `میں فرانسیسی میں « ${clean} » بولنے کی مشق کر رہا ہوں۔`,
+        ar: `أتدرب على استخدام كلمة « ${clean} » بالفرنسية.`,
+        hi: `मैं फ्रेंच में « ${clean} » का अभ्यास कर रहा हूँ।`,
+        es: `Practico la palabra « ${clean} » en francés.`,
+        en: `I am practicing the word « ${clean} » in French.`
+      }
+    ],
+    practice_prompt: {
+      type: 'speak_or_type',
+      prompt_fr: clean,
+      prompt_native: {
+        ur: `اس لفظ « ${clean} » کو بلند آواز سے بولیں۔`,
+        ar: `انطق « ${clean} » بصوت واضح.`,
+        hi: `« ${clean} » का उच्चारण करें।`,
+        es: `Pronuncie « ${clean} » con claridad.`,
+        en: `Say « ${clean} » out loud.`
+      }
+    }
+  };
+};
+
 export const api = {
   // 1. Bilingual Search
   searchTerms: async (query, lang = 'ur') => {
-    const qClean = (query || '').trim().toLowerCase();
-    if (!qClean) return { query, lang, total_matches: 0, results: [] };
+    const qRaw = (query || '').trim();
+    const qNorm = stripAccents(qRaw);
+    if (!qRaw) return { query, lang, total_matches: 0, results: [] };
 
     try {
       const res = await fetchWithTimeout(`${API_BASE}/search?q=${encodeURIComponent(query)}&lang=${lang}`);
@@ -51,15 +114,16 @@ export const api = {
     for (const card of MICRO_CARDS) {
       let isMatch = false;
       
-      // Match French
-      if (card.french_term.toLowerCase().includes(qClean)) {
+      // Match French term (accent-insensitive)
+      const frNorm = stripAccents(card.french_term);
+      if (qNorm && (frNorm.includes(qNorm) || qNorm.includes(frNorm))) {
         isMatch = true;
       }
 
       // Match native translation or any translation
       const trans = card.translations || {};
       for (const t of Object.values(trans)) {
-        if (t && t.toLowerCase().includes(qClean)) {
+        if (t && (t.toLowerCase().includes(qRaw.toLowerCase()) || stripAccents(t).includes(qNorm))) {
           isMatch = true;
           break;
         }
@@ -68,7 +132,7 @@ export const api = {
       // Match phonetics
       const phones = card.phonetics || {};
       for (const p of Object.values(phones)) {
-        if (p && p.toLowerCase().includes(qClean)) {
+        if (p && (p.toLowerCase().includes(qRaw.toLowerCase()) || stripAccents(p).includes(qNorm))) {
           isMatch = true;
           break;
         }
@@ -85,6 +149,20 @@ export const api = {
           rule_summary: card.pedagogical_rules?.[lang] || card.pedagogical_rules?.ur || ''
         });
       }
+    }
+
+    // If still no match and query has 2+ characters, synthesize dynamic card
+    if (matched.length === 0 && qRaw.length >= 2) {
+      const dyn = synthesizeLocalCard(qRaw, lang);
+      matched.push({
+        id: dyn.id,
+        french_term: dyn.french_term,
+        ipa: dyn.ipa,
+        concept_type: dyn.concept_type,
+        phonetic_native: dyn.phonetics[lang] || dyn.phonetics.ur,
+        translation_native: dyn.translations[lang] || dyn.translations.ur,
+        rule_summary: dyn.pedagogical_rules[lang] || dyn.pedagogical_rules.ur
+      });
     }
 
     return {
@@ -104,6 +182,12 @@ export const api = {
 
     const localCard = MICRO_CARDS.find(c => c.id === cardId);
     if (localCard) return localCard;
+
+    if (cardId && cardId.startsWith('dyn_')) {
+      const rawWord = cardId.replace('dyn_', '').replace(/_/g, ' ');
+      return synthesizeLocalCard(rawWord);
+    }
+
     throw new Error('Card not found');
   },
 
