@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Search, Volume2, Mic, CheckCircle, Flame, Sparkles, BookOpen, 
-  Compass, ArrowRight, Brain, AlertCircle, ChevronRight 
+  Compass, ArrowRight, Brain, AlertCircle, ChevronRight, X, Loader2 
 } from 'lucide-react';
 import { api } from '../services/api';
 import { speakFrench } from '../services/speech';
@@ -90,56 +90,116 @@ export default function HomeMission({
       </div>
 
       {/* 2. Sticky Universal Search Bar */}
-      <div className="relative">
+      <div className="relative space-y-2">
         <div className="relative flex items-center">
-          <Search className="absolute left-4 rtl:left-auto rtl:right-4 text-slate-400" size={18} />
+          <Search className="absolute left-4 rtl:left-auto rtl:right-4 text-slate-400 pointer-events-none" size={18} />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => handleSearchChange(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') {
+                setSearchResults([]);
+              } else if (e.key === 'Enter' && searchResults.length > 0) {
+                onOpenCard(searchResults[0]);
+                setSearchQuery('');
+                setSearchResults([]);
+              }
+            }}
             placeholder={
               nativeLang === 'ur'
-                ? 'فرانسیسی تلاش کریں... (مثلاً: mais یا لیکن یا bail)'
+                ? 'فرانسیسی یا اردو میں تلاش کریں... (مثلاً: mais یا لیکن یا bail)'
                 : 'Rechercher un mot en français ou dans votre langue...'
             }
-            className="w-full pl-11 pr-4 rtl:pl-4 rtl:pr-11 py-3.5 rounded-2xl border-2 border-slate-200 focus:border-[#E05A47] focus:outline-none text-sm bg-white shadow-sm transition font-sans"
+            className="w-full pl-11 pr-10 rtl:pl-10 rtl:pr-11 py-3.5 rounded-2xl border-2 border-slate-200 focus:border-[#E05A47] focus:outline-none text-sm bg-white shadow-sm transition font-sans"
           />
+          {isSearching ? (
+            <Loader2 className="absolute right-4 rtl:right-auto rtl:left-4 text-terracotta animate-spin" size={18} />
+          ) : searchQuery ? (
+            <button
+              onClick={() => {
+                setSearchQuery('');
+                setSearchResults([]);
+              }}
+              className="absolute right-4 rtl:right-auto rtl:left-4 text-slate-400 hover:text-slate-600 p-1"
+              aria-label="Clear search"
+            >
+              <X size={16} />
+            </button>
+          ) : null}
+        </div>
+
+        {/* Quick Suggestion Chips */}
+        <div className="flex items-center gap-1.5 flex-wrap px-1 text-xs text-slate-500">
+          <span className="font-semibold text-slate-400 font-sans">
+            {nativeLang === 'ur' ? 'تجربہ کریں:' : 'Suggestions :'}
+          </span>
+          {[
+            { fr: 'mais', ur: 'لیکن' },
+            { fr: 'pourtant', ur: 'حالانکہ' },
+            { fr: 'bail', ur: 'کرایہ نامہ' },
+            { fr: 'loyer', ur: 'کرایہ' },
+            { fr: 'rendez-vous', ur: 'ملاقات' }
+          ].map((chip) => (
+            <button
+              key={chip.fr}
+              type="button"
+              onClick={() => handleSearchChange(chip.fr)}
+              className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-orange-50 hover:text-terracotta text-slate-700 transition font-medium border border-slate-200/60"
+            >
+              <span className="font-sans font-bold">{chip.fr}</span>
+              {nativeLang === 'ur' && <span className="font-urdu ml-1 mr-1 text-slate-500 text-[11px]">({chip.ur})</span>}
+            </button>
+          ))}
         </div>
 
         {/* Real-Time Search Results Dropdown */}
-        {searchResults.length > 0 && (
+        {searchQuery.trim().length > 0 && (
           <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden z-30 divide-y divide-slate-100 max-h-72 overflow-y-auto animate-fadeIn">
-            {searchResults.map((card) => (
-              <div
-                key={card.id}
-                onClick={() => {
-                  onOpenCard(card);
-                  setSearchQuery('');
-                  setSearchResults([]);
-                }}
-                className="p-3.5 hover:bg-amber-50/40 cursor-pointer flex items-center justify-between transition text-left rtl:text-right"
-              >
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-bold text-[#1B2A4A] text-base font-sans">
-                      {card.french_term}
-                    </span>
-                    {card.ipa && (
-                      <span className="text-[11px] font-mono text-slate-400">
-                        {card.ipa}
+            {searchResults.length > 0 ? (
+              searchResults.map((card) => (
+                <div
+                  key={card.id}
+                  onClick={() => {
+                    onOpenCard(card);
+                    setSearchQuery('');
+                    setSearchResults([]);
+                  }}
+                  className="p-3.5 hover:bg-amber-50/40 cursor-pointer flex items-center justify-between transition text-left rtl:text-right"
+                >
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="font-bold text-[#1B2A4A] text-base font-sans">
+                        {card.french_term}
                       </span>
-                    )}
+                      {card.ipa && (
+                        <span className="text-[11px] font-mono text-slate-400">
+                          {card.ipa}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-slate-600 font-urdu mt-0.5">
+                      {card.translation_native} • {card.phonetic_native}
+                    </p>
                   </div>
-                  <p className="text-xs text-slate-600 font-urdu mt-0.5">
-                    {card.translation_native} • {card.phonetic_native}
-                  </p>
-                </div>
 
-                <span className="text-xs font-bold text-terracotta bg-orange-50 px-2 py-1 rounded-full">
-                  Micro-Card →
-                </span>
+                  <span className="text-xs font-bold text-terracotta bg-orange-50 px-2 py-1 rounded-full font-sans">
+                    Micro-Card →
+                  </span>
+                </div>
+              ))
+            ) : !isSearching ? (
+              <div className="p-4 text-center text-sm text-slate-500">
+                <p className="font-medium text-slate-700">
+                  {nativeLang === 'ur' ? 'کوئی متعلقہ لفظ نہیں ملا۔' : `Aucun mot trouvé pour « ${searchQuery} »`}
+                </p>
+                <p className="text-xs text-slate-400 mt-1 font-urdu">
+                  {nativeLang === 'ur' 
+                    ? 'اوپر دیے گئے کسی لفظ پر کلک کر کے کارڈ کھولیں، یا فرانسیسی یا اردو لفظ ٹائپ کریں۔' 
+                    : 'Essayez un mot comme « mais », « pourtant » ou « bail ».'}
+                </p>
               </div>
-            ))}
+            ) : null}
           </div>
         )}
       </div>

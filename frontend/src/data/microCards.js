@@ -1,0 +1,348 @@
+export const MICRO_CARDS = [
+  {
+    "id": "card_mais",
+    "french_term": "mais",
+    "ipa": "/mɛ/",
+    "concept_type": "Conjonction • تضاد",
+    "phonetics": {
+      "ur": "مے (Meh)",
+      "ar": "ميه (Mè)",
+      "hi": "मे (Meh)",
+      "es": "me",
+      "en": "meh"
+    },
+    "translations": {
+      "ur": "لیکن",
+      "ar": "لكن",
+      "hi": "लेकिन",
+      "es": "pero",
+      "en": "but"
+    },
+    "pedagogical_rules": {
+      "ur": "یہ لفظ دو متضاد باتوں کو جوڑنے کے لیے استعمال ہوتا ہے۔ فرانسیسی زبان میں یہ ہمیشہ دو جملوں کے درمیان آتا ہے، بالکل جیسے اردو میں 'لیکن' استعمال ہوتا ہے۔",
+      "ar": "حرف عطف يُستخدم للربط بين جملتين متناقضتين تماماً مثل 'لكن' في اللغة العربية، ويقع دائماً بين الجملتين.",
+      "hi": "यह शब्द दो विरोधी विचारों को जोड़ने के लिए प्रयोग होता है, ठीक जैसे हिंदी में 'लेकिन' का प्रयोग होता है।",
+      "es": "Conjunción adversativa idéntica a 'pero'. Se coloca entre dos proposiciones contrastantes.",
+      "en": "Used to express contrast between two clauses. Placed directly between them."
+    },
+    "examples": [
+      {
+        "fr": "Je veux sortir, mais il pleut.",
+        "ur": "میں باہر جانا چاہتی ہوں، لیکن بارش ہو رہی ہے۔",
+        "ar": "أريد الخروج، لكنها تمطر.",
+        "hi": "मैं बाहर जाना चाहता हूँ, लेकिन बारिश हो रही है।",
+        "es": "Quiero salir, pero está lloviendo.",
+        "en": "I want to go out, but it's raining."
+      },
+      {
+        "fr": "Je suis fatiguée mais heureuse.",
+        "ur": "میں تھکی ہوئی ہوں لیکن خوش ہوں۔",
+        "ar": "أنا متعبة لكني سعيدة.",
+        "hi": "मैं थका हुआ हूँ लेकिन खुश हूँ।",
+        "es": "Estoy cansada pero feliz.",
+        "en": "I am tired but happy."
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je veux venir, mais je travaille.",
+      "prompt_native": {
+        "ur": "میں آنا چاہتی ہوں، لیکن میں کام کرتی ہوں۔",
+        "ar": "أريد المجيء، لكني أعمل.",
+        "hi": "मैं आना चाहता हूँ, लेकिन मैं काम करता हूँ।",
+        "es": "Quiero venir, pero trabajo.",
+        "en": "I want to come, but I work."
+      }
+    }
+  },
+  {
+    "id": "card_pourtant",
+    "french_term": "pourtant",
+    "ipa": "/puʁ.tɑ̃/",
+    "concept_type": "Adverbe / Conjonction • بایں ہمہ",
+    "phonetics": {
+      "ur": "پُورتاں (Poor-tahn)",
+      "ar": "بورتون (Pour-tan)",
+      "hi": "पूरताँ (Poor-tan)",
+      "es": "purtan",
+      "en": "poor-tahn"
+    },
+    "translations": {
+      "ur": "پھر بھی / اس کے باوجود",
+      "ar": "ومع ذلك / ورغم ذلك",
+      "hi": "फिर भी / इसके बावजूद",
+      "es": "sin embargo / no obstante",
+      "en": "yet / nevertheless"
+    },
+    "pedagogical_rules": {
+      "ur": "'pourtant' کا مفہوم 'لیکن' سے زیادہ گہرا ہے۔ جب کوئی نتیجہ توقع کے خلاف ہو تو اردو میں جیسے ہم کہتے ہیں 'اس کے باوجود'، وہاں فرانسیسی میں pourtant آتا ہے۔",
+      "ar": "أقوى في الدلالة من 'mais'. تُفيد المفارقة غير المتوقعة وتعني 'ومع ذلك' أو 'رغم ذلك'.",
+      "hi": "यह 'लेकिन' से अधिक गहरा है। जब कोई परिणाम उम्मीद के विपरीत हो ('इसके बावजूद'), तब 'pourtant' का उपयोग होता है।",
+      "es": "Indica una contradicción más fuerte que 'pero'. Equivale a 'sin embargo' o 'a pesar de todo'.",
+      "en": "Expresses an unexpected contrast or concession, equivalent to 'yet' or 'nevertheless'."
+    },
+    "examples": [
+      {
+        "fr": "Il fait froid, pourtant il ne neige pas.",
+        "ur": "سردی ہے، پھر بھی برف نہیں گر رہی۔",
+        "ar": "الجو بارد، ومع ذلك لا يتساقط الثلج.",
+        "hi": "ठंड है, फिर भी बर्फ नहीं गिर रही है।",
+        "es": "Hace frío, sin embargo no nieva.",
+        "en": "It is cold, yet it is not snowing."
+      }
+    ],
+    "practice_prompt": {
+      "type": "fill_in_blank",
+      "prompt_fr": "Il a révisé, ___ il a raté son examen.",
+      "correct_answer": "pourtant"
+    }
+  },
+  {
+    "id": "card_bail",
+    "french_term": "bail",
+    "ipa": "/baj/",
+    "concept_type": "Nom masculin • کرایہ نامہ",
+    "phonetics": {
+      "ur": "بائے (Baye)",
+      "ar": "باي (Baye)",
+      "hi": "बाय (Baye)",
+      "es": "bai",
+      "en": "bye"
+    },
+    "translations": {
+      "ur": "کرایہ نامہ (رینٹ ایگریمنٹ)",
+      "ar": "عقد إيجار السكن",
+      "hi": "किराया अनुबंध (लीज)",
+      "es": "contrato de arrendamiento",
+      "en": "lease / rental contract"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں کرائے کے مکان کا باقاعدہ قانونی معاہدہ 'bail' کہلاتا ہے۔ CAF (ہاؤسنگ الاؤنس) اور ویزا کی تجدید کے لیے یہ دستاویز لازمی ہے۔",
+      "ar": "الوثيقة القانونية الأساسية لاستئجار شقة في فرنسا. مطلوبة إلزامياً لفتح ملف المساعدة السكنية CAF ولتجديد الإقامة.",
+      "hi": "फ्रांस में किराए के मकान का कानूनी दस्तावेज। यह CAF और वीजा नवीनीकरण के लिए अनिवार्य है।",
+      "es": "El contrato legal de alquiler en Francia. Imprescindible para trámites de la CAF y residencia.",
+      "en": "The official residential lease contract in France, essential for housing subsidies (CAF) and residency."
+    },
+    "examples": [
+      {
+        "fr": "J'ai signé mon bail hier.",
+        "ur": "میں نے کل اپنے مکان کا کرایہ نامہ دستخط کیا۔",
+        "ar": "وقعت عقد الإيجار أمس.",
+        "hi": "मैंने कल अपना रेंटल लीज साइन किया।",
+        "es": "Firmé mi contrato de alquiler ayer.",
+        "en": "I signed my lease yesterday."
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Voici une copie de mon bail.",
+      "prompt_native": {
+        "ur": "یہ میرے کرایہ نامے کی نقل ہے۔",
+        "ar": "هذه نسخة من عقد إيجاري.",
+        "hi": "यह मेरे लीज की प्रति है।",
+        "es": "Aquí tiene una copia de mi contrato.",
+        "en": "Here is a copy of my lease."
+      }
+    }
+  },
+  {
+    "id": "card_caf",
+    "french_term": "CAF",
+    "ipa": "/kaf/",
+    "concept_type": "Administration • امداد اطفال و مکان",
+    "phonetics": {
+      "ur": "کاف (Kaf)",
+      "ar": "كاف (Kaf)",
+      "hi": "काफ (Kaf)",
+      "es": "caf",
+      "en": "kaf"
+    },
+    "translations": {
+      "ur": "کاف (سرکاری ہاؤسنگ سبسڈی ادارہ)",
+      "ar": "صندوق التعويضات العائلية (مساعدات السكن)",
+      "hi": "सीएएफ (फ़्रांस की आवास सब्सिडी संस्था)",
+      "es": "Fondo de subsidios familiares y de vivienda",
+      "en": "Family Allocation Fund (Housing subsidy agency)"
+    },
+    "pedagogical_rules": {
+      "ur": "Caisse d'Allocations Familiales کا مخفف۔ ہر طالب علم اور نیا آنے والا رہائشی مکان کے کرائے میں مدد کے لیے 'APL' کی درخواست اسی ادارے کو دیتا ہے۔",
+      "ar": "المؤسسة الحكومية المسؤولة عن تقديم معونات السكن (APL) للطلاب والمقيمين في فرنسا.",
+      "hi": "छात्रों और नए प्रवासियों को आवास किराया सहायता देने वाली फ्रांसीसी सरकारी एजेंसी।",
+      "es": "Organismo público francés que otorga subsidios de vivienda (APL) a estudiantes y residentes.",
+      "en": "The French governmental organization providing monthly housing subsidies (APL) to students and residents."
+    },
+    "examples": [
+      {
+        "fr": "J'ai envoyé mon dossier à la CAF.",
+        "ur": "میں نے اپنے کاغذات کاف (CAF) کو جمع کروا دیے ہیں۔",
+        "ar": "أرسلت ملفي إلى مؤسسة الكاف (CAF).",
+        "hi": "मैंने अपनी फाइल सीएएफ को भेज दी है।",
+        "es": "Envié mi expediente a la CAF.",
+        "en": "I sent my application to the CAF."
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Mon numéro d'allocataire CAF.",
+      "prompt_native": {
+        "ur": "میرا کاف اکاؤنٹ نمبر۔",
+        "ar": "رقم المستفيد الخاص بي في الكاف.",
+        "hi": "मेरा सीएएफ लाभार्थी नंबर।",
+        "es": "Mi número de beneficiario de la CAF.",
+        "en": "My CAF beneficiary number."
+      }
+    }
+  },
+  {
+    "id": "card_croissant",
+    "french_term": "croissant",
+    "ipa": "/kʁwa.sɑ̃/",
+    "concept_type": "Nom masculin • بیکری",
+    "phonetics": {
+      "ur": "کرواسـاں (Kwah-sahn)",
+      "ar": "كرواسون (Kroi-san)",
+      "hi": "क्रुआसाँ (Kroo-ah-sahn)",
+      "es": "cruasán",
+      "en": "kwah-sahn"
+    },
+    "translations": {
+      "ur": "کرواساں (فرانسیسی ہلال نما پیسٹری)",
+      "ar": "كرواسون (فطيرة فرنسية هلالية)",
+      "hi": "क्रॉसेंट (फ्रांसीसी पेस्ट्री)",
+      "es": "cruasán",
+      "en": "croissant"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی بیکری کا بنیادی نشان۔ آخری حرف 't' بولا نہیں جاتا، اور درمیانی 'r' کی آواز گلے کے اوپری حصے سے نکلتی ہے۔",
+      "ar": "الرمز الأشهر للمخبوزات الفرنسية. الحرف الأخير 't' صامت تماماً، والراء حنجرية ناعمة.",
+      "hi": "फ़्रांस की प्रसिद्ध पेस्ट्री। अंतिम अक्षर 't' मूक (silent) होता है।",
+      "es": "Famoso bollo hojaldrado francés. La 't' final es muda.",
+      "en": "The quintessential French viennoiserie. The final 't' is silent."
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais deux croissants, s'il vous plaît.",
+        "ur": "مجھے برائے مہربانی دو کرواساں چاہیے۔",
+        "ar": "أريد قطعتي كرواسون من فضلك.",
+        "hi": "कृपया मुझे दो क्रॉसेंट दीजिए।",
+        "es": "Quisiera dos cruasanes, por favor.",
+        "en": "I would like two croissants, please."
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Un croissant au beurre.",
+      "prompt_native": {
+        "ur": "ایک مکھن والا کرواساں۔",
+        "ar": "كرواسون بالزبدة.",
+        "hi": "एक मक्खन वाला क्रॉसेंट।",
+        "es": "Un cruasán de mantequilla.",
+        "en": "A butter croissant."
+      }
+    }
+  },
+  {
+    "id": "card_je_voudrais",
+    "french_term": "je voudrais",
+    "ipa": "/ʒə vu.dʁɛ/",
+    "concept_type": "Formule de politesse • ادب و احترام",
+    "phonetics": {
+      "ur": "ژے وودرے (Zhe voo-dreh)",
+      "ar": "جو فودغي (Je voudrè)",
+      "hi": "झ़ वूद्रे (Jhe voo-dray)",
+      "es": "ye vudré",
+      "en": "zhuh voo-dreh"
+    },
+    "translations": {
+      "ur": "مجھے چاہیے / میں لینا چاہوں گی (باادب درخواست)",
+      "ar": "أود لو سمحت / أرغب (صيغة أدبية راقية)",
+      "hi": "मैं चाहूँगा / कृपया मुझे चाहिए (विनम्र निवेदन)",
+      "es": "quisiera / me gustaría",
+      "en": "I would like (polite conditional)"
+    },
+    "pedagogical_rules": {
+      "ur": "دکان، ریستوران یا سرکاری دفتر میں کبھی 'Je veux' (مجھے چاہیے) مت کہیں۔ فرانسیسی معاشرے میں ہمیشہ شائستہ فعل 'Je voudrais' استعمال کیا جاتا ہے۔",
+      "ar": "في المقهى أو الإدارة لا تقل أبداً 'Je veux' (أريد)، بل استخدم دائماً صيغة الأدب 'Je voudrais' (أود/أرغب).",
+      "hi": "दुकान या कार्यालय में कभी 'Je veux' (मुझे चाहिए) न कहें। हमेशा विनम्रता के लिए 'Je voudrais' का उपयोग करें।",
+      "es": "Evita decir 'Je veux' (quiero) en comercios. Usa siempre el condicional de cortesía 'Je voudrais'.",
+      "en": "Never use 'Je veux' (I want) when ordering or asking for service; always use polite 'Je voudrais'."
+    },
+    "examples": [
+      {
+        "fr": "Bonjour, je voudrais un café s'il vous plaît.",
+        "ur": "سلام، مجھے برائے مہربانی ایک کافی چاہیے۔",
+        "ar": "مرحباً، أود فنجان قهوة من فضلك.",
+        "hi": "नमस्ते, कृपया मुझे एक कॉफी चाहिए।",
+        "es": "Buenos días, quisiera un café por favor.",
+        "en": "Hello, I would like a coffee please."
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je voudrais une baguette.",
+      "prompt_native": {
+        "ur": "مجھے ایک باگیٹ چاہیے۔",
+        "ar": "أود رغيف باجيت.",
+        "hi": "मुझे एक बैगेट चाहिए।",
+        "es": "Quisiera una baguette.",
+        "en": "I would like a baguette."
+      }
+    }
+  },
+  {
+    "id": "card_tu_vs_vous",
+    "french_term": "Tu vs Vous",
+    "ipa": "/ty/ vs /vu/",
+    "concept_type": "Pronom • آداب تخاطب",
+    "phonetics": {
+      "ur": "تُو بمقابلہ آپ (Tu vs Voo)",
+      "ar": "أنتَ بمقابلة حضرتكم/أنتم",
+      "hi": "तू/तुम बनाम आप",
+      "es": "tú vs usted",
+      "en": "tu vs vous"
+    },
+    "translations": {
+      "ur": "تم (بے تکلف) بمقابلہ آپ (باادب / بزرگ / اجنبی)",
+      "ar": "أنت (للأصدقاء) مقابل أنتم/حضرتكم (للاحترام والرسميات)",
+      "hi": "तू/तुम (अनौपचारिक) बनाम आप (आदरणीय/अपरिचित)",
+      "es": "tú (informal) vs usted (formal)",
+      "en": "you (informal) vs you (formal/plural)"
+    },
+    "pedagogical_rules": {
+      "ur": "انگریزی میں صرف ایک 'You' ہوتا ہے جس سے لوگ الجھ جاتے ہیں، لیکن اردو بولنے والوں کے لیے یہ بہت آسان ہے: فرانسیسی 'Tu' اردو کا 'تم' ہے، اور فرانسیسی 'Vous' اردو کا باادب لفظ 'آپ' ہے۔ دکاندار، افسر اور انجان شخص کے ساتھ ہمیشہ 'Vous' بولیں۔",
+      "ar": "على عكس الإنجليزية، الفرنسية تميز بدقة: 'Tu' للمقربين والأصدقاء، و'Vous' للاحترام التام مع الغرباء ومسؤولي الإدارة وكبار السن.",
+      "hi": "अंग्रेजी में केवल 'You' होता है, परंतु फ्रेंच में हिंदी की तरह स्पष्ट अंतर है: 'Tu' = तुम/तू, और 'Vous' = आदरणीय 'आप'। अजनबियों और अधिकारियों के साथ हमेशा 'Vous' बोलें।",
+      "es": "Distinción idéntica al español: 'Tu' equivale a 'tú' (tutear) y 'Vous' equivale a 'usted' (vosear).",
+      "en": "French strictly distinguishes between informal singular (Tu) and formal/plural (Vous)."
+    },
+    "examples": [
+      {
+        "fr": "Comment vous vous appelez ?",
+        "ur": "آپ کا نام کیا ہے؟ (باادب)",
+        "ar": "ما هو اسم حضرتكم؟ (صيغة احترام)",
+        "hi": "आपका नाम क्या है? (आदरणीय)",
+        "es": "¿Cómo se llama usted?",
+        "en": "What is your name? (Formal)"
+      },
+      {
+        "fr": "Comment tu t'appelles ?",
+        "ur": "تمہارا نام کیا ہے؟ (دوستانہ)",
+        "ar": "ما اسمك؟ (صيغة ودية)",
+        "hi": "तुम्हारा नाम क्या है? (अनौपचारिक)",
+        "es": "¿Cómo te llamas tú?",
+        "en": "What is your name? (Informal)"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Bonjour Madame, comment allez-vous ?",
+      "prompt_native": {
+        "ur": "آداب میڈم، آپ کیسی ہیں؟",
+        "ar": "صباح الخير سيدتي، كيف حال حضرتكم؟",
+        "hi": "नमस्ते मैडम, आप कैसी हैं?",
+        "es": "Buenos días señora, ¿cómo está usted?",
+        "en": "Hello Madam, how are you? (Formal)"
+      }
+    }
+  }
+];

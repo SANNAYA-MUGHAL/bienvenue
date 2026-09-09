@@ -11,8 +11,8 @@ echo "🇫🇷 Starting BIENVENUE (French in your language)"
 echo "=========================================================="
 
 # 1. Start FastAPI Backend in background
-echo "-> Launching FastAPI Backend on http://127.0.0.1:8000..."
-PYTHONPATH=. "$DIR/backend/venv/bin/uvicorn" backend.app.main:app --host 127.0.0.1 --port 8000 --reload &
+echo "-> Launching FastAPI Backend on http://127.0.0.1:8005..."
+PYTHONPATH=. "$DIR/backend/venv/bin/uvicorn" backend.app.main:app --host 127.0.0.1 --port 8005 --reload &
 BACKEND_PID=$!
 
 # 2. Trap SIGINT/SIGTERM to cleanly kill backend

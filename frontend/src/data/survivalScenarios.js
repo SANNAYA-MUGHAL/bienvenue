@@ -1,0 +1,159 @@
+export const SURVIVAL_SCENARIOS = [
+  {
+    "id": "scenario_boulangerie",
+    "title_fr": "La Boulangerie",
+    "icon": "🥐",
+    "category": "Commerce & Food",
+    "descriptions": {
+      "ur": "پیرس کی بیکری میں باگیٹ اور کرواساں خریدنا اور قیمت پوچھنا۔",
+      "ar": "شراء الخبز والمعجنات في مخبز باريسي ودفع الحساب.",
+      "hi": "पेरिस की बेकरी में ब्रेड और पेस्ट्री खरीदना और बिल चुकाना।",
+      "es": "Comprar pan y cruasanes en una panadería parisina y pagar.",
+      "en": "Ordering bread and pastries in a Parisian bakery and paying."
+    },
+    "dialogue_steps": [
+      {
+        "step_index": 0,
+        "speaker": "boulanger",
+        "speaker_name": "Madame Dubois (Boulangère)",
+        "message_fr": "Bonjour ! Vous désirez ?",
+        "translations": {
+          "ur": "سلام! آپ کو کیا چاہیے؟",
+          "ar": "مرحباً! ماذا تطلب حضرتك؟",
+          "hi": "नमस्ते! आपको क्या चाहिए?",
+          "es": "¡Buenos días! ¿Qué desea?",
+          "en": "Hello! What would you like?"
+        },
+        "expected_intent": "order_bread",
+        "suggested_reply": "Je voudrais une baguette tradition et deux croissants, s'il vous plaît.",
+        "accepted_keywords": ["baguette", "croissant", "voudrais", "pain"]
+      },
+      {
+        "step_index": 1,
+        "speaker": "boulanger",
+        "speaker_name": "Madame Dubois (Boulangère)",
+        "message_fr": "Très bien ! Et avec ceci ?",
+        "translations": {
+          "ur": "بہت خوب! اور اس کے علاوہ کچھ؟",
+          "ar": "حسناً جداً! وأي شيء آخر مع ذلك؟",
+          "hi": "बहुत अच्छा! और इसके साथ कुछ?",
+          "es": "¡Muy bien! ¿Y algo más?",
+          "en": "Very good! And with that?"
+        },
+        "expected_intent": "conclude_order",
+        "suggested_reply": "Ce sera tout, merci. Ça fait combien ?",
+        "accepted_keywords": ["tout", "combien", "merci", "rien"]
+      },
+      {
+        "step_index": 2,
+        "speaker": "boulanger",
+        "speaker_name": "Madame Dubois (Boulangère)",
+        "message_fr": "Ça fera 3 euros 80, s'il vous plaît. Par carte ou en espèces ?",
+        "translations": {
+          "ur": "تین یورو اور اسی سینٹ ہوئے۔ کارڈ سے ادائیگی کریں گے یا نقد؟",
+          "ar": "الحساب 3 يورو و80 سنتاً من فضلك. بالبطاقة أم نقداً؟",
+          "hi": "यह 3 यूरो और 80 सेंट होगा। कार्ड या नकद?",
+          "es": "Serán 3 euros con 80, por favor. ¿Con tarjeta o en efectivo?",
+          "en": "That will be 3 euros 80, please. By card or cash?"
+        },
+        "expected_intent": "pay_method",
+        "suggested_reply": "Par carte, s'il vous plaît. Bonne journée !",
+        "accepted_keywords": ["carte", "especes", "merci", "voila"]
+      }
+    ]
+  },
+  {
+    "id": "scenario_pharmacie",
+    "title_fr": "La Pharmacie",
+    "icon": "💊",
+    "category": "Santé & Urgences",
+    "descriptions": {
+      "ur": "سر درد کی دوا مانگنا اور نسخہ دکھانا۔",
+      "ar": "طلب دواء للصداع وإبراز بطاقة التأمين الصحي في الصيدلية.",
+      "hi": "सिरदर्द की दवा मांगना और स्वास्थ्य कार्ड दिखाना।",
+      "es": "Pedir medicamentos para el dolor de cabeza y presentar la tarjeta sanitaria.",
+      "en": "Asking for headache medication and presenting health card."
+    },
+    "dialogue_steps": [
+      {
+        "step_index": 0,
+        "speaker": "pharmacien",
+        "speaker_name": "Le Pharmacien",
+        "message_fr": "Bonjour, comment puis-je vous aider ?",
+        "translations": {
+          "ur": "سلام، میں آپ کی کیا مدد کر سکتا ہوں؟",
+          "ar": "مرحباً، كيف يمكنني مساعدتك؟",
+          "hi": "नमस्ते, मैं आपकी क्या मदद कर सकता हूँ?",
+          "es": "Buenos días, ¿en qué puedo ayudarle?",
+          "en": "Hello, how can I help you?"
+        },
+        "expected_intent": "describe_symptom",
+        "suggested_reply": "Bonjour, j'ai mal à la tête depuis ce matin. Avez-vous du paracétamol ?",
+        "accepted_keywords": ["mal", "tete", "paracetamol", "doliprane"]
+      },
+      {
+        "step_index": 1,
+        "speaker": "pharmacien",
+        "speaker_name": "Le Pharmacien",
+        "message_fr": "Oui bien sûr. Avez-vous votre Carte Vitale ou une ordonnance ?",
+        "translations": {
+          "ur": "جی بالکل۔ کیا آپ کے پاس آپ کا ہیلتھ کارڈ (کارٹ ویتال) یا ڈاکٹر کا نسخہ ہے؟",
+          "ar": "نعم بالطبع. هل معك بطاقة التأمين Carte Vitale أو وصفة طبية؟",
+          "hi": "हाँ अवश्य। क्या आपके पास आपका हेल्थ कार्ड या प्रिस्क्रिप्शन है?",
+          "es": "Sí, claro. ¿Tiene su tarjeta sanitaria (Carte Vitale) o una receta?",
+          "en": "Yes of course. Do you have your Carte Vitale or a prescription?"
+        },
+        "expected_intent": "present_doc",
+        "suggested_reply": "Voici ma Carte Vitale. Combien dois-je payer ?",
+        "accepted_keywords": ["carte", "vitale", "voici", "ordonnance"]
+      }
+    ]
+  },
+  {
+    "id": "scenario_caf_admin",
+    "title_fr": "L'Administration & La CAF",
+    "icon": "🏛️",
+    "category": "Bureaucratie & Logement",
+    "descriptions": {
+      "ur": "ہاؤسنگ الاؤنس (CAF) کے لیے کرایہ نامہ جمع کروانا۔",
+      "ar": "تقديم وثائق المساعدة السكنية واستفسار الموظف عن عقد الإيجار.",
+      "hi": "आवास सब्सिडी के लिए किराया अनुबंध और पहचान पत्र जमा करना।",
+      "es": "Presentar el contrato de arrendamiento para el subsidio de vivienda CAF.",
+      "en": "Submitting rental lease and ID for the CAF housing allowance."
+    },
+    "dialogue_steps": [
+      {
+        "step_index": 0,
+        "speaker": "agent_caf",
+        "speaker_name": "L'Agent CAF",
+        "message_fr": "Bonjour. Vous venez pour déposer votre dossier d'aide au logement ?",
+        "translations": {
+          "ur": "سلام۔ آپ اپنے ہاؤسنگ الاؤنس کے کاغذات جمع کروانے آئے ہیں؟",
+          "ar": "مرحباً. هل جئت لتقديم ملف مساعدة السكن؟",
+          "hi": "नमस्ते। क्या आप आवास सहायता फाइल जमा करने आए हैं?",
+          "es": "Buenos días. ¿Viene a entregar su expediente de ayuda de vivienda?",
+          "en": "Hello. Are you here to submit your housing allowance application?"
+        },
+        "expected_intent": "confirm_purpose",
+        "suggested_reply": "Oui, tout à fait. J'ai apporté mon bail et mon certificat de scolarité.",
+        "accepted_keywords": ["oui", "bail", "dossier", "logement", "scolarite"]
+      },
+      {
+        "step_index": 1,
+        "speaker": "agent_caf",
+        "speaker_name": "L'Agent CAF",
+        "message_fr": "Parfait. Avez-vous aussi votre titre de séjour et un RIB bancaire ?",
+        "translations": {
+          "ur": "بہترین۔ کیا آپ کے پاس ویزا کارڈ اور بینک کا اکاؤنٹ نمبر (RIB) بھی ہے؟",
+          "ar": "ممتاز. هل معك أيضاً بطاقة الإقامة وحسابك المصرفي (RIB)؟",
+          "hi": "बढ़िया। क्या आपके पास निवास परमिट और बैंक खाता विवरण (RIB) भी है?",
+          "es": "Perfecto. ¿Tiene también su permiso de residencia y el número de cuenta (RIB)?",
+          "en": "Perfect. Do you also have your residence permit and bank details (RIB)?"
+        },
+        "expected_intent": "hand_docs",
+        "suggested_reply": "Oui, voici tous mes justificatifs originaux.",
+        "accepted_keywords": ["voici", "oui", "titre", "rib", "justificatifs"]
+      }
+    ]
+  }
+];

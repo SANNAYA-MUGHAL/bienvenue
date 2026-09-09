@@ -19,10 +19,10 @@ Or run them individually in separate terminals:
 ### 1. Start the FastAPI Backend
 ```bash
 cd /Users/sannayamughal/Projects/bienvenue
-PYTHONPATH=. backend/venv/bin/uvicorn backend.app.main:app --reload --port 8000
+PYTHONPATH=. backend/venv/bin/uvicorn backend.app.main:app --reload --port 8005
 ```
-- **API URL**: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- **Interactive Swagger Docs**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- **API URL**: [http://127.0.0.1:8005](http://127.0.0.1:8005)
+- **Interactive Swagger Docs**: [http://127.0.0.1:8005/docs](http://127.0.0.1:8005/docs)
 
 ### 2. Start the React/Tailwind Frontend
 ```bash
