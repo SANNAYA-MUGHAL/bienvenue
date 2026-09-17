@@ -1,0 +1,1676 @@
+{
+  "chat": {
+    "en": "cat",
+    "ur": "بلی",
+    "ar": "قطة",
+    "hi": "बिल्ली",
+    "es": "gato",
+    "ipa": "/ʃa/",
+    "phonetic": "شا (Sha)",
+    "pos": "Nom masculin • جانور"
+  },
+  "chatte": {
+    "en": "female cat",
+    "ur": "مادہ بلی",
+    "ar": "قطة أنثى",
+    "hi": "मादा बिल्ली",
+    "es": "gata",
+    "ipa": "/ʃat/",
+    "phonetic": "شات (Shat)",
+    "pos": "Nom féminin"
+  },
+  "chaton": {
+    "en": "kitten",
+    "ur": "بلی کا بچہ",
+    "ar": "هريرة",
+    "hi": "बिल्ली का बच्चा",
+    "es": "gatito",
+    "ipa": "/ʃa.tɔ̃/",
+    "phonetic": "شاتوں (Sha-tohn)",
+    "pos": "Nom masculin"
+  },
+  "chien": {
+    "en": "dog",
+    "ur": "کتا",
+    "ar": "كلب",
+    "hi": "कुत्ता",
+    "es": "perro",
+    "ipa": "/ʃjɛ̃/",
+    "phonetic": "شیاں (Shyen)",
+    "pos": "Nom masculin • جانور"
+  },
+  "chienne": {
+    "en": "female dog",
+    "ur": "کتیا",
+    "ar": "كلبة",
+    "hi": "कुतिया",
+    "es": "perra",
+    "ipa": "/ʃjɛn/",
+    "phonetic": "شین (Shyen)",
+    "pos": "Nom féminin"
+  },
+  "chiot": {
+    "en": "puppy",
+    "ur": "کتے کا بچہ",
+    "ar": "جرو",
+    "hi": "पिल्ला",
+    "es": "cachorro",
+    "ipa": "/ʃjo/",
+    "phonetic": "شیو (Shee-oh)"
+  },
+  "maison": {
+    "en": "house / home",
+    "ur": "گھر / مکان",
+    "ar": "منزل",
+    "hi": "घर",
+    "es": "casa",
+    "ipa": "/mɛ.zɔ̃/",
+    "phonetic": "میزوں (May-zohn)",
+    "pos": "Nom féminin"
+  },
+  "appartement": {
+    "en": "apartment",
+    "ur": "فلیٹ / اپارٹمنٹ",
+    "ar": "شقة",
+    "hi": "अपार्टमेंट",
+    "es": "apartamento",
+    "ipa": "/a.paʁ.tə.mɑ̃/",
+    "phonetic": "اپارتمان (Ah-par-tuh-mahn)",
+    "pos": "Nom masculin"
+  },
+  "immeuble": {
+    "en": "building",
+    "ur": "عمارت",
+    "ar": "عمارة / مبنى",
+    "hi": "इमारत / भवन",
+    "es": "edificio",
+    "ipa": "/i.mœbl/",
+    "phonetic": "ایموبل (Ee-muhbl)"
+  },
+  "chambre": {
+    "en": "bedroom / room",
+    "ur": "کمرہ",
+    "ar": "غرفة",
+    "hi": "कमरा",
+    "es": "habitación",
+    "ipa": "/ʃɑ̃bʁ/",
+    "phonetic": "شامبر (Shahm-bruh)",
+    "pos": "Nom féminin"
+  },
+  "cuisine": {
+    "en": "kitchen",
+    "ur": "باورچی خانہ",
+    "ar": "مطبخ",
+    "hi": "रसोई",
+    "es": "cocina",
+    "ipa": "/kɥi.zin/",
+    "phonetic": "کویزین (Kwee-zeen)",
+    "pos": "Nom féminin"
+  },
+  "salle de bain": {
+    "en": "bathroom",
+    "ur": "غسل خانہ",
+    "ar": "حمام",
+    "hi": "स्नानघर",
+    "es": "cuarto de baño",
+    "ipa": "/sal də bɛ̃/",
+    "phonetic": "سال دُہ باں (Sal duh behn)"
+  },
+  "toilettes": {
+    "en": "restroom / toilets",
+    "ur": "بیت الخلاء / واش روم",
+    "ar": "دورة المياه / تواليت",
+    "hi": "शौचालय",
+    "es": "baños / aseos",
+    "ipa": "/twa.lɛt/",
+    "phonetic": "تووالیت (Twah-let)"
+  },
+  "voiture": {
+    "en": "car",
+    "ur": "گاڑی / کار",
+    "ar": "سيارة",
+    "hi": "कार / गाड़ी",
+    "es": "coche",
+    "ipa": "/vwa.tyʁ/",
+    "phonetic": "وواتور (Vwah-toor)"
+  },
+  "vélo": {
+    "en": "bicycle / bike",
+    "ur": "سائیکل",
+    "ar": "دراجة هوائية",
+    "hi": "साइकिल",
+    "es": "bicicleta",
+    "ipa": "/ve.lo/",
+    "phonetic": "ویلو (Vay-loh)"
+  },
+  "livre": {
+    "en": "book",
+    "ur": "کتاب",
+    "ar": "كتاب",
+    "hi": "किताब",
+    "es": "libro",
+    "ipa": "/livʁ/",
+    "phonetic": "لیور (Lee-vruh)",
+    "pos": "Nom masculin"
+  },
+  "porte": {
+    "en": "door",
+    "ur": "دروازہ",
+    "ar": "باب",
+    "hi": "दरवाज़ा",
+    "es": "puerta",
+    "ipa": "/pɔʁt/",
+    "phonetic": "پورت (Port)",
+    "pos": "Nom féminin"
+  },
+  "fenêtre": {
+    "en": "window",
+    "ur": "کھڑکی",
+    "ar": "نافذة",
+    "hi": "खिड़की",
+    "es": "ventana",
+    "ipa": "/fə.nɛtʁ/",
+    "phonetic": "فنیتر (Fuh-net-ruh)",
+    "pos": "Nom féminin"
+  },
+  "table": {
+    "en": "table",
+    "ur": "میز",
+    "ar": "طاولة",
+    "hi": "मेज़",
+    "es": "mesa",
+    "ipa": "/tabl/",
+    "phonetic": "تابل (Tahbl)",
+    "pos": "Nom féminin"
+  },
+  "chaise": {
+    "en": "chair",
+    "ur": "کرسی",
+    "ar": "كرسي",
+    "hi": "कुर्सी",
+    "es": "silla",
+    "ipa": "/ʃɛz/",
+    "phonetic": "شیز (Shez)",
+    "pos": "Nom féminin"
+  },
+  "lit": {
+    "en": "bed",
+    "ur": "بستر",
+    "ar": "سرير",
+    "hi": "बिस्तर",
+    "es": "cama",
+    "ipa": "/li/",
+    "phonetic": "لی (Lee)",
+    "pos": "Nom masculin"
+  },
+  "sac": {
+    "en": "bag",
+    "ur": "تھیلا / بیگ",
+    "ar": "حقيبة",
+    "hi": "बैग",
+    "es": "bolsa / bolso",
+    "ipa": "/sak/",
+    "phonetic": "ساک (Sak)",
+    "pos": "Nom masculin"
+  },
+  "clé": {
+    "en": "key",
+    "ur": "چابی",
+    "ar": "مفتاح",
+    "hi": "चाबी",
+    "es": "llave",
+    "ipa": "/kle/",
+    "phonetic": "کلے (Klay)",
+    "pos": "Nom féminin"
+  },
+  "argent": {
+    "en": "money",
+    "ur": "پیسے / رقم",
+    "ar": "نقود / مال",
+    "hi": "पैसा",
+    "es": "dinero",
+    "ipa": "/aʁ.ʒɑ̃/",
+    "phonetic": "آرجاں (Ahr-zhahn)"
+  },
+  "travail": {
+    "en": "work / job",
+    "ur": "کام / ملازمت",
+    "ar": "عمل / شغل",
+    "hi": "काम / नौकरी",
+    "es": "trabajo",
+    "ipa": "/tʁa.vaj/",
+    "phonetic": "تراوائے (Trah-vah-y)"
+  },
+  "école": {
+    "en": "school",
+    "ur": "اسکول",
+    "ar": "مدرسة",
+    "hi": "स्कूल",
+    "es": "escuela",
+    "ipa": "/e.kɔl/",
+    "phonetic": "ایکول (Ay-kol)"
+  },
+  "université": {
+    "en": "university",
+    "ur": "جامعہ / یونیورسٹی",
+    "ar": "جامعة",
+    "hi": "विश्वविद्यालय",
+    "es": "universidad",
+    "ipa": "/y.ni.vɛʁ.si.te/",
+    "phonetic": "یونیورسیٹے (Oo-nee-ver-see-tay)"
+  },
+  "ami": {
+    "en": "friend",
+    "ur": "دوست",
+    "ar": "صديق",
+    "hi": "दोस्त",
+    "es": "amigo",
+    "ipa": "/a.mi/",
+    "phonetic": "آمی (Ah-mee)"
+  },
+  "famille": {
+    "en": "family",
+    "ur": "خاندان / کنبہ",
+    "ar": "عائلة",
+    "hi": "परिवार",
+    "es": "familia",
+    "ipa": "/fa.mij/",
+    "phonetic": "فامی (Fah-mee-y)"
+  },
+  "enfant": {
+    "en": "child / kid",
+    "ur": "بچہ",
+    "ar": "طفل",
+    "hi": "बच्चा",
+    "es": "niño",
+    "ipa": "/ɑ̃.fɑ̃/",
+    "phonetic": "آنفاں (Ahn-fahn)"
+  },
+  "fille": {
+    "en": "girl / daughter",
+    "ur": "لڑکی / بیٹی",
+    "ar": "فتاة / ابنة",
+    "hi": "लड़की / बेटी",
+    "es": "chica / hija",
+    "ipa": "/fij/",
+    "phonetic": "فئی (Fee-y)"
+  },
+  "garçon": {
+    "en": "boy",
+    "ur": "لڑکا",
+    "ar": "ولد",
+    "hi": "लड़का",
+    "es": "chico",
+    "ipa": "/ɡaʁ.sɔ̃/",
+    "phonetic": "گارساں (Gahr-sohn)"
+  },
+  "femme": {
+    "en": "woman / wife",
+    "ur": "عورت / بیوی",
+    "ar": "امرأة / زوجة",
+    "hi": "महिला / पत्नी",
+    "es": "mujer / esposa",
+    "ipa": "/fam/",
+    "phonetic": "فام (Fahm)"
+  },
+  "homme": {
+    "en": "man",
+    "ur": "مرد / آدمی",
+    "ar": "رجل",
+    "hi": "पुरुष / आदमी",
+    "es": "hombre",
+    "ipa": "/ɔm/",
+    "phonetic": "اوم (Om)"
+  },
+  "père": {
+    "en": "father",
+    "ur": "والد / باپ",
+    "ar": "أب / والد",
+    "hi": "पिता / अब्बू",
+    "es": "padre",
+    "ipa": "/pɛʁ/",
+    "phonetic": "پیر (Pair)"
+  },
+  "mère": {
+    "en": "mother",
+    "ur": "والدہ / ماں",
+    "ar": "أم / والدة",
+    "hi": "माँ / अम्मी",
+    "es": "madre",
+    "ipa": "/mɛʁ/",
+    "phonetic": "میر (Mair)"
+  },
+  "frère": {
+    "en": "brother",
+    "ur": "بھائی",
+    "ar": "أخ",
+    "hi": "भाई",
+    "es": "hermano",
+    "ipa": "/fʁɛʁ/",
+    "phonetic": "فرئیر (Frair)"
+  },
+  "soeur": {
+    "en": "sister",
+    "ur": "بہن",
+    "ar": "أخت",
+    "hi": "बहन",
+    "es": "hermana",
+    "ipa": "/sœʁ/",
+    "phonetic": "سور (Suhr)"
+  },
+  "soleil": {
+    "en": "sun",
+    "ur": "سورج",
+    "ar": "شمس",
+    "hi": "सूरज",
+    "es": "sol",
+    "ipa": "/sɔ.lɛj/",
+    "phonetic": "سولے (Soh-lay)",
+    "pos": "Nom masculin"
+  },
+  "lune": {
+    "en": "moon",
+    "ur": "چاند",
+    "ar": "قمر",
+    "hi": "चाँद",
+    "es": "luna",
+    "ipa": "/lyn/",
+    "phonetic": "لون (Loon)",
+    "pos": "Nom féminin"
+  },
+  "mer": {
+    "en": "sea",
+    "ur": "سمندر",
+    "ar": "بحر",
+    "hi": "समुद्र",
+    "es": "mar",
+    "ipa": "/mɛʁ/",
+    "phonetic": "میر (Mair)",
+    "pos": "Nom féminin"
+  },
+  "ciel": {
+    "en": "sky",
+    "ur": "آسمان",
+    "ar": "سماء",
+    "hi": "आसमान",
+    "es": "cielo",
+    "ipa": "/sjɛl/",
+    "phonetic": "سیل (Syel)",
+    "pos": "Nom masculin"
+  },
+  "ville": {
+    "en": "city / town",
+    "ur": "شہر",
+    "ar": "مدينة",
+    "hi": "शहर",
+    "es": "ciudad",
+    "ipa": "/vil/",
+    "phonetic": "ویل (Veel)"
+  },
+  "pays": {
+    "en": "country",
+    "ur": "ملک",
+    "ar": "بلد / دولة",
+    "hi": "देश",
+    "es": "país",
+    "ipa": "/pe.i/",
+    "phonetic": "پئی (Pay-ee)"
+  },
+  "rue": {
+    "en": "street",
+    "ur": "سڑک / گلی",
+    "ar": "شارع",
+    "hi": "सड़क",
+    "es": "calle",
+    "ipa": "/ʁy/",
+    "phonetic": "رو (Roo)"
+  },
+  "pomme": {
+    "en": "apple",
+    "ur": "سیب",
+    "ar": "تفاح",
+    "hi": "सेब",
+    "es": "manzana",
+    "ipa": "/pɔm/",
+    "phonetic": "پوم (Pom)",
+    "pos": "Nom féminin"
+  },
+  "eau": {
+    "en": "water",
+    "ur": "پانی",
+    "ar": "ماء",
+    "hi": "पानी",
+    "es": "agua",
+    "ipa": "/o/",
+    "phonetic": "او (Oh)",
+    "pos": "Nom féminin"
+  },
+  "lait": {
+    "en": "milk",
+    "ur": "دودھ",
+    "ar": "حليب",
+    "hi": "दूध",
+    "es": "leche",
+    "ipa": "/lɛ/",
+    "phonetic": "لے (Leh)",
+    "pos": "Nom masculin"
+  },
+  "fromage": {
+    "en": "cheese",
+    "ur": "پنیر",
+    "ar": "جبن",
+    "hi": "पनीर",
+    "es": "queso",
+    "ipa": "/fʁɔ.maʒ/",
+    "phonetic": "فروماژ (Froh-mahzh)",
+    "pos": "Nom masculin"
+  },
+  "viande": {
+    "en": "meat",
+    "ur": "گوشت",
+    "ar": "لحم",
+    "hi": "मांस",
+    "es": "carne",
+    "ipa": "/vjɑ̃d/",
+    "phonetic": "ویاند (Vyand)",
+    "pos": "Nom féminin"
+  },
+  "poisson": {
+    "en": "fish",
+    "ur": "مچھلی",
+    "ar": "سمك",
+    "hi": "मछली",
+    "es": "pez / pescado",
+    "ipa": "/pwa.sɔ̃/",
+    "phonetic": "پواسوں (Pwah-sohn)",
+    "pos": "Nom masculin"
+  },
+  "pain": {
+    "en": "bread",
+    "ur": "روٹی / بریڈ",
+    "ar": "خبز",
+    "hi": "रोटी / ब्रेड",
+    "es": "pan",
+    "ipa": "/pɛ̃/",
+    "phonetic": "پاں (Pan)",
+    "pos": "Nom masculin"
+  },
+  "café": {
+    "en": "coffee",
+    "ur": "کافی",
+    "ar": "قهوة",
+    "hi": "कॉफी",
+    "es": "café",
+    "ipa": "/ka.fe/",
+    "phonetic": "کافے (Kah-fay)",
+    "pos": "Nom masculin"
+  },
+  "thé": {
+    "en": "tea",
+    "ur": "چائے",
+    "ar": "شاي",
+    "hi": "चाय",
+    "es": "té",
+    "ipa": "/te/",
+    "phonetic": "تے (Tay)",
+    "pos": "Nom masculin"
+  },
+  "ordinateur": {
+    "en": "computer",
+    "ur": "کمپیوٹر",
+    "ar": "حاسوب",
+    "hi": "कंप्यूटर",
+    "es": "computadora / ordenador",
+    "ipa": "/ɔʁ.di.na.tœʁ/",
+    "phonetic": "اوردیناتور (Or-dee-nah-tur)",
+    "pos": "Nom masculin • ٹیکنالوجی"
+  },
+  "téléphone": {
+    "en": "telephone",
+    "ur": "ٹیلیفون",
+    "ar": "هاتف",
+    "hi": "टेलीफोन",
+    "es": "teléfono",
+    "ipa": "/te.le.fɔn/",
+    "phonetic": "تیلیفون (Tay-lay-fon)",
+    "pos": "Nom masculin"
+  },
+  "stylo": {
+    "en": "pen",
+    "ur": "قلم",
+    "ar": "قلم",
+    "hi": "पेन",
+    "es": "bolígrafo",
+    "ipa": "/sti.lo/",
+    "phonetic": "ستیلو (Stee-loh)",
+    "pos": "Nom masculin"
+  },
+  "papier": {
+    "en": "paper / document",
+    "ur": "کاغذ / دستاویز",
+    "ar": "ورق",
+    "hi": "कागज़",
+    "es": "papel",
+    "ipa": "/pa.pje/",
+    "phonetic": "پاپئیے (Pah-pyay)"
+  },
+  "musique": {
+    "en": "music",
+    "ur": "موسیقی",
+    "ar": "موسيقى",
+    "hi": "संगीत",
+    "es": "música",
+    "ipa": "/my.zik/",
+    "phonetic": "میوزیک (Moo-zeek)"
+  },
+  "aide": {
+    "en": "help / aid",
+    "ur": "مدد",
+    "ar": "مساعدة",
+    "hi": "मदद",
+    "es": "ayuda",
+    "ipa": "/ɛd/",
+    "phonetic": "اید (Ayd)",
+    "pos": "Nom féminin • مدد"
+  },
+  "urgent": {
+    "en": "urgent",
+    "ur": "ضروری / فوری",
+    "ar": "عاجل",
+    "hi": "अति आवश्यक",
+    "es": "urgente",
+    "ipa": "/yʁ.ʒɑ̃/",
+    "phonetic": "اورژاں (Oor-zhahn)",
+    "pos": "Adjectif • صفت"
+  },
+  "temps": {
+    "en": "time / weather",
+    "ur": "وقت / موسم",
+    "ar": "وقت / طقس",
+    "hi": "समय / मौसम",
+    "es": "tiempo",
+    "ipa": "/tɑ̃/",
+    "phonetic": "تاں (Tahn)"
+  },
+  "jour": {
+    "en": "day",
+    "ur": "دن",
+    "ar": "يوم",
+    "hi": "दिन",
+    "es": "día",
+    "ipa": "/ʒuʁ/",
+    "phonetic": "ژور (Zhoor)"
+  },
+  "nuit": {
+    "en": "night",
+    "ur": "رات",
+    "ar": "ليلة",
+    "hi": "रात",
+    "es": "noche",
+    "ipa": "/nɥi/",
+    "phonetic": "نوئی (Nwee)"
+  },
+  "matin": {
+    "en": "morning",
+    "ur": "صبح",
+    "ar": "صباح",
+    "hi": "सुबह",
+    "es": "mañana",
+    "ipa": "/ma.tɛ̃/",
+    "phonetic": "ماتاں (Mah-tehn)"
+  },
+  "soir": {
+    "en": "evening",
+    "ur": "شام",
+    "ar": "مساء",
+    "hi": "शाम",
+    "es": "tarde / noche",
+    "ipa": "/swaʁ/",
+    "phonetic": "سوار (Swahr)"
+  },
+  "semaine": {
+    "en": "week",
+    "ur": "ہفتہ",
+    "ar": "أسبوع",
+    "hi": "सप्ताह",
+    "es": "semana",
+    "ipa": "/sə.mɛn/",
+    "phonetic": "سومین (Suh-men)"
+  },
+  "mois": {
+    "en": "month",
+    "ur": "مہینہ",
+    "ar": "شهر",
+    "hi": "महीना",
+    "es": "mes",
+    "ipa": "/mwa/",
+    "phonetic": "موا (Mwah)"
+  },
+  "année": {
+    "en": "year",
+    "ur": "سال",
+    "ar": "سنة / عام",
+    "hi": "वर्ष / साल",
+    "es": "año",
+    "ipa": "/a.ne/",
+    "phonetic": "آنے (Ah-nay)"
+  },
+  "heure": {
+    "en": "hour / time",
+    "ur": "گھنٹہ / وقت",
+    "ar": "ساعة / وقت",
+    "hi": "घंटा / समय",
+    "es": "hora",
+    "ipa": "/œʁ/",
+    "phonetic": "اور (Uhr)"
+  },
+  "minute": {
+    "en": "minute",
+    "ur": "منٹ",
+    "ar": "دقيقة",
+    "hi": "मिनट",
+    "es": "minuto",
+    "ipa": "/mi.nyt/",
+    "phonetic": "مینوت (Mee-noot)"
+  },
+  "parapluie": {
+    "en": "umbrella",
+    "ur": "چھتری",
+    "ar": "مظلة",
+    "hi": "छाता",
+    "es": "paraguas",
+    "ipa": "/pa.ʁa.plɥi/",
+    "phonetic": "پارا پلوئی (Pah-rah-ploo-ee)",
+    "pos": "Nom masculin"
+  },
+  "japon": {
+    "en": "Japan",
+    "ur": "جاپان",
+    "ar": "اليابان",
+    "hi": "जापान",
+    "es": "Japón",
+    "ipa": "/ʒa.pɔ̃/",
+    "phonetic": "ژاپوں (Zha-pohn)",
+    "pos": "Nom propre • ملک"
+  },
+  "japonais": {
+    "en": "Japanese",
+    "ur": "جاپانی",
+    "ar": "ياباني",
+    "hi": "जापानी",
+    "es": "japonés",
+    "ipa": "/ʒa.pɔ.nɛ/",
+    "phonetic": "ژاپونے (Zha-poh-nay)",
+    "pos": "Nom / Adjectif • قومیت"
+  },
+  "france": {
+    "en": "France",
+    "ur": "فرانس",
+    "ar": "فرنسا",
+    "hi": "फ़्रांस",
+    "es": "Francia",
+    "ipa": "/fʁɑ̃s/",
+    "phonetic": "فرانس (Frahns)",
+    "pos": "Nom propre • ملک"
+  },
+  "francais": {
+    "en": "French",
+    "ur": "فرانسیسی",
+    "ar": "فرنسي",
+    "hi": "फ़्रेंच",
+    "es": "francés",
+    "ipa": "/fʁɑ̃.sɛ/",
+    "phonetic": "فرانسے (Frahn-seh)",
+    "pos": "Nom / Adjectif • زبان / قومیت"
+  },
+  "française": {
+    "en": "French (feminine)",
+    "ur": "فرانسیسی (مؤنث)",
+    "ar": "فرنسية",
+    "hi": "फ़्रांसीसी (महिला)",
+    "es": "francesa",
+    "ipa": "/fʁɑ̃.sɛz/",
+    "phonetic": "فرانسیز (Frahn-sez)",
+    "pos": "Adjectif • صفت"
+  },
+  "chine": {
+    "en": "China",
+    "ur": "چین",
+    "ar": "الصين",
+    "hi": "चीन",
+    "es": "China",
+    "ipa": "/ʃin/",
+    "phonetic": "شین (Sheen)",
+    "pos": "Nom propre • ملک"
+  },
+  "chinois": {
+    "en": "Chinese",
+    "ur": "چینی",
+    "ar": "صيني",
+    "hi": "चीनी",
+    "es": "chino",
+    "ipa": "/ʃi.nwa/",
+    "phonetic": "شینوا (Sheen-wah)",
+    "pos": "Nom / Adjectif"
+  },
+  "espagne": {
+    "en": "Spain",
+    "ur": "اسپین",
+    "ar": "إسبانيا",
+    "hi": "स्पेन",
+    "es": "España",
+    "ipa": "/ɛs.paɲ/",
+    "phonetic": "ایسپان (Es-pahn-ye)",
+    "pos": "Nom propre • ملک"
+  },
+  "espagnol": {
+    "en": "Spanish",
+    "ur": "ہسپانوی",
+    "ar": "إسباني",
+    "hi": "स्पैनिश",
+    "es": "español",
+    "ipa": "/ɛs.pa.ɲɔl/",
+    "phonetic": "ایسپانیول (Es-pahn-yol)",
+    "pos": "Nom / Adjectif"
+  },
+  "italie": {
+    "en": "Italy",
+    "ur": "اٹلی",
+    "ar": "إيطاليا",
+    "hi": "इटली",
+    "es": "Italia",
+    "ipa": "/i.ta.li/",
+    "phonetic": "ایتالی (Ee-tah-lee)",
+    "pos": "Nom propre • ملک"
+  },
+  "italien": {
+    "en": "Italian",
+    "ur": "اطالوی",
+    "ar": "إيطالي",
+    "hi": "इतालवी",
+    "es": "italiano",
+    "ipa": "/i.ta.ljɛ̃/",
+    "phonetic": "ایتالیاں (Ee-tah-lyen)",
+    "pos": "Nom / Adjectif"
+  },
+  "allemagne": {
+    "en": "Germany",
+    "ur": "جرمنی",
+    "ar": "ألمانيا",
+    "hi": "जर्मनी",
+    "es": "Alemania",
+    "ipa": "/al.maɲ/",
+    "phonetic": "المان (Al-mahn-ye)",
+    "pos": "Nom propre • ملک"
+  },
+  "allemand": {
+    "en": "German",
+    "ur": "جرمن",
+    "ar": "ألماني",
+    "hi": "जर्मन",
+    "es": "alemán",
+    "ipa": "/al.mɑ̃/",
+    "phonetic": "الماں (Al-mahn)",
+    "pos": "Nom / Adjectif"
+  },
+  "angleterre": {
+    "en": "England",
+    "ur": "انگلستان",
+    "ar": "إنجلترا",
+    "hi": "इंग्लैंड",
+    "es": "Inglaterra",
+    "ipa": "/ɑ̃.ɡlə.tɛʁ/",
+    "phonetic": "آنکلتیر (Ahn-gluh-tair)",
+    "pos": "Nom propre • ملک"
+  },
+  "anglais": {
+    "en": "English",
+    "ur": "انگریزی",
+    "ar": "إنجليزي",
+    "hi": "अंग्रेज़ी",
+    "es": "inglés",
+    "ipa": "/ɑ̃.ɡlɛ/",
+    "phonetic": "آنگلے (Ahn-glay)",
+    "pos": "Nom / Adjectif"
+  },
+  "etats-unis": {
+    "en": "United States",
+    "ur": "امریکہ",
+    "ar": "الولايات المتحدة",
+    "hi": "संयुक्त राज्य अमेरिका",
+    "es": "Estados Unidos",
+    "ipa": "/e.ta.zy.ni/",
+    "phonetic": "اے تا زونی (Ay-tah-zoo-nee)",
+    "pos": "Nom propre"
+  },
+  "americain": {
+    "en": "American",
+    "ur": "امریکی",
+    "ar": "أمريكي",
+    "hi": "अमेरिकी",
+    "es": "estadounidense",
+    "ipa": "/a.me.ʁi.kɛ̃/",
+    "phonetic": "امیریکاں (Ah-may-ree-kan)",
+    "pos": "Nom / Adjectif"
+  },
+  "canada": {
+    "en": "Canada",
+    "ur": "کینیڈا",
+    "ar": "كندا",
+    "hi": "कनाडा",
+    "es": "Canadá",
+    "ipa": "/ka.na.da/",
+    "phonetic": "کانادا (Kah-nah-dah)",
+    "pos": "Nom propre • ملک"
+  },
+  "maroc": {
+    "en": "Morocco",
+    "ur": "مراکش",
+    "ar": "المغرب",
+    "hi": "मोरक्को",
+    "es": "Marruecos",
+    "ipa": "/ma.ʁɔk/",
+    "phonetic": "ماروک (Mah-rok)",
+    "pos": "Nom propre • ملک"
+  },
+  "marocain": {
+    "en": "Moroccan",
+    "ur": "مراکشی",
+    "ar": "مغربي",
+    "hi": "मोरक्कन",
+    "es": "marroquí",
+    "ipa": "/ma.ʁɔ.kɛ̃/",
+    "phonetic": "ماروکاں (Mah-roh-kan)",
+    "pos": "Nom / Adjectif"
+  },
+  "algerie": {
+    "en": "Algeria",
+    "ur": "الجزائر",
+    "ar": "الجزائر",
+    "hi": "अल्जीरिया",
+    "es": "Argelia",
+    "ipa": "/al.ʒe.ʁi/",
+    "phonetic": "الژیری (Al-zhay-ree)",
+    "pos": "Nom propre • ملک"
+  },
+  "tunisie": {
+    "en": "Tunisia",
+    "ur": "تیونس",
+    "ar": "تونس",
+    "hi": "ट्यूनीशिया",
+    "es": "Túnez",
+    "ipa": "/ty.ni.zi/",
+    "phonetic": "تونیزی (Too-nee-zee)",
+    "pos": "Nom propre • ملک"
+  },
+  "pakistan": {
+    "en": "Pakistan",
+    "ur": "پاکستان",
+    "ar": "باكستان",
+    "hi": "पाकिस्तान",
+    "es": "Pakistán",
+    "ipa": "/pa.kis.tɑ̃/",
+    "phonetic": "پاکستاں (Pah-kees-tahn)",
+    "pos": "Nom propre • ملک"
+  },
+  "pakistanais": {
+    "en": "Pakistani",
+    "ur": "پاکستانی",
+    "ar": "باكستاني",
+    "hi": "पाकिस्तानी",
+    "es": "pakistaní",
+    "ipa": "/pa.kis.ta.nɛ/",
+    "phonetic": "پاکستانے (Pah-kees-tah-nay)",
+    "pos": "Nom / Adjectif"
+  },
+  "inde": {
+    "en": "India",
+    "ur": "بھارت / ہندوستان",
+    "ar": "الهند",
+    "hi": "भारत",
+    "es": "India",
+    "ipa": "/ɛ̃d/",
+    "phonetic": "آند (And)",
+    "pos": "Nom propre • ملک"
+  },
+  "indien": {
+    "en": "Indian",
+    "ur": "ہندوستانی / بھارتی",
+    "ar": "هندي",
+    "hi": "भारतीय",
+    "es": "indio",
+    "ipa": "/ɛ̃.djɛ̃/",
+    "phonetic": "آندیاں (An-dyen)",
+    "pos": "Nom / Adjectif"
+  },
+  "qui": {
+    "en": "who",
+    "ur": "کون",
+    "ar": "من",
+    "hi": "कौन",
+    "es": "quién",
+    "ipa": "/ki/",
+    "phonetic": "کی (Kee)",
+    "pos": "Pronom interrogatif • سوالیہ ضمیر"
+  },
+  "quoi": {
+    "en": "what",
+    "ur": "کیا",
+    "ar": "ماذا",
+    "hi": "क्या",
+    "es": "qué",
+    "ipa": "/kwa/",
+    "phonetic": "کوا (Kwah)",
+    "pos": "Pronom interrogatif • سوالیہ لفظ"
+  },
+  "que": {
+    "en": "what / that",
+    "ur": "کیا / کہ",
+    "ar": "ماذا / أن",
+    "hi": "क्या / कि",
+    "es": "qué / que",
+    "ipa": "/kə/",
+    "phonetic": "کہ (Kuh)",
+    "pos": "Pronom / Conjonction"
+  },
+  "ou": {
+    "en": "where / or",
+    "ur": "کہاں / یا",
+    "ar": "أين / أو",
+    "hi": "कहाँ / या",
+    "es": "dónde / o",
+    "ipa": "/u/",
+    "phonetic": "او (Oo)",
+    "pos": "Adverbe interrogatif / Conjonction"
+  },
+  "où": {
+    "en": "where",
+    "ur": "کہاں",
+    "ar": "أين",
+    "hi": "कहाँ",
+    "es": "dónde",
+    "ipa": "/u/",
+    "phonetic": "او (Oo)",
+    "pos": "Adverbe interrogatif • جگہ"
+  },
+  "quand": {
+    "en": "when",
+    "ur": "کب",
+    "ar": "متى",
+    "hi": "कब",
+    "es": "cuándo",
+    "ipa": "/kɑ̃/",
+    "phonetic": "کاں (Kahn)",
+    "pos": "Adverbe interrogatif • وقت"
+  },
+  "comment": {
+    "en": "how",
+    "ur": "کیسے",
+    "ar": "كيف",
+    "hi": "कैसे",
+    "es": "cómo",
+    "ipa": "/kɔ.mɑ̃/",
+    "phonetic": "کوماں (Koh-mahn)",
+    "pos": "Adverbe interrogatif • طریقہ"
+  },
+  "pourquoi": {
+    "en": "why",
+    "ur": "کیوں",
+    "ar": "لماذا",
+    "hi": "क्यों",
+    "es": "por qué",
+    "ipa": "/puʁ.kwa/",
+    "phonetic": "پورکوا (Poor-kwah)",
+    "pos": "Adverbe interrogatif • وجہ"
+  },
+  "combien": {
+    "en": "how much / how many",
+    "ur": "کتنا / کتنے",
+    "ar": "كم",
+    "hi": "कितना",
+    "es": "cuánto",
+    "ipa": "/kɔ̃.bjɛ̃/",
+    "phonetic": "کومبیاں (Kohm-byen)",
+    "pos": "Adverbe interrogatif • قیمت / تعداد"
+  },
+  "quel": {
+    "en": "which / what (masculine)",
+    "ur": "کون سا",
+    "ar": "أي (مذكر)",
+    "hi": "कौन सा",
+    "es": "cuál",
+    "ipa": "/kɛl/",
+    "phonetic": "کیل (Kel)",
+    "pos": "Adjectif interrogatif"
+  },
+  "quelle": {
+    "en": "which / what (feminine)",
+    "ur": "کون سی",
+    "ar": "أي (مؤنث)",
+    "hi": "कौन सी",
+    "es": "cuál",
+    "ipa": "/kɛl/",
+    "phonetic": "کیل (Kel)",
+    "pos": "Adjectif interrogatif"
+  },
+  "cheval": {
+    "en": "horse",
+    "ur": "گھوڑا",
+    "ar": "حصان",
+    "hi": "घोड़ा",
+    "es": "caballo",
+    "ipa": "/ʃə.val/",
+    "phonetic": "شوال (Shuh-val)",
+    "pos": "Nom masculin"
+  },
+  "oiseau": {
+    "en": "bird",
+    "ur": "پرندہ",
+    "ar": "طائر",
+    "hi": "पक्षी",
+    "es": "pájaro",
+    "ipa": "/wa.zo/",
+    "phonetic": "وازو (Wah-zoh)",
+    "pos": "Nom masculin"
+  },
+  "grenouille": {
+    "en": "frog",
+    "ur": "مینڈک",
+    "ar": "ضفدع",
+    "hi": "मेंढक",
+    "es": "rana",
+    "ipa": "/ɡʁə.nuj/",
+    "phonetic": "گرونوئی (Gruh-nooy)",
+    "pos": "Nom féminin • جانور"
+  },
+  "papillon": {
+    "en": "butterfly",
+    "ur": "تتلی",
+    "ar": "فراشة",
+    "hi": "तितली",
+    "es": "mariposa",
+    "ipa": "/pa.pi.jɔ̃/",
+    "phonetic": "پاپی یوں (Pah-pee-yohn)",
+    "pos": "Nom masculin"
+  },
+  "vache": {
+    "en": "cow",
+    "ur": "گائے",
+    "ar": "بقرة",
+    "hi": "गाय",
+    "es": "vaca",
+    "ipa": "/vaʃ/",
+    "phonetic": "واش (Vash)",
+    "pos": "Nom féminin"
+  },
+  "mouton": {
+    "en": "sheep",
+    "ur": "بھیڑ",
+    "ar": "خروف",
+    "hi": "भेड़",
+    "es": "oveja",
+    "ipa": "/mu.tɔ̃/",
+    "phonetic": "موتوں (Moo-tohn)",
+    "pos": "Nom masculin"
+  },
+  "lion": {
+    "en": "lion",
+    "ur": "شیر",
+    "ar": "أسد",
+    "hi": "शेर",
+    "es": "león",
+    "ipa": "/ljɔ̃/",
+    "phonetic": "لیوں (Lee-ohn)",
+    "pos": "Nom masculin"
+  },
+  "etoile": {
+    "en": "star",
+    "ur": "ستارہ",
+    "ar": "نجمة",
+    "hi": "तारा",
+    "es": "estrella",
+    "ipa": "/e.twal/",
+    "phonetic": "ایتوال (Ay-twahl)",
+    "pos": "Nom féminin"
+  },
+  "étoile": {
+    "en": "star",
+    "ur": "ستارہ",
+    "ar": "نجمة",
+    "hi": "तारा",
+    "es": "estrella",
+    "ipa": "/e.twal/",
+    "phonetic": "ایتوال (Ay-twahl)",
+    "pos": "Nom féminin"
+  },
+  "pluie": {
+    "en": "rain",
+    "ur": "بارش",
+    "ar": "مطر",
+    "hi": "बारिश",
+    "es": "lluvia",
+    "ipa": "/plɥi/",
+    "phonetic": "پلوئی (Ploo-ee)",
+    "pos": "Nom féminin"
+  },
+  "neige": {
+    "en": "snow",
+    "ur": "برف",
+    "ar": "ثلج",
+    "hi": "बर्फ",
+    "es": "nieve",
+    "ipa": "/nɛʒ/",
+    "phonetic": "نیژ (Nezh)",
+    "pos": "Nom féminin"
+  },
+  "vent": {
+    "en": "wind",
+    "ur": "ہوا",
+    "ar": "ريح",
+    "hi": "हवा",
+    "es": "viento",
+    "ipa": "/vɑ̃/",
+    "phonetic": "واں (Vahn)",
+    "pos": "Nom masculin"
+  },
+  "arbre": {
+    "en": "tree",
+    "ur": "درخت",
+    "ar": "شجرة",
+    "hi": "पेड़",
+    "es": "árbol",
+    "ipa": "/aʁbʁ/",
+    "phonetic": "آربخ (Ahr-bruh)",
+    "pos": "Nom masculin"
+  },
+  "fleur": {
+    "en": "flower",
+    "ur": "پھول",
+    "ar": "زهرة",
+    "hi": "फूल",
+    "es": "flor",
+    "ipa": "/flœʁ/",
+    "phonetic": "فلور (Flur)",
+    "pos": "Nom féminin"
+  },
+  "feu": {
+    "en": "fire",
+    "ur": "آگ",
+    "ar": "نار",
+    "hi": "आग",
+    "es": "fuego",
+    "ipa": "/fø/",
+    "phonetic": "فو (Fuh)",
+    "pos": "Nom masculin"
+  },
+  "terre": {
+    "en": "earth / ground",
+    "ur": "زمین",
+    "ar": "أرض",
+    "hi": "धरती",
+    "es": "tierra",
+    "ipa": "/tɛʁ/",
+    "phonetic": "تیر (Tair)",
+    "pos": "Nom féminin"
+  },
+  "portable": {
+    "en": "mobile phone / laptop",
+    "ur": "موبائل فون / لیپ ٹاپ",
+    "ar": "هاتف محمول",
+    "hi": "मोबाइल / लैपटॉप",
+    "es": "móvil / portátil",
+    "ipa": "/pɔʁ.tabl/",
+    "phonetic": "پورتابل (Por-tahbl)",
+    "pos": "Nom masculin"
+  },
+  "telephone": {
+    "en": "telephone",
+    "ur": "ٹیلیفون",
+    "ar": "هاتف",
+    "hi": "टेलीफोन",
+    "es": "teléfono",
+    "ipa": "/te.le.fɔn/",
+    "phonetic": "تیلیفون (Tay-lay-fon)",
+    "pos": "Nom masculin"
+  },
+  "ecran": {
+    "en": "screen",
+    "ur": "اسکرین",
+    "ar": "شاشة",
+    "hi": "स्क्रीन",
+    "es": "pantalla",
+    "ipa": "/e.kʁɑ̃/",
+    "phonetic": "ایکراں (Ay-krahn)",
+    "pos": "Nom masculin"
+  },
+  "écran": {
+    "en": "screen",
+    "ur": "اسکرین",
+    "ar": "شاشة",
+    "hi": "स्क्रीन",
+    "es": "pantalla",
+    "ipa": "/e.kʁɑ̃/",
+    "phonetic": "ایکراں (Ay-krahn)",
+    "pos": "Nom masculin"
+  },
+  "clavier": {
+    "en": "keyboard",
+    "ur": "کی بورڈ",
+    "ar": "لوحة المفاتيح",
+    "hi": "कीबोर्ड",
+    "es": "teclado",
+    "ipa": "/kla.vje/",
+    "phonetic": "کلاویے (Klah-vyay)",
+    "pos": "Nom masculin"
+  },
+  "souris": {
+    "en": "mouse",
+    "ur": "ماؤس / چوہا",
+    "ar": "فأرة",
+    "hi": "माउस / चूहा",
+    "es": "ratón",
+    "ipa": "/su.ʁi/",
+    "phonetic": "سوری (Soo-ree)",
+    "pos": "Nom féminin"
+  },
+  "cahier": {
+    "en": "notebook",
+    "ur": "کاپی",
+    "ar": "دفتر",
+    "hi": "कॉपी",
+    "es": "cuaderno",
+    "ipa": "/ka.je/",
+    "phonetic": "کائیے (Kah-yay)",
+    "pos": "Nom masculin"
+  },
+  "crayon": {
+    "en": "pencil",
+    "ur": "پنسل",
+    "ar": "قلم رصاص",
+    "hi": "पेंसिल",
+    "es": "lápiz",
+    "ipa": "/kʁɛ.jɔ̃/",
+    "phonetic": "کری یوں (Kreh-yohn)",
+    "pos": "Nom masculin"
+  },
+  "cle": {
+    "en": "key",
+    "ur": "چابی",
+    "ar": "مفتاح",
+    "hi": "चाबी",
+    "es": "llave",
+    "ipa": "/kle/",
+    "phonetic": "کلے (Klay)",
+    "pos": "Nom féminin"
+  },
+  "fenetre": {
+    "en": "window",
+    "ur": "کھڑکی",
+    "ar": "نافذة",
+    "hi": "खिड़की",
+    "es": "ventana",
+    "ipa": "/fə.nɛtʁ/",
+    "phonetic": "فنیتر (Fuh-net-ruh)",
+    "pos": "Nom féminin"
+  },
+  "croissant": {
+    "en": "croissant",
+    "ur": "کروساں (فرانسیسی پیسٹری)",
+    "ar": "كرواسون",
+    "hi": "क्रोइसैन",
+    "es": "cruasán",
+    "ipa": "/kʁwa.sɑ̃/",
+    "phonetic": "کرواساں (Krwah-sahn)",
+    "pos": "Nom masculin"
+  },
+  "cafe": {
+    "en": "coffee",
+    "ur": "کافی",
+    "ar": "قهوة",
+    "hi": "कॉफी",
+    "es": "café",
+    "ipa": "/ka.fe/",
+    "phonetic": "کافے (Kah-fay)",
+    "pos": "Nom masculin"
+  },
+  "the": {
+    "en": "tea",
+    "ur": "چائے",
+    "ar": "شاي",
+    "hi": "चाय",
+    "es": "té",
+    "ipa": "/te/",
+    "phonetic": "تے (Tay)",
+    "pos": "Nom masculin"
+  },
+  "poulet": {
+    "en": "chicken",
+    "ur": "مرغی",
+    "ar": "دجاج",
+    "hi": "चिकन / मुर्गा",
+    "es": "pollo",
+    "ipa": "/pu.lɛ/",
+    "phonetic": "پولے (Poo-lay)",
+    "pos": "Nom masculin"
+  },
+  "pomme de terre": {
+    "en": "potato",
+    "ur": "آلو",
+    "ar": "بطاطس",
+    "hi": "आलू",
+    "es": "patata",
+    "ipa": "/pɔm də tɛʁ/",
+    "phonetic": "پوم دو تیر (Pom duh tair)",
+    "pos": "Nom féminin"
+  },
+  "sucre": {
+    "en": "sugar",
+    "ur": "چینی",
+    "ar": "سكر",
+    "hi": "चीनी",
+    "es": "azúcar",
+    "ipa": "/sykʁ/",
+    "phonetic": "سوکر (Soo-kruh)",
+    "pos": "Nom masculin"
+  },
+  "sel": {
+    "en": "salt",
+    "ur": "نمک",
+    "ar": "ملح",
+    "hi": "नमक",
+    "es": "sal",
+    "ipa": "/sɛl/",
+    "phonetic": "سیل (Sel)",
+    "pos": "Nom masculin"
+  },
+  "oeuf": {
+    "en": "egg",
+    "ur": "انڈا",
+    "ar": "بيضة",
+    "hi": "अंडा",
+    "es": "huevo",
+    "ipa": "/œf/",
+    "phonetic": "اف (Uf)",
+    "pos": "Nom masculin"
+  },
+  "etre": {
+    "en": "to be",
+    "ur": "ہونا",
+    "ar": "يكون",
+    "hi": "होना",
+    "es": "ser / estar",
+    "ipa": "/ɛtʁ/",
+    "phonetic": "ایتر (Ay-truh)",
+    "pos": "Verbe auxiliaire • فعل"
+  },
+  "être": {
+    "en": "to be",
+    "ur": "ہونا",
+    "ar": "يكون",
+    "hi": "होना",
+    "es": "ser / estar",
+    "ipa": "/ɛtʁ/",
+    "phonetic": "ایتر (Ay-truh)",
+    "pos": "Verbe auxiliaire • فعل"
+  },
+  "avoir": {
+    "en": "to have",
+    "ur": "پاس ہونا / رکھنا",
+    "ar": "يملك",
+    "hi": "पास होना",
+    "es": "tener / haber",
+    "ipa": "/a.vwaʁ/",
+    "phonetic": "آووار (Ah-vwahr)",
+    "pos": "Verbe auxiliaire • فعل"
+  },
+  "aller": {
+    "en": "to go",
+    "ur": "جانا",
+    "ar": "يذهب",
+    "hi": "जाना",
+    "es": "ir",
+    "ipa": "/a.le/",
+    "phonetic": "آلے (Ah-lay)",
+    "pos": "Verbe • فعل"
+  },
+  "faire": {
+    "en": "to do / to make",
+    "ur": "کرنا / بنانا",
+    "ar": "يفعل / يصنع",
+    "hi": "करना / बनाना",
+    "es": "hacer",
+    "ipa": "/fɛʁ/",
+    "phonetic": "فیر (Fair)",
+    "pos": "Verbe • فعل"
+  },
+  "pouvoir": {
+    "en": "to be able to / can",
+    "ur": "سکنا (کر سکنا)",
+    "ar": "يستطيع",
+    "hi": "सकना",
+    "es": "poder",
+    "ipa": "/pu.vwaʁ/",
+    "phonetic": "پوووار (Poo-vwahr)",
+    "pos": "Verbe modal • فعل"
+  },
+  "vouloir": {
+    "en": "to want",
+    "ur": "چاہنا",
+    "ar": "يريد",
+    "hi": "चाहना",
+    "es": "querer",
+    "ipa": "/vu.lwaʁ/",
+    "phonetic": "وولووار (Voo-lwahr)",
+    "pos": "Verbe modal • فعل"
+  },
+  "savoir": {
+    "en": "to know (a fact)",
+    "ur": "جاننا / معلوم ہونا",
+    "ar": "يعرف",
+    "hi": "जानना",
+    "es": "saber",
+    "ipa": "/sa.vwaʁ/",
+    "phonetic": "ساووار (Sah-vwahr)",
+    "pos": "Verbe • فعل"
+  },
+  "connaitre": {
+    "en": "to know (be acquainted with)",
+    "ur": "پہچاننا / واقف ہونا",
+    "ar": "يعرف (شخصاً أو مكاناً)",
+    "hi": "पहचानना",
+    "es": "conocer",
+    "ipa": "/kɔ.nɛtʁ/",
+    "phonetic": "کونیر (Koh-net-ruh)",
+    "pos": "Verbe • فعل"
+  },
+  "parler": {
+    "en": "to speak / to talk",
+    "ur": "بولنا / بات کرنا",
+    "ar": "يتكلم",
+    "hi": "बोलना",
+    "es": "hablar",
+    "ipa": "/paʁ.le/",
+    "phonetic": "پارلے (Par-lay)",
+    "pos": "Verbe • فعل"
+  },
+  "manger": {
+    "en": "to eat",
+    "ur": "کھانا",
+    "ar": "يأكل",
+    "hi": "खाना",
+    "es": "comer",
+    "ipa": "/mɑ̃.ʒe/",
+    "phonetic": "مانژے (Mahn-zhay)",
+    "pos": "Verbe • فعل"
+  },
+  "boire": {
+    "en": "to drink",
+    "ur": "پینا",
+    "ar": "يشرب",
+    "hi": "पीना",
+    "es": "beber",
+    "ipa": "/bwaʁ/",
+    "phonetic": "بوار (Bwahr)",
+    "pos": "Verbe • فعل"
+  },
+  "dormir": {
+    "en": "to sleep",
+    "ur": "سونا",
+    "ar": "ينام",
+    "hi": "सोना",
+    "es": "dormir",
+    "ipa": "/dɔʁ.miʁ/",
+    "phonetic": "دورمیر (Dor-meer)",
+    "pos": "Verbe • فعل"
+  },
+  "comprendre": {
+    "en": "to understand",
+    "ur": "سمجھنا",
+    "ar": "يفهم",
+    "hi": "समझना",
+    "es": "entender / comprender",
+    "ipa": "/kɔ̃.pʁɑ̃dʁ/",
+    "phonetic": "کومپراندر (Kohm-prahn-druh)",
+    "pos": "Verbe • فعل"
+  },
+  "apprendre": {
+    "en": "to learn",
+    "ur": "سیکھنا",
+    "ar": "يتعلم",
+    "hi": "सीखना",
+    "es": "aprender",
+    "ipa": "/a.pʁɑ̃dʁ/",
+    "phonetic": "اپپراندر (Ah-prahn-druh)",
+    "pos": "Verbe • فعل"
+  },
+  "aimer": {
+    "en": "to like / to love",
+    "ur": "پسند کرنا / محبت کرنا",
+    "ar": "يحب",
+    "hi": "पसंद करना / प्यार करना",
+    "es": "amar / gustar",
+    "ipa": "/e.me/",
+    "phonetic": "ایمے (Ay-may)",
+    "pos": "Verbe • فعل"
+  },
+  "chercher": {
+    "en": "to search / to look for",
+    "ur": "تلاش کرنا / ڈھونڈنا",
+    "ar": "يبحث",
+    "hi": "ढूँढना",
+    "es": "buscar",
+    "ipa": "/ʃɛʁ.ʃe/",
+    "phonetic": "شیرشے (Shair-shay)",
+    "pos": "Verbe • فعل"
+  },
+  "trouver": {
+    "en": "to find",
+    "ur": "پانا / ملنا",
+    "ar": "يجد",
+    "hi": "पाना",
+    "es": "encontrar",
+    "ipa": "/tʁu.ve/",
+    "phonetic": "ترووے (Troo-vay)",
+    "pos": "Verbe • فعل"
+  },
+  "acheter": {
+    "en": "to buy",
+    "ur": "خریدنا",
+    "ar": "يشتري",
+    "hi": "खरीदना",
+    "es": "comprar",
+    "ipa": "/aʃ.te/",
+    "phonetic": "اشتے (Ash-tay)",
+    "pos": "Verbe • فعل"
+  },
+  "payer": {
+    "en": "to pay",
+    "ur": "ادائیگی کرنا",
+    "ar": "يدفع",
+    "hi": "भुगतान करना",
+    "es": "pagar",
+    "ipa": "/pɛ.je/",
+    "phonetic": "پیے (Pay-yay)",
+    "pos": "Verbe • فعل"
+  },
+  "aider": {
+    "en": "to help",
+    "ur": "مدد کرنا",
+    "ar": "يساعد",
+    "hi": "मदद करना",
+    "es": "ayudar",
+    "ipa": "/e.de/",
+    "phonetic": "ایدے (Ay-day)",
+    "pos": "Verbe • فعل"
+  },
+  "merci": {
+    "en": "thank you",
+    "ur": "شکریہ",
+    "ar": "شكراً",
+    "hi": "धन्यवाद",
+    "es": "gracias",
+    "ipa": "/mɛʁ.si/",
+    "phonetic": "میرسی (Mair-see)",
+    "pos": "Interjection • شائستگی"
+  },
+  "bonjour": {
+    "en": "hello / good morning",
+    "ur": "سلام / صبح بخیر",
+    "ar": "صباح الخير / مرحباً",
+    "hi": "नमस्ते / शुभ प्रभात",
+    "es": "hola / buenos días",
+    "ipa": "/bɔ̃.ʒuʁ/",
+    "phonetic": "بونژور (Bohn-zhoor)",
+    "pos": "Salutation • سلام"
+  },
+  "bonsoir": {
+    "en": "good evening",
+    "ur": "شام بخیر",
+    "ar": "مساء الخير",
+    "hi": "शुभ संध्या",
+    "es": "buenas tardes",
+    "ipa": "/bɔ̃.swaʁ/",
+    "phonetic": "بونسوار (Bohn-swahr)",
+    "pos": "Salutation • سلام"
+  },
+  "salut": {
+    "en": "hi / bye (informal)",
+    "ur": "سلام / الوداع (بے تکلف)",
+    "ar": "مرحباً (غير رسمي)",
+    "hi": "नमस्ते / बाय",
+    "es": "hola / adiós",
+    "ipa": "/sa.ly/",
+    "phonetic": "سالیو (Sah-loo)",
+    "pos": "Salutation"
+  },
+  "au revoir": {
+    "en": "goodbye",
+    "ur": "الوداع / خدا حافظ",
+    "ar": "إلى اللقاء",
+    "hi": "अलविदा",
+    "es": "adiós",
+    "ipa": "/o.ʁə.vwaʁ/",
+    "phonetic": "اورووار (Oh-ruh-vwahr)",
+    "pos": "Salutation"
+  },
+  "s'il vous plaît": {
+    "en": "please",
+    "ur": "برائے مہربانی",
+    "ar": "من فضلك",
+    "hi": "कृपया",
+    "es": "por favor",
+    "ipa": "/sil vu plɛ/",
+    "phonetic": "سل وو پلے (Seel voo play)",
+    "pos": "Expression"
+  },
+  "de rien": {
+    "en": "you're welcome",
+    "ur": "کوئی بات نہیں",
+    "ar": "عفواً",
+    "hi": "कोई बात नहीं",
+    "es": "de nada",
+    "ipa": "/də ʁjɛ̃/",
+    "phonetic": "دو ریاں (Duh ryen)",
+    "pos": "Expression"
+  }
+}

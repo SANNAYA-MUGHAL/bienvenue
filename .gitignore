@@ -19,3 +19,7 @@ htmlcov/
 .vscode/
 .idea/
 *.log
+.vercel/
+*.db-shm
+*.db-wal
+scratch/

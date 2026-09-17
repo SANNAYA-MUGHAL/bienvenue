@@ -95,3 +95,28 @@ def test_brain_map_endpoint():
     assert data["cefr_level"] == "A1"
     assert data["total_nodes"] >= 5
     assert len(data["nodes"]) >= 5
+
+def test_fuzzy_search_typo_correction():
+    response = client.get("/api/search?q=chein&lang=en")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["did_you_mean"] == "chien"
+    assert len(data["results"]) >= 1
+    assert data["results"][0]["french_term"] == "chien"
+    assert "dog" in data["results"][0]["translation_native"].lower()
+
+def test_wiktionary_resolver_search():
+    response = client.get("/api/search?q=grenouille&lang=en")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data["results"]) >= 1
+    first = data["results"][0]
+    assert first["french_term"] == "grenouille"
+    assert "frog" in first["translation_native"].lower()
+    
+    # Test card detail endpoint
+    card_resp = client.get(f"/api/card/{first['id']}")
+    assert card_resp.status_code == 200
+    card_data = card_resp.json()
+    assert card_data["french_term"] == "grenouille"
+    assert "translations" in card_data

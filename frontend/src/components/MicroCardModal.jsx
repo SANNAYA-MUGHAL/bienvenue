@@ -56,16 +56,16 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
         className="w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden flex flex-col max-h-[90vh]"
       >
         {/* Modal Header */}
-        <div className="px-6 py-4 bg-[#1B2A4A] text-white flex items-center justify-between">
+        <div className="px-6 py-4 bg-white border-b border-slate-200 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-xl">🇫🇷</span>
-            <span className="text-xs font-semibold tracking-wider uppercase text-amber-300">
+            <span className="text-xs font-bold tracking-wider uppercase text-coral font-sans">
               Micro-Learning Card
             </span>
           </div>
           <button 
             onClick={onClose}
-            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition"
+            className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition"
             aria-label="Close modal"
           >
             <X size={18} />
@@ -79,23 +79,23 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
           <div className="flex items-start justify-between gap-4 border-b border-slate-100 pb-5">
             <div>
               <div className="flex items-center gap-3">
-                <h2 className="text-3xl font-black text-[#1B2A4A] tracking-tight">
+                <h2 lang="fr" translate="no" className="notranslate text-3xl font-french font-bold text-french tracking-tight">
                   {card.french_term}
                 </h2>
                 {card.ipa && (
-                  <span className="text-sm font-mono text-slate-400 bg-slate-100 px-2.5 py-0.5 rounded-full">
+                  <span className="text-xs font-mono text-lavender bg-lavender/10 px-2.5 py-1 rounded-full font-semibold">
                     {card.ipa}
                   </span>
                 )}
               </div>
-              <p className="text-xs font-semibold text-terracotta mt-1">
+              <p className="text-xs font-semibold text-coral mt-1 font-sans">
                 {card.concept_type || 'Vocabulaire'}
               </p>
             </div>
 
             <button
               onClick={() => handleAudioPlay(card.french_term)}
-              className="w-12 h-12 rounded-2xl bg-[#E05A47] text-white flex items-center justify-center hover:bg-[#C84635] shadow-md shadow-terracotta/20 transition active:scale-95 shrink-0"
+              className="w-12 h-12 rounded-2xl bg-french/10 hover:bg-french/20 text-french border border-french/20 flex items-center justify-center shadow-xs transition active:scale-95 shrink-0"
               title="Écouter la prononciation"
             >
               <Volume2 size={22} />
@@ -104,8 +104,8 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
 
           {/* Meaning & Native Transliteration */}
           <div className="grid grid-cols-2 gap-3">
-            <div className="p-3.5 rounded-2xl bg-amber-50/60 border border-amber-200/60">
-              <span className="text-[11px] font-bold text-amber-800 uppercase block mb-1">
+            <div className="p-3.5 rounded-2xl bg-coral-50/60 border border-coral-200/60">
+              <span className="text-[11px] font-bold text-coral uppercase block mb-1 font-sans">
                 {nativeLang === 'ur' ? 'اردو ترجمہ' : 'Traduction'}
               </span>
               <span className="text-lg font-bold text-slate-800 font-urdu block">
@@ -113,8 +113,8 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
               </span>
             </div>
 
-            <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200">
-              <span className="text-[11px] font-bold text-slate-500 uppercase block mb-1">
+            <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <span className="text-[11px] font-bold text-slate-500 uppercase block mb-1 font-sans">
                 {nativeLang === 'ur' ? 'تلفظ (Pronunciation)' : 'Prononciation'}
               </span>
               <span className="text-base font-semibold text-slate-800 font-urdu block">
@@ -125,8 +125,8 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
 
           {/* Contrastive Pedagogical Rule */}
           {nativeRule && (
-            <div className="p-4 rounded-2xl bg-orange-50/80 border-l-4 rtl:border-l-0 rtl:border-r-4 border-[#E05A47] space-y-1.5">
-              <div className="flex items-center gap-1.5 text-xs font-bold text-[#E05A47]">
+            <div className="p-4 rounded-2xl bg-amber-50/70 border-l-4 rtl:border-l-0 rtl:border-r-4 border-coral space-y-1.5 shadow-2xs">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-coral font-sans">
                 <Sparkles size={16} />
                 <span>{nativeLang === 'ur' ? 'خاص قاعدہ برائے فہم (Contrastive Tip)' : 'Règle Pédagogique'}</span>
               </div>
@@ -137,9 +137,10 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
           )}
 
           {/* Real-World Usage Examples */}
+          {/* Real-World Usage Examples */}
           {card.examples && card.examples.length > 0 && (
             <div className="space-y-3">
-              <h4 className="text-xs font-bold uppercase text-slate-400 tracking-wider">
+              <h4 className="text-xs font-bold uppercase text-slate-400 tracking-wider font-sans">
                 {nativeLang === 'ur' ? 'روزمرہ مثالیں (Examples)' : 'Exemples Réels'}
               </h4>
               <div className="space-y-2">
@@ -148,10 +149,10 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
                   return (
                     <div 
                       key={idx} 
-                      className="p-3.5 rounded-2xl bg-[#FDFBF7] border border-slate-200/80 flex items-center justify-between gap-3 group hover:border-slate-300 transition"
+                      className="p-3.5 rounded-2xl bg-[#FDFBF7] border border-slate-200/80 flex items-center justify-between gap-3 group hover:border-coral/40 transition shadow-2xs"
                     >
                       <div className="space-y-1 text-left rtl:text-right">
-                        <p className="text-sm font-semibold text-[#1B2A4A] font-sans">
+                        <p lang="fr" translate="no" className="notranslate text-base font-semibold text-french font-french">
                           {ex.fr}
                         </p>
                         <p className="text-xs text-slate-600 font-urdu">
@@ -160,7 +161,7 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
                       </div>
                       <button
                         onClick={() => handleAudioPlay(ex.fr)}
-                        className="w-8 h-8 rounded-xl bg-slate-100 group-hover:bg-slate-200 text-slate-600 flex items-center justify-center transition shrink-0"
+                        className="w-8 h-8 rounded-xl bg-slate-100 group-hover:bg-french/10 text-slate-600 group-hover:text-french border border-slate-200/60 flex items-center justify-center transition shrink-0"
                         title="Écouter la phrase"
                       >
                         <Volume2 size={16} />
@@ -173,39 +174,39 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
           )}
 
           {/* Interactive Speaking Challenge */}
-          <div className="p-4 rounded-2xl bg-gradient-to-br from-[#1B2A4A] to-[#2A3C63] text-white space-y-3">
+          <div className="p-4 rounded-2xl bg-[#FDFBF7] border border-slate-200/90 space-y-3 shadow-2xs">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase tracking-wider text-amber-300">
+              <span className="text-xs font-bold uppercase tracking-wider text-french font-sans">
                 🎤 {nativeLang === 'ur' ? 'کہئے اور تلفظ چیک کریں' : 'Pratiquez à voix haute'}
               </span>
               {score !== null && (
-                <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+                <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300 font-sans">
                   Score: {score}%
                 </span>
               )}
             </div>
 
-            <p className="text-sm font-medium italic text-slate-200">
+            <p lang="fr" translate="no" className="notranslate text-base font-french italic text-french font-semibold">
               "{card.practice_prompt?.prompt_fr || card.examples?.[0]?.fr || card.french_term}"
             </p>
 
             {userTranscript && (
-              <p className="text-xs text-slate-300">
-                Vous avez dit : <span className="text-white font-semibold font-mono">"{userTranscript}"</span>
+              <p className="text-xs text-slate-600 font-sans">
+                Vous avez dit : <span className="text-french font-semibold font-mono">"{userTranscript}"</span>
               </p>
             )}
 
             <button
               onClick={handlePracticeMic}
               disabled={isSpeaking}
-              className={`w-full py-2.5 px-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition ${
+              className={`w-full py-2.5 px-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition border ${
                 isSpeaking 
-                  ? 'bg-red-500 animate-pulse text-white' 
-                  : 'bg-[#E05A47] hover:bg-[#C84635] text-white shadow-md'
+                  ? 'bg-red-100 text-red-600 border-red-300 animate-pulse' 
+                  : 'bg-coral/15 hover:bg-coral/25 text-coral-dark border-coral/30 shadow-xs'
               }`}
             >
               <Mic size={16} />
-              <span>
+              <span className="font-sans">
                 {isSpeaking
                   ? (nativeLang === 'ur' ? 'سن رہا ہوں...' : 'Écoute en cours...')
                   : (nativeLang === 'ur' ? 'بولنے کے لیے ٹیپ کریں' : 'Appuyer pour parler')
@@ -221,10 +222,10 @@ export default function MicroCardModal({ card, onClose, nativeLang = 'ur', onAdd
           <button
             onClick={handleAdd}
             disabled={added}
-            className={`flex-1 py-3 px-4 rounded-2xl font-bold text-sm flex items-center justify-center gap-2 transition ${
+            className={`flex-1 py-3 px-4 rounded-2xl font-bold text-sm flex items-center justify-center gap-2 transition font-sans ${
               added 
                 ? 'bg-emerald-100 text-emerald-800 border border-emerald-300' 
-                : 'bg-[#1B2A4A] hover:bg-[#0F1A2E] text-white shadow-sm'
+                : 'bg-french/10 hover:bg-french/20 text-french border border-french/30 shadow-xs'
             }`}
           >
             {added ? (

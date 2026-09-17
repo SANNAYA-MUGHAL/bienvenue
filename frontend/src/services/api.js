@@ -8,11 +8,12 @@ import { MICRO_CARDS } from '../data/microCards';
 import { CONTRASTIVE_RULES } from '../data/contrastiveRules';
 import { SURVIVAL_SCENARIOS } from '../data/survivalScenarios';
 import { KNOWLEDGE_GRAPH } from '../data/knowledgeGraph';
+import { FRENCH_LEXICON } from '../data/lexicon';
 
 const API_BASE = '/api';
 
-// Helper for fetch with timeout
-const fetchWithTimeout = async (url, options = {}, timeoutMs = 1500) => {
+/// Helper for fetch with timeout
+const fetchWithTimeout = async (url, options = {}, timeoutMs = 3500) => {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeoutMs);
   try {
@@ -39,55 +40,67 @@ const stripAccents = (str) => {
 
 const synthesizeLocalCard = (term, lang = 'ur') => {
   const clean = (term || '').trim();
-  const slug = clean.toLowerCase().replace(/[^a-z0-9]/g, '_');
-  return {
-    id: `dyn_${slug}`,
-    french_term: clean,
-    ipa: `/${clean.toLowerCase()}/`,
-    concept_type: 'Vocabulaire • فرانسیسی اصطلاح',
-    phonetics: {
-      ur: `${clean} (تلفظ)`,
-      ar: `${clean} (نطق)`,
-      hi: `${clean}`,
-      es: clean.toLowerCase(),
-      en: clean.toLowerCase()
-    },
-    translations: {
-      ur: `فرانسیسی اصطلاح « ${clean} »`,
-      ar: `المصطلح الفرنسي « ${clean} »`,
-      hi: `फ़्रेंच शब्द « ${clean} »`,
-      es: `término francés « ${clean} »`,
-      en: `French expression « ${clean} »`
-    },
-    pedagogical_rules: {
-      ur: `یہ فرانسیسی لفظ « ${clean} » ہے۔ درست ادائیگی اور روانی کے لیے اسے بلند آواز میں بول کر دہرائیں اور محفوظ کریں۔`,
-      ar: `هذا المصطلح « ${clean} ». استمع إلى لفظه وتدرّب عليه لتعزيز طلاقتك اللغوية.`,
-      hi: `यह फ़्रेंच शब्द « ${clean} » है। सही उच्चारण के लिए बोलकर अभ्यास करें।`,
-      es: `Término francés « ${clean} ». Practique su pronunciación en voz alta.`,
-      en: `French term « ${clean} ». Practice pronouncing it aloud to build fluency.`
-    },
-    examples: [
-      {
-        fr: `Je pratique le mot « ${clean} » en français.`,
-        ur: `میں فرانسیسی میں « ${clean} » بولنے کی مشق کر رہا ہوں۔`,
-        ar: `أتدرب على استخدام كلمة « ${clean} » بالفرنسية.`,
-        hi: `मैं फ्रेंच में « ${clean} » का अभ्यास कर रहा हूँ।`,
-        es: `Practico la palabra « ${clean} » en francés.`,
-        en: `I am practicing the word « ${clean} » in French.`
+  const termLower = clean.toLowerCase();
+  const termNorm = stripAccents(clean);
+  const slug = termNorm.replace(/[^a-z0-9]/g, '_');
+
+  const lex = FRENCH_LEXICON[termLower] || FRENCH_LEXICON[termNorm] || FRENCH_LEXICON[clean];
+
+  if (lex) {
+    const meaningNative = {
+      ur: `${lex.ur} (${lex.en})`,
+      ar: `${lex.ar} (${lex.en})`,
+      hi: `${lex.hi} (${lex.en})`,
+      es: lex.es,
+      en: lex.en
+    };
+
+    return {
+      id: `dyn_${slug}`,
+      french_term: clean,
+      ipa: lex.ipa || `/${termNorm}/`,
+      concept_type: lex.pos || 'Vocabulaire • مفردات / الفاظ',
+      source: 'lexicon',
+      phonetics: {
+        ur: lex.phonetic || `${clean} (تلفظ)`,
+        ar: `${clean} (نطق)`,
+        hi: `${clean}`,
+        es: clean.toLowerCase(),
+        en: lex.ipa ? `${clean} [${lex.ipa}]` : clean.toLowerCase()
+      },
+      translations: meaningNative,
+      pedagogical_rules: {
+        ur: `فرانسیسی لفظ « ${clean} » کا مفہوم و معنی « ${lex.ur} » ہے۔ درست صوتی ادائیگی اور روانی کے لیے اسے بلند آواز سے دہرائیں۔`,
+        ar: `المصطلح الفرنسي « ${clean} » يعني « ${lex.ar} » (${lex.en}). تدرّب على النطق الصحيح.`,
+        hi: `फ़्रेंच शब्द « ${clean} » का अर्थ « ${lex.hi} » (${lex.en}) है। सही उच्चारण के लिए बोलकर अभ्यास करें।`,
+        es: `La palabra francesa « ${clean} » significa « ${lex.es} » (${lex.en}). Practique su pronunciación en voz alta.`,
+        en: `The French word « ${clean} » means « ${lex.en} ». Practice pronouncing it aloud to build retention.`
+      },
+      examples: [
+        {
+          fr: `Voici un(e) ${clean}.`,
+          ur: `یہ ایک ${lex.ur} ہے۔`,
+          ar: `هذا ${lex.ar}.`,
+          hi: `यह एक ${lex.hi} है।`,
+          es: `Aquí hay un/a ${lex.es}.`,
+          en: `Here is a ${lex.en}.`
+        }
+      ],
+      practice_prompt: {
+        type: 'speak_or_type',
+        prompt_fr: clean,
+        prompt_native: {
+          ur: `لفظ « ${clean} » (${lex.ur}) کو بولیں یا دہرائیں۔`,
+          ar: `انطق « ${clean} » (${lex.ar}) بصوت واضح.`,
+          hi: `« ${clean} » (${lex.hi}) का उच्चारण करें।`,
+          es: `Pronuncie « ${clean} » (${lex.es}).`,
+          en: `Say or type « ${clean} » (${lex.en}).`
+        }
       }
-    ],
-    practice_prompt: {
-      type: 'speak_or_type',
-      prompt_fr: clean,
-      prompt_native: {
-        ur: `اس لفظ « ${clean} » کو بلند آواز سے بولیں۔`,
-        ar: `انطق « ${clean} » بصوت واضح.`,
-        hi: `« ${clean} » का उच्चारण करें।`,
-        es: `Pronuncie « ${clean} » con claridad.`,
-        en: `Say « ${clean} » out loud.`
-      }
-    }
-  };
+    };
+  }
+
+  return null;
 };
 
 export const api = {
@@ -98,71 +111,120 @@ export const api = {
     if (!qRaw) return { query, lang, total_matches: 0, results: [] };
 
     try {
-      const res = await fetchWithTimeout(`${API_BASE}/search?q=${encodeURIComponent(query)}&lang=${lang}`);
+      const res = await fetchWithTimeout(`${API_BASE}/search?q=${encodeURIComponent(query)}&lang=${lang}`, {}, 5000);
       if (res.ok) {
         const data = await res.json();
-        if (data.results && data.results.length > 0) {
+        if (data.results && (data.results.length > 0 || data.did_you_mean)) {
           return data;
         }
       }
     } catch (e) {
-      // Backend not reached, proceed to local matching
+      // Backend not reached or timed out, proceed to local matching
     }
 
-    // High-performance local search fallback
-    const matched = [];
+    // High-performance local search with relevance scoring
+    const scoredMatches = [];
     for (const card of MICRO_CARDS) {
-      let isMatch = false;
-      
-      // Match French term (accent-insensitive)
       const frNorm = stripAccents(card.french_term);
-      if (qNorm && (frNorm.includes(qNorm) || qNorm.includes(frNorm))) {
-        isMatch = true;
+      const translations = card.translations || {};
+      const phonetics = card.phonetics || {};
+      let score = 0;
+
+      // 1. Exact French match
+      if (qNorm && frNorm === qNorm) {
+        score = 1000;
+      } else if (qNorm && frNorm.startsWith(qNorm)) {
+        score = 700 - frNorm.length;
+      } else if (qNorm && frNorm.split(/\s+/).includes(qNorm)) {
+        score = 500;
+      } else if (qNorm.length >= 3 && frNorm.includes(qNorm)) {
+        score = 300 - frNorm.length;
       }
 
-      // Match native translation or any translation
-      const trans = card.translations || {};
-      for (const t of Object.values(trans)) {
-        if (t && (t.toLowerCase().includes(qRaw.toLowerCase()) || stripAccents(t).includes(qNorm))) {
-          isMatch = true;
-          break;
-        }
+      // 2. Active native language translation
+      const activeTrans = translations[lang] || '';
+      const activeTransNorm = stripAccents(activeTrans);
+      if (qNorm && activeTransNorm === qNorm) {
+        score = Math.max(score, 600);
+      } else if (qNorm && activeTransNorm.split(/\s+/).includes(qNorm)) {
+        score = Math.max(score, 350);
+      } else if (qNorm.length >= 3 && activeTransNorm.includes(qNorm)) {
+        score = Math.max(score, 150);
       }
 
-      // Match phonetics
-      const phones = card.phonetics || {};
-      for (const p of Object.values(phones)) {
-        if (p && (p.toLowerCase().includes(qRaw.toLowerCase()) || stripAccents(p).includes(qNorm))) {
-          isMatch = true;
-          break;
-        }
+      // 3. Phonetic transliteration match
+      const activePhone = phonetics[lang] || '';
+      const activePhoneNorm = stripAccents(activePhone);
+      if (qNorm && activePhoneNorm.split(/\s+/).includes(qNorm)) {
+        score = Math.max(score, 250);
       }
 
-      if (isMatch) {
-        matched.push({
-          id: card.id,
-          french_term: card.french_term,
-          ipa: card.ipa,
-          concept_type: card.concept_type,
-          phonetic_native: card.phonetics?.[lang] || card.phonetics?.ur || '',
-          translation_native: card.translations?.[lang] || card.translations?.ur || card.french_term,
-          rule_summary: card.pedagogical_rules?.[lang] || card.pedagogical_rules?.ur || ''
+      if (score > 0) {
+        scoredMatches.push({
+          score,
+          card: {
+            id: card.id,
+            french_term: card.french_term,
+            ipa: card.ipa,
+            concept_type: card.concept_type,
+            phonetic_native: card.phonetics?.[lang] || card.phonetics?.ur || '',
+            translation_native: card.translations?.[lang] || card.translations?.ur || card.french_term,
+            rule_summary: card.pedagogical_rules?.[lang] || card.pedagogical_rules?.ur || '',
+            source: 'curated'
+          }
         });
       }
     }
 
-    // If still no match and query has 2+ characters, synthesize dynamic card
+    scoredMatches.sort((a, b) => b.score - a.score);
+    const matched = scoredMatches.slice(0, 8).map(m => m.card);
+
+    // Also search in offline FRENCH_LEXICON
+    if (matched.length < 8 && qRaw.length >= 2) {
+      const existingTerms = new Set(matched.map(m => m.french_term.toLowerCase()));
+      for (const [wFr, lex] of Object.entries(FRENCH_LEXICON)) {
+        if (existingTerms.has(wFr.toLowerCase())) continue;
+        const wNorm = stripAccents(wFr);
+        let match = false;
+        if (wNorm === qNorm || wNorm.startsWith(qNorm)) {
+          match = true;
+        } else if (lex[lang] && stripAccents(lex[lang]).includes(qNorm)) {
+          match = true;
+        }
+
+        if (match) {
+          const dyn = synthesizeLocalCard(wFr, lang);
+          matched.push({
+            id: dyn.id,
+            french_term: dyn.french_term,
+            ipa: dyn.ipa,
+            concept_type: dyn.concept_type,
+            phonetic_native: dyn.phonetics[lang] || dyn.phonetics.ur || dyn.phonetics.en,
+            translation_native: dyn.translations[lang] || dyn.translations.ur || dyn.translations.en,
+            rule_summary: dyn.pedagogical_rules[lang] || dyn.pedagogical_rules.ur || '',
+            source: 'lexicon'
+          });
+          existingTerms.add(wFr.toLowerCase());
+          if (matched.length >= 8) break;
+        }
+      }
+    }
+
+    // If still no match and query has 2+ characters, check local lexicon
     if (matched.length === 0 && qRaw.length >= 2) {
       const dyn = synthesizeLocalCard(qRaw, lang);
-      matched.push({
-        id: dyn.id,
-        french_term: dyn.french_term,
-        ipa: dyn.ipa,
-        concept_type: dyn.concept_type,
-        phonetic_native: dyn.phonetics[lang] || dyn.phonetics.ur,
-        translation_native: dyn.translations[lang] || dyn.translations.ur,
-        rule_summary: dyn.pedagogical_rules[lang] || dyn.pedagogical_rules.ur
-      });
+      if (dyn) {
+        matched.push({
+          id: dyn.id,
+          french_term: dyn.french_term,
+          ipa: dyn.ipa,
+          concept_type: dyn.concept_type,
+          phonetic_native: dyn.phonetics[lang] || dyn.phonetics.ur,
+          translation_native: dyn.translations[lang] || dyn.translations.ur,
+          rule_summary: dyn.pedagogical_rules[lang] || dyn.pedagogical_rules.ur,
+          source: dyn.source || 'lexicon'
+        });
+      }
     }
 
     return {
@@ -176,15 +238,15 @@ export const api = {
   // 2. Card Detail
   getCard: async (cardId) => {
     try {
-      const res = await fetchWithTimeout(`${API_BASE}/card/${cardId}`);
+      const res = await fetchWithTimeout(`${API_BASE}/card/${cardId}`, {}, 3500);
       if (res.ok) return await res.json();
     } catch (e) {}
 
     const localCard = MICRO_CARDS.find(c => c.id === cardId);
     if (localCard) return localCard;
 
-    if (cardId && cardId.startsWith('dyn_')) {
-      const rawWord = cardId.replace('dyn_', '').replace(/_/g, ' ');
+    if (cardId && (cardId.startsWith('dyn_') || cardId.startsWith('wiki_'))) {
+      const rawWord = cardId.replace('wiki_', '').replace('dyn_', '').replace(/_/g, ' ');
       return synthesizeLocalCard(rawWord);
     }
 

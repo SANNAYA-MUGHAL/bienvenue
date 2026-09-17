@@ -79,21 +79,24 @@ export default function App() {
 
   return (
     <div 
-      className={`min-h-screen bg-[#FDFBF7] text-slate-900 pb-24 ${activeLangObj.font}`}
+      className={`min-h-screen bg-[#FDFBF7] text-slate-900 pb-24 notranslate ${activeLangObj.font}`}
       dir={isRTL ? 'rtl' : 'ltr'}
+      translate="no"
     >
       {/* 1. Global Navigation Top Header */}
-      <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200/80 px-4 sm:px-8 py-3.5">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-4 sm:px-8 py-3.5 shadow-2xs">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           
           {/* Logo Brand */}
-          <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => setActiveTab('mission')}>
-            <span className="text-2xl">🇫🇷</span>
+          <div className="flex items-center gap-2.5 cursor-pointer select-none" onClick={() => setActiveTab('mission')}>
+            <div className="w-8 h-8 rounded-xl bg-french/10 border border-french/20 flex items-center justify-center shadow-xs">
+              <span className="text-lg">🇫🇷</span>
+            </div>
             <div>
-              <span className="font-black text-lg text-[#1B2A4A] tracking-tight block leading-none font-sans">
-                BIENVENUE
+              <span lang="fr" translate="no" className="notranslate font-french font-bold text-xl text-french tracking-tight block leading-none">
+                Bienvenue
               </span>
-              <span className="text-[10px] text-slate-400 font-sans tracking-wide block">
+              <span className="text-[11px] text-slate-400 font-sans tracking-wide block">
                 French in your language
               </span>
             </div>
@@ -103,16 +106,16 @@ export default function App() {
           <div className="flex items-center gap-2 sm:gap-3">
             
             {/* Streak Badge */}
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold shadow-2xs">
-              <Flame size={14} className="text-amber-500 fill-amber-500" />
-              <span>{profile.streakDays || 7} j</span>
+            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-coral/10 border border-coral/20 text-coral font-bold text-xs shadow-2xs">
+              <Flame size={14} className="text-coral fill-coral" />
+              <span className="font-sans">{profile.streakDays || 7} j</span>
             </div>
 
             {/* Language Switcher Dropdown */}
             <div className="relative">
               <button
                 onClick={() => setShowLangDropdown(!showLangDropdown)}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition border border-slate-200/60"
               >
                 <span>{activeLangObj.flag}</span>
                 <span className="hidden sm:inline font-sans">{activeLangObj.name}</span>
@@ -120,20 +123,23 @@ export default function App() {
               </button>
 
               {showLangDropdown && (
-                <div className="absolute right-0 rtl:right-auto rtl:left-0 mt-2 w-44 bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden z-50 divide-y divide-slate-100 animate-fadeIn">
+                <div className="absolute right-0 rtl:right-auto rtl:left-0 mt-2 w-48 bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden z-50 divide-y divide-slate-100 animate-fadeIn">
+                  <div className="px-3.5 py-2 bg-slate-50 text-[10px] font-bold text-slate-400 uppercase tracking-wider font-sans">
+                    Langue d'apprentissage
+                  </div>
                   {SUPPORTED_LANGS.map((lang) => (
                     <button
                       key={lang.code}
                       onClick={() => handleLanguageChange(lang.code)}
-                      className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs text-left rtl:text-right hover:bg-amber-50/50 transition ${
-                        lang.code === activeLangCode ? 'bg-[#FDEEEB] text-[#E05A47] font-bold' : 'text-slate-700'
+                      className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs text-left rtl:text-right hover:bg-coral-50/50 transition ${
+                        lang.code === activeLangCode ? 'bg-coral-50 text-coral font-bold' : 'text-slate-700'
                       }`}
                     >
                       <div className="flex items-center gap-2">
                         <span>{lang.flag}</span>
                         <span>{lang.name}</span>
                       </div>
-                      {lang.code === activeLangCode && <Check size={14} />}
+                      {lang.code === activeLangCode && <Check size={14} className="text-coral" />}
                     </button>
                   ))}
                 </div>
@@ -190,18 +196,18 @@ export default function App() {
       </main>
 
       {/* 3. Persistent Mobile/Desktop Bottom Navigation Bar */}
-      <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200/80 px-4 py-2 shadow-lg">
+      <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200/80 px-4 py-2.5 shadow-lg">
         <div className="max-w-md mx-auto flex items-center justify-around">
           
           <button
             onClick={() => setActiveTab('mission')}
             className={`flex flex-col items-center gap-1 py-1 px-4 rounded-2xl transition ${
               activeTab === 'mission'
-                ? 'text-[#E05A47] font-bold'
-                : 'text-slate-500 hover:text-slate-800'
+                ? 'text-coral font-bold scale-105'
+                : 'text-slate-500 hover:text-french'
             }`}
           >
-            <Home size={20} />
+            <Home size={20} className={activeTab === 'mission' ? 'text-coral' : ''} />
             <span className="text-[11px] font-sans">Mission</span>
           </button>
 
@@ -209,11 +215,11 @@ export default function App() {
             onClick={() => setActiveTab('survival')}
             className={`flex flex-col items-center gap-1 py-1 px-4 rounded-2xl transition ${
               activeTab === 'survival'
-                ? 'text-[#E05A47] font-bold'
-                : 'text-slate-500 hover:text-slate-800'
+                ? 'text-coral font-bold scale-105'
+                : 'text-slate-500 hover:text-french'
             }`}
           >
-            <Compass size={20} />
+            <Compass size={20} className={activeTab === 'survival' ? 'text-coral' : ''} />
             <span className="text-[11px] font-sans">Survie</span>
           </button>
 
@@ -221,11 +227,11 @@ export default function App() {
             onClick={() => setActiveTab('brainmap')}
             className={`flex flex-col items-center gap-1 py-1 px-4 rounded-2xl transition ${
               activeTab === 'brainmap'
-                ? 'text-[#E05A47] font-bold'
-                : 'text-slate-500 hover:text-slate-800'
+                ? 'text-coral font-bold scale-105'
+                : 'text-slate-500 hover:text-french'
             }`}
           >
-            <Brain size={20} />
+            <Brain size={20} className={activeTab === 'brainmap' ? 'text-coral' : ''} />
             <span className="text-[11px] font-sans">Brain Map</span>
           </button>
 

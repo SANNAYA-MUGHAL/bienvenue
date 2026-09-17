@@ -63,25 +63,25 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
               <div
                 key={s}
                 className={`h-2 rounded-full transition-all duration-300 ${
-                  s === step ? 'w-10 bg-[#E05A47]' : s < step ? 'w-6 bg-[#1B2A4A]' : 'w-4 bg-slate-200'
+                  s === step ? 'w-10 bg-coral' : s < step ? 'w-6 bg-french' : 'w-4 bg-slate-200'
                 }`}
               />
             ))}
           </div>
-          <span className="text-xs font-semibold text-slate-600 uppercase tracking-wider">
+          <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider font-sans">
             Étape {step} / 3
           </span>
         </div>
 
         {/* STEP 1: Select Native Language */}
         {step === 1 && (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fadeIn">
             <div className="text-center space-y-2">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-amber-50 text-3xl mb-1 shadow-inner">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-french/10 text-3xl mb-1 shadow-inner">
                 🇫🇷
               </div>
-              <h1 className="text-2xl sm:text-3xl font-bold text-[#1B2A4A] tracking-tight">
-                BIENVENUE
+              <h1 className="text-2xl sm:text-3xl font-french font-bold text-french tracking-tight">
+                Bienvenue
               </h1>
               <p className="text-sm text-slate-500 font-sans">
                 French in the language you understand
@@ -89,7 +89,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
             </div>
 
             <div className="space-y-2.5">
-              <label className="text-sm font-semibold text-slate-700 block mb-1">
+              <label className="text-xs font-bold text-slate-600 uppercase tracking-wider block mb-1 font-sans">
                 آپ کی مادری زبان کون سی ہے؟ / Choose your language:
               </label>
               {LANGUAGES.map((lang) => {
@@ -100,7 +100,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
                     onClick={() => handleLanguageSelect(lang.code)}
                     className={`w-full flex items-center justify-between p-4 rounded-2xl border-2 transition-all ${
                       isSelected
-                        ? 'border-[#E05A47] bg-[#FDEEEB]/40 shadow-sm'
+                        ? 'border-coral bg-coral-50/40 shadow-xs'
                         : 'border-slate-200 hover:border-slate-300 bg-white'
                     }`}
                   >
@@ -116,7 +116,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
                       </div>
                     </div>
                     {isSelected && (
-                      <div className="w-6 h-6 rounded-full bg-[#E05A47] text-white flex items-center justify-center">
+                      <div className="w-6 h-6 rounded-full bg-coral/20 text-coral-dark border border-coral/30 flex items-center justify-center shadow-xs">
                         <Check size={14} strokeWidth={3} />
                       </div>
                     )}
@@ -129,15 +129,15 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
 
         {/* STEP 2: Goal Selection */}
         {step === 2 && (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fadeIn">
             <div className="text-center space-y-2">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-orange-50 text-orange-600 mb-1">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-coral/10 text-coral mb-1">
                 <Compass size={28} />
               </div>
-              <h2 className="text-2xl font-bold text-[#1B2A4A]">
+              <h2 className="text-2xl font-french font-bold text-french">
                 {selectedLang === 'ur' ? 'آپ فرانسیسی کیوں سیکھ رہے ہیں؟' : 'Pourquoi apprenez-vous le français ?'}
               </h2>
-              <p className="text-xs text-slate-500">
+              <p className="text-xs text-slate-500 font-sans">
                 {selectedLang === 'ur' ? 'ہم آپ کے مقاصد کے مطابق کورس ترتیب دیں گے۔' : 'Nous adapterons votre parcours à votre objectif réel.'}
               </p>
             </div>
@@ -152,7 +152,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
                     onClick={() => setSelectedGoal(goal.id)}
                     className={`w-full flex items-center justify-between p-3.5 rounded-2xl border-2 transition-all ${
                       isSelected
-                        ? 'border-[#E05A47] bg-[#FDEEEB]/40 shadow-sm'
+                        ? 'border-coral bg-coral-50/40 shadow-xs'
                         : 'border-slate-200 hover:border-slate-300 bg-white'
                     }`}
                   >
@@ -163,7 +163,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
                       </span>
                     </div>
                     {isSelected && (
-                      <div className="w-6 h-6 rounded-full bg-[#E05A47] text-white flex items-center justify-center">
+                      <div className="w-6 h-6 rounded-full bg-coral/20 text-coral-dark border border-coral/30 flex items-center justify-center shadow-xs">
                         <Check size={14} strokeWidth={3} />
                       </div>
                     )}
@@ -176,15 +176,15 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
 
         {/* STEP 3: Time & Placement */}
         {step === 3 && (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fadeIn">
             <div className="text-center space-y-2">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-green-50 text-green-700 mb-1">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-french/10 text-french mb-1">
                 <Clock size={28} />
               </div>
-              <h2 className="text-2xl font-bold text-[#1B2A4A]">
+              <h2 className="text-2xl font-french font-bold text-french">
                 {selectedLang === 'ur' ? 'روزانہ کتنا وقت دے سکتے ہیں؟' : 'Combien de temps par jour ?'}
               </h2>
-              <p className="text-xs text-slate-500">
+              <p className="text-xs text-slate-500 font-sans">
                 {selectedLang === 'ur' ? 'تھوڑا پڑھیں، لیکن روزانہ اور مستقل مزاجی سے۔' : 'La régularité est le secret de la maîtrise.'}
               </p>
             </div>
@@ -199,7 +199,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
                     onClick={() => setSelectedTime(time.minutes)}
                     className={`w-full flex items-center justify-between p-4 rounded-2xl border-2 transition-all ${
                       isSelected
-                        ? 'border-[#E05A47] bg-[#FDEEEB]/40 shadow-sm'
+                        ? 'border-coral bg-coral-50/40 shadow-xs'
                         : 'border-slate-200 hover:border-slate-300 bg-white'
                     }`}
                   >
@@ -212,7 +212,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
                       </span>
                     </div>
                     {isSelected && (
-                      <div className="w-6 h-6 rounded-full bg-[#E05A47] text-white flex items-center justify-center">
+                      <div className="w-6 h-6 rounded-full bg-coral/20 text-coral-dark border border-coral/30 flex items-center justify-center shadow-xs">
                         <Check size={14} strokeWidth={3} />
                       </div>
                     )}
@@ -222,13 +222,13 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
             </div>
 
             {/* Beginner confirmation pill */}
-            <div className="p-4 rounded-2xl bg-[#E8ECF4]/60 border border-slate-200 flex items-center gap-3">
-              <GraduationCap className="text-[#1B2A4A] shrink-0" size={24} />
+            <div className="p-4 rounded-2xl bg-french/5 border border-french/20 flex items-center gap-3">
+              <GraduationCap className="text-french shrink-0" size={24} />
               <div className="text-left rtl:text-right">
-                <p className="text-xs font-bold text-[#1B2A4A]">
+                <p className="text-xs font-bold text-french font-sans">
                   {selectedLang === 'ur' ? 'سطح: مکمل مبتدی (A1 Foundation)' : 'Niveau : Débutant complet (A1)'}
                 </p>
-                <p className="text-[11px] text-slate-500">
+                <p className="text-[11px] text-slate-500 font-sans">
                   {selectedLang === 'ur' ? 'ہم بنیادی حروف، تلفظ اور ضروری جملوں سے آغاز کریں گے۔' : 'Nous démarrerons par les sons, les salutations et les bases.'}
                 </p>
               </div>
@@ -237,7 +237,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
         )}
 
         {/* Action Button */}
-        <div className="mt-8 flex gap-3">
+        <div className="mt-8 flex gap-3 font-sans">
           {step > 1 && (
             <button
               onClick={() => setStep(step - 1)}
@@ -249,7 +249,7 @@ export default function Onboarding({ onComplete, initialLang = 'ur' }) {
           )}
           <button
             onClick={handleNext}
-            className="flex-1 bg-[#E05A47] hover:bg-[#C84635] text-white font-bold py-3.5 px-6 rounded-2xl transition shadow-lg shadow-terracotta/20 flex items-center justify-center gap-2"
+            className="flex-1 bg-coral/15 hover:bg-coral/25 text-coral-dark border-2 border-coral/40 font-bold py-3.5 px-6 rounded-2xl transition shadow-xs flex items-center justify-center gap-2"
           >
             <span>
               {step === 3 

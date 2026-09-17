@@ -3406,5 +3406,2405 @@ export const MICRO_CARDS = [
         "en": "ticket"
       }
     }
+  },
+  {
+    "id": "card_chat",
+    "french_term": "chat",
+    "ipa": "/ʃa/",
+    "concept_type": "Nom masculin • پالتو جانور",
+    "phonetics": {
+      "ur": "شا (Sha)",
+      "ar": "شا",
+      "hi": "Sha",
+      "es": "chat",
+      "en": "sha"
+    },
+    "translations": {
+      "ur": "بلی (Cat)",
+      "ar": "قطة",
+      "hi": "बिल्ली",
+      "es": "gato",
+      "en": "cat"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں 'chat' مذکر (Le chat) ہے جبکہ مادہ بلی کے لیے 'La chatte' بولا جاتا ہے۔ آخری 't' خاموش ہے۔ فرانسیسی ثقافت میں بلیوں کو گھر کا پسندیدہ ساتھی سمجھا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: قطة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बिल्ली।",
+      "es": "Palabra francesa cotidiana: gato.",
+      "en": "Essential French everyday word meaning 'cat'."
+    },
+    "examples": [
+      {
+        "fr": "Le chat dort tranquillement sur le canapé.",
+        "ur": "بلی صوفے پر اطمینان سے سو رہی ہے۔",
+        "ar": "قطة",
+        "hi": "बिल्ली",
+        "es": "gato",
+        "en": "cat"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le chat dort tranquillement sur le canapé.",
+      "prompt_native": {
+        "ur": "بلی صوفے پر اطمینان سے سو رہی ہے۔",
+        "ar": "قطة",
+        "hi": "बिल्ली",
+        "es": "gato",
+        "en": "cat"
+      }
+    }
+  },
+  {
+    "id": "card_chien",
+    "french_term": "chien",
+    "ipa": "/ʃjɛ̃/",
+    "concept_type": "Nom masculin • پالتو جانور",
+    "phonetics": {
+      "ur": "شیاں (Shyen)",
+      "ar": "شیاں",
+      "hi": "Shyen",
+      "es": "chien",
+      "en": "shyen"
+    },
+    "translations": {
+      "ur": "کتا (Dog)",
+      "ar": "كلب",
+      "hi": "कुत्ता",
+      "es": "perro",
+      "en": "dog"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں کتوں کو ریستوران اور عوامی ٹرانسپورٹ میں لے جانے کی عام اجازت ہے۔ مذکر 'Le chien' اور مونث 'La chienne' ہے۔",
+      "ar": "تعبير فرنسي أساسي: كلب. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कुत्ता।",
+      "es": "Palabra francesa cotidiana: perro.",
+      "en": "Essential French everyday word meaning 'dog'."
+    },
+    "examples": [
+      {
+        "fr": "Mon chien aime se promener dans le parc.",
+        "ur": "میرا کتا پارک میں چہل قدمی کرنا پسند کرتا ہے۔",
+        "ar": "كلب",
+        "hi": "कुत्ता",
+        "es": "perro",
+        "en": "dog"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Mon chien aime se promener dans le parc.",
+      "prompt_native": {
+        "ur": "میرا کتا پارک میں چہل قدمی کرنا پسند کرتا ہے۔",
+        "ar": "كلب",
+        "hi": "कुत्ता",
+        "es": "perro",
+        "en": "dog"
+      }
+    }
+  },
+  {
+    "id": "card_oiseau",
+    "french_term": "oiseau",
+    "ipa": "/wa.zo/",
+    "concept_type": "Nom masculin • پرندہ",
+    "phonetics": {
+      "ur": "وازو (Wah-zoh)",
+      "ar": "وازو",
+      "hi": "Wah-zoh",
+      "es": "oiseau",
+      "en": "wah-zoh"
+    },
+    "translations": {
+      "ur": "پرندہ (Bird)",
+      "ar": "طائر / عصفور",
+      "hi": "पक्षी / चिड़िया",
+      "es": "pájaro",
+      "en": "bird"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی املا کا دلچسپ اصول: 'eau' ہمیشہ 'او' کی آواز دیتا ہے۔ جمع میں 'x' لگتا ہے: les oiseaux.",
+      "ar": "تعبير فرنسي أساسي: طائر / عصفور. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पक्षी / चिड़िया।",
+      "es": "Palabra francesa cotidiana: pájaro.",
+      "en": "Essential French everyday word meaning 'bird'."
+    },
+    "examples": [
+      {
+        "fr": "L'oiseau chante sur la branche d'arbre.",
+        "ur": "پرندہ درخت کی شاخ پر گا رہا ہے۔",
+        "ar": "طائر / عصفور",
+        "hi": "पक्षी / चिड़िया",
+        "es": "pájaro",
+        "en": "bird"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "L'oiseau chante sur la branche d'arbre.",
+      "prompt_native": {
+        "ur": "پرندہ درخت کی شاخ پر گا رہا ہے۔",
+        "ar": "طائر / عصفور",
+        "hi": "पक्षी / चिड़िया",
+        "es": "pájaro",
+        "en": "bird"
+      }
+    }
+  },
+  {
+    "id": "card_cheval",
+    "french_term": "cheval",
+    "ipa": "/ʃə.val/",
+    "concept_type": "Nom masculin • جانور",
+    "phonetics": {
+      "ur": "شُہ وال (Shuh-val)",
+      "ar": "شُہ وال",
+      "hi": "Shuh-val",
+      "es": "cheval",
+      "en": "shuh-val"
+    },
+    "translations": {
+      "ur": "گھوڑا (Horse)",
+      "ar": "حصان",
+      "hi": "घोड़ा",
+      "es": "caballo",
+      "en": "horse"
+    },
+    "pedagogical_rules": {
+      "ur": "اس کی جمع بے قاعدہ ہے: un cheval -> des chevaux (شووو)۔",
+      "ar": "تعبير فرنسي أساسي: حصان. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: घोड़ा।",
+      "es": "Palabra francesa cotidiana: caballo.",
+      "en": "Essential French everyday word meaning 'horse'."
+    },
+    "examples": [
+      {
+        "fr": "Le cheval court très vite dans le pré.",
+        "ur": "گھوڑا چراگاہ میں بہت تیز دوڑتا ہے۔",
+        "ar": "حصان",
+        "hi": "घोड़ा",
+        "es": "caballo",
+        "en": "horse"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le cheval court très vite dans le pré.",
+      "prompt_native": {
+        "ur": "گھوڑا چراگاہ میں بہت تیز دوڑتا ہے۔",
+        "ar": "حصان",
+        "hi": "घोड़ा",
+        "es": "caballo",
+        "en": "horse"
+      }
+    }
+  },
+  {
+    "id": "card_soleil",
+    "french_term": "soleil",
+    "ipa": "/sɔ.lɛj/",
+    "concept_type": "Nature • سورج",
+    "phonetics": {
+      "ur": "سولے یے (Soh-lay-y)",
+      "ar": "سولے یے",
+      "hi": "Soh-lay-y",
+      "es": "soleil",
+      "en": "soh-lay-y"
+    },
+    "translations": {
+      "ur": "سورج (Sun)",
+      "ar": "شمس",
+      "hi": "सूरज",
+      "es": "sol",
+      "en": "sun"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں 'موسم خوشگوار ہے' کہنے کے لیے بولتے ہیں: Il y a du soleil (دھوپ نکلی ہوئی ہے)۔",
+      "ar": "تعبير فرنسي أساسي: شمس. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सूरज।",
+      "es": "Palabra francesa cotidiana: sol.",
+      "en": "Essential French everyday word meaning 'sun'."
+    },
+    "examples": [
+      {
+        "fr": "Le soleil brille dans le ciel bleu.",
+        "ur": "نیلے آسمان میں سورج چمک رہا ہے۔",
+        "ar": "شمس",
+        "hi": "सूरज",
+        "es": "sol",
+        "en": "sun"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le soleil brille dans le ciel bleu.",
+      "prompt_native": {
+        "ur": "نیلے آسمان میں سورج چمک رہا ہے۔",
+        "ar": "شمس",
+        "hi": "सूरज",
+        "es": "sol",
+        "en": "sun"
+      }
+    }
+  },
+  {
+    "id": "card_lune",
+    "french_term": "lune",
+    "ipa": "/lyn/",
+    "concept_type": "Nature • چاند",
+    "phonetics": {
+      "ur": "لیون (Loon)",
+      "ar": "لیون",
+      "hi": "Loon",
+      "es": "lune",
+      "en": "loon"
+    },
+    "translations": {
+      "ur": "چاند (Moon)",
+      "ar": "قمر",
+      "hi": "चाँद / चंद्रमा",
+      "es": "luna",
+      "en": "moon"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں چاند مؤنث ہے: 'La lune'۔",
+      "ar": "تعبير فرنسي أساسي: قمر. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: चाँद / चंद्रमा।",
+      "es": "Palabra francesa cotidiana: luna.",
+      "en": "Essential French everyday word meaning 'moon'."
+    },
+    "examples": [
+      {
+        "fr": "La pleine lune illumine la nuit.",
+        "ur": "پورے چاند کی روشنی رات کو منور کر رہی ہے۔",
+        "ar": "قمر",
+        "hi": "चाँद / चंद्रमा",
+        "es": "luna",
+        "en": "moon"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "La pleine lune illumine la nuit.",
+      "prompt_native": {
+        "ur": "پورے چاند کی روشنی رات کو منور کر رہی ہے۔",
+        "ar": "قمر",
+        "hi": "चाँद / चंद्रमा",
+        "es": "luna",
+        "en": "moon"
+      }
+    }
+  },
+  {
+    "id": "card_mer",
+    "french_term": "mer",
+    "ipa": "/mɛʁ/",
+    "concept_type": "Géographie • سمندر",
+    "phonetics": {
+      "ur": "میر (Mair)",
+      "ar": "میر",
+      "hi": "Mair",
+      "es": "mer",
+      "en": "mair"
+    },
+    "translations": {
+      "ur": "سمندر (Sea)",
+      "ar": "بحر",
+      "hi": "समुद्र / सागर",
+      "es": "mar",
+      "en": "sea"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں 'سمندر کنارے' کو 'au bord de la mer' کہا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: بحر. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: समुद्र / सागर।",
+      "es": "Palabra francesa cotidiana: mar.",
+      "en": "Essential French everyday word meaning 'sea'."
+    },
+    "examples": [
+      {
+        "fr": "Nous partons en vacances à la mer.",
+        "ur": "ہم سمندر پر چھٹیاں منانے جا رہے ہیں۔",
+        "ar": "بحر",
+        "hi": "समुद्र / सागर",
+        "es": "mar",
+        "en": "sea"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Nous partons en vacances à la mer.",
+      "prompt_native": {
+        "ur": "ہم سمندر پر چھٹیاں منانے جا رہے ہیں۔",
+        "ar": "بحر",
+        "hi": "समुद्र / सागर",
+        "es": "mar",
+        "en": "sea"
+      }
+    }
+  },
+  {
+    "id": "card_ciel",
+    "french_term": "ciel",
+    "ipa": "/sjɛl/",
+    "concept_type": "Nature • آسمان",
+    "phonetics": {
+      "ur": "سیل (Syel)",
+      "ar": "سیل",
+      "hi": "Syel",
+      "es": "ciel",
+      "en": "syel"
+    },
+    "translations": {
+      "ur": "آسمان (Sky)",
+      "ar": "سماء",
+      "hi": "आसमान / आकाश",
+      "es": "cielo",
+      "en": "sky"
+    },
+    "pedagogical_rules": {
+      "ur": "اس کی جمع 'cieux' ہوتی ہے: sous d'autres cieux (دیارِ غیر میں)۔",
+      "ar": "تعبير فرنسي أساسي: سماء. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: आसमान / आकाश।",
+      "es": "Palabra francesa cotidiana: cielo.",
+      "en": "Essential French everyday word meaning 'sky'."
+    },
+    "examples": [
+      {
+        "fr": "Le ciel est clair sans aucun nuage.",
+        "ur": "آسمان بغیر کسی بادل کے بالکل صاف ہے۔",
+        "ar": "سماء",
+        "hi": "आसमान / आकाश",
+        "es": "cielo",
+        "en": "sky"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le ciel est clair sans aucun nuage.",
+      "prompt_native": {
+        "ur": "آسمان بغیر کسی بادل کے بالکل صاف ہے۔",
+        "ar": "سماء",
+        "hi": "आसमान / आकाश",
+        "es": "cielo",
+        "en": "sky"
+      }
+    }
+  },
+  {
+    "id": "card_arbre",
+    "french_term": "arbre",
+    "ipa": "/aʁbʁ/",
+    "concept_type": "Nature • درخت",
+    "phonetics": {
+      "ur": "آربْر (Ahr-bruh)",
+      "ar": "آربْر",
+      "hi": "Ahr-bruh",
+      "es": "arbre",
+      "en": "ahr-bruh"
+    },
+    "translations": {
+      "ur": "درخت (Tree)",
+      "ar": "شجرة",
+      "hi": "पेड़ / वृक्ष",
+      "es": "árbol",
+      "en": "tree"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں درخت مذکر ہے: Un arbre.",
+      "ar": "تعبير فرنسي أساسي: شجرة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पेड़ / वृक्ष।",
+      "es": "Palabra francesa cotidiana: árbol.",
+      "en": "Essential French everyday word meaning 'tree'."
+    },
+    "examples": [
+      {
+        "fr": "Les feuilles de l'arbre tombent en automne.",
+        "ur": "خزاں میں درخت کے پتے گرتے ہیں۔",
+        "ar": "شجرة",
+        "hi": "पेड़ / वृक्ष",
+        "es": "árbol",
+        "en": "tree"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Les feuilles de l'arbre tombent en automne.",
+      "prompt_native": {
+        "ur": "خزاں میں درخت کے پتے گرتے ہیں۔",
+        "ar": "شجرة",
+        "hi": "पेड़ / वृक्ष",
+        "es": "árbol",
+        "en": "tree"
+      }
+    }
+  },
+  {
+    "id": "card_maison",
+    "french_term": "maison",
+    "ipa": "/mɛ.zɔ̃/",
+    "concept_type": "Logement • گھر",
+    "phonetics": {
+      "ur": "میزوں (Meh-zohn)",
+      "ar": "میزوں",
+      "hi": "Meh-zohn",
+      "es": "maison",
+      "en": "meh-zohn"
+    },
+    "translations": {
+      "ur": "گھر / مکان (House)",
+      "ar": "منزل / بيت",
+      "hi": "घर / मकान",
+      "es": "casa",
+      "en": "house / home"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں گھر مؤنث ہے: 'La maison'۔ 'گھر پر' کہنے کے لیے 'à la maison' کہیں: Je suis à la maison (میں گھر پر ہوں)۔",
+      "ar": "تعبير فرنسي أساسي: منزل / بيت. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: घर / मकान।",
+      "es": "Palabra francesa cotidiana: casa.",
+      "en": "Essential French everyday word meaning 'house / home'."
+    },
+    "examples": [
+      {
+        "fr": "Bienvenue dans notre nouvelle maison !",
+        "ur": "ہمارے نئے گھر میں خوش آمدید!",
+        "ar": "منزل / بيت",
+        "hi": "घर / मकान",
+        "es": "casa",
+        "en": "house / home"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Bienvenue dans notre nouvelle maison !",
+      "prompt_native": {
+        "ur": "ہمارے نئے گھر میں خوش آمدید!",
+        "ar": "منزل / بيت",
+        "hi": "घर / मकान",
+        "es": "casa",
+        "en": "house / home"
+      }
+    }
+  },
+  {
+    "id": "card_voiture",
+    "french_term": "voiture",
+    "ipa": "/vwa.tyʁ/",
+    "concept_type": "Transport • گاڑی",
+    "phonetics": {
+      "ur": "وواتور (Vwah-toor)",
+      "ar": "وواتور",
+      "hi": "Vwah-toor",
+      "es": "voiture",
+      "en": "vwah-toor"
+    },
+    "translations": {
+      "ur": "گاڑی / کار (Car)",
+      "ar": "سيارة",
+      "hi": "कार / गाड़ी",
+      "es": "coche / auto",
+      "en": "car"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں گاڑی مؤنث ہے: 'Une voiture'۔ کرائے کی گاڑی کو 'voiture de location' کہتے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: سيارة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कार / गाड़ी।",
+      "es": "Palabra francesa cotidiana: coche / auto.",
+      "en": "Essential French everyday word meaning 'car'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai garé la voiture devant l'immeuble.",
+        "ur": "میں نے عمارت کے سامنے گاڑی پارک کی ہے۔",
+        "ar": "سيارة",
+        "hi": "कार / गाड़ी",
+        "es": "coche / auto",
+        "en": "car"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai garé la voiture devant l'immeuble.",
+      "prompt_native": {
+        "ur": "میں نے عمارت کے سامنے گاڑی پارک کی ہے۔",
+        "ar": "سيارة",
+        "hi": "कार / गाड़ी",
+        "es": "coche / auto",
+        "en": "car"
+      }
+    }
+  },
+  {
+    "id": "card_livre",
+    "french_term": "livre",
+    "ipa": "/livʁ/",
+    "concept_type": "Culture • کتاب",
+    "phonetics": {
+      "ur": "لیور (Lee-vruh)",
+      "ar": "لیور",
+      "hi": "Lee-vruh",
+      "es": "livre",
+      "en": "lee-vruh"
+    },
+    "translations": {
+      "ur": "کتاب (Book)",
+      "ar": "كتاب",
+      "hi": "किताब / पुस्तक",
+      "es": "libro",
+      "en": "book"
+    },
+    "pedagogical_rules": {
+      "ur": "توجہ: 'Le livre' مذکر کا مطلب 'کتاب' ہے، جبکہ 'Une livre' مؤنث کا مطلب وزن کا آدھا کلو یا برطانوی پاؤنڈ ہوتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: كتاب. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: किताब / पुस्तक।",
+      "es": "Palabra francesa cotidiana: libro.",
+      "en": "Essential French everyday word meaning 'book'."
+    },
+    "examples": [
+      {
+        "fr": "J'adore lire un bon livre le soir.",
+        "ur": "مجھے شام کو ایک اچھی کتاب پڑھنا بہت پسند ہے۔",
+        "ar": "كتاب",
+        "hi": "किताब / पुस्तक",
+        "es": "libro",
+        "en": "book"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'adore lire un bon livre le soir.",
+      "prompt_native": {
+        "ur": "مجھے شام کو ایک اچھی کتاب پڑھنا بہت پسند ہے۔",
+        "ar": "كتاب",
+        "hi": "किताब / पुस्तक",
+        "es": "libro",
+        "en": "book"
+      }
+    }
+  },
+  {
+    "id": "card_porte",
+    "french_term": "porte",
+    "ipa": "/pɔʁt/",
+    "concept_type": "Maison • دروازہ",
+    "phonetics": {
+      "ur": "پورت (Port)",
+      "ar": "پورت",
+      "hi": "Port",
+      "es": "porte",
+      "en": "port"
+    },
+    "translations": {
+      "ur": "دروازہ (Door)",
+      "ar": "باب",
+      "hi": "दरवाज़ा",
+      "es": "puerta",
+      "en": "door"
+    },
+    "pedagogical_rules": {
+      "ur": "دروازہ بند کرنے کے لیے: Fermez la porte s'il vous plaît.",
+      "ar": "تعبير فرنسي أساسي: باب. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: दरवाज़ा।",
+      "es": "Palabra francesa cotidiana: puerta.",
+      "en": "Essential French everyday word meaning 'door'."
+    },
+    "examples": [
+      {
+        "fr": "Quelqu'un frappe à la porte d'entrée.",
+        "ur": "کوئی بیرونی دروازے پر دستک دے رہا ہے۔",
+        "ar": "باب",
+        "hi": "दरवाज़ा",
+        "es": "puerta",
+        "en": "door"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Quelqu'un frappe à la porte d'entrée.",
+      "prompt_native": {
+        "ur": "کوئی بیرونی دروازے پر دستک دے رہا ہے۔",
+        "ar": "باب",
+        "hi": "दरवाज़ा",
+        "es": "puerta",
+        "en": "door"
+      }
+    }
+  },
+  {
+    "id": "card_fenetre",
+    "french_term": "fenêtre",
+    "ipa": "/fə.nɛtʁ/",
+    "concept_type": "Maison • کھڑکی",
+    "phonetics": {
+      "ur": "فونیتر (Fuh-netr)",
+      "ar": "فونیتر",
+      "hi": "Fuh-netr",
+      "es": "fenêtre",
+      "en": "fuh-netr"
+    },
+    "translations": {
+      "ur": "کھڑکی (Window)",
+      "ar": "نافذة / شباك",
+      "hi": "खिड़की",
+      "es": "ventana",
+      "en": "window"
+    },
+    "pedagogical_rules": {
+      "ur": "کھڑکی کھولنا: ouvrir la fenêtre. 'ê' پر سرکمفلیکس ایک پرانے 's' کی علامت ہے۔",
+      "ar": "تعبير فرنسي أساسي: نافذة / شباك. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: खिड़की।",
+      "es": "Palabra francesa cotidiana: ventana.",
+      "en": "Essential French everyday word meaning 'window'."
+    },
+    "examples": [
+      {
+        "fr": "Ouvrez la fenêtre pour aérer la pièce.",
+        "ur": "کمرے میں ہوا آنے کے لیے کھڑکی کھول دیں۔",
+        "ar": "نافذة / شباك",
+        "hi": "खिड़की",
+        "es": "ventana",
+        "en": "window"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Ouvrez la fenêtre pour aérer la pièce.",
+      "prompt_native": {
+        "ur": "کمرے میں ہوا آنے کے لیے کھڑکی کھول دیں۔",
+        "ar": "نافذة / شباك",
+        "hi": "खिड़की",
+        "es": "ventana",
+        "en": "window"
+      }
+    }
+  },
+  {
+    "id": "card_table",
+    "french_term": "table",
+    "ipa": "/tabl/",
+    "concept_type": "Mobilier • میز",
+    "phonetics": {
+      "ur": "تابل (Tahbl)",
+      "ar": "تابل",
+      "hi": "Tahbl",
+      "es": "table",
+      "en": "tahbl"
+    },
+    "translations": {
+      "ur": "میز (Table)",
+      "ar": "طاولة",
+      "hi": "मेज़",
+      "es": "mesa",
+      "en": "table"
+    },
+    "pedagogical_rules": {
+      "ur": "ریستوران میں بکنگ کرتے وقت: Une table pour deux personnes s'il vous plaît (دو افراد کے لیے ایک میز)۔",
+      "ar": "تعبير فرنسي أساسي: طاولة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मेज़।",
+      "es": "Palabra francesa cotidiana: mesa.",
+      "en": "Essential French everyday word meaning 'table'."
+    },
+    "examples": [
+      {
+        "fr": "Le dîner est prêt sur la table.",
+        "ur": "میز پر کھانا تیار ہے۔",
+        "ar": "طاولة",
+        "hi": "मेज़",
+        "es": "mesa",
+        "en": "table"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le dîner est prêt sur la table.",
+      "prompt_native": {
+        "ur": "میز پر کھانا تیار ہے۔",
+        "ar": "طاولة",
+        "hi": "मेज़",
+        "es": "mesa",
+        "en": "table"
+      }
+    }
+  },
+  {
+    "id": "card_chaise",
+    "french_term": "chaise",
+    "ipa": "/ʃɛz/",
+    "concept_type": "Mobilier • کرسی",
+    "phonetics": {
+      "ur": "شیز (Shehz)",
+      "ar": "شیز",
+      "hi": "Shehz",
+      "es": "chaise",
+      "en": "shehz"
+    },
+    "translations": {
+      "ur": "کرسی (Chair)",
+      "ar": "كرسي",
+      "hi": "कुर्सी",
+      "es": "silla",
+      "en": "chair"
+    },
+    "pedagogical_rules": {
+      "ur": "تشریف رکھنے کی دعوت دیتے وقت: Prenez une chaise (کرسی لیجیے)۔",
+      "ar": "تعبير فرنسي أساسي: كرسي. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कुर्सी।",
+      "es": "Palabra francesa cotidiana: silla.",
+      "en": "Essential French everyday word meaning 'chair'."
+    },
+    "examples": [
+      {
+        "fr": "Asseyez-vous sur cette chaise confortable.",
+        "ur": "اس آرام دہ کرسی پر تشریف رکھیں۔",
+        "ar": "كرسي",
+        "hi": "कुर्सी",
+        "es": "silla",
+        "en": "chair"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Asseyez-vous sur cette chaise confortable.",
+      "prompt_native": {
+        "ur": "اس آرام دہ کرسی پر تشریف رکھیں۔",
+        "ar": "كرسي",
+        "hi": "कुर्सी",
+        "es": "silla",
+        "en": "chair"
+      }
+    }
+  },
+  {
+    "id": "card_lit",
+    "french_term": "lit",
+    "ipa": "/li/",
+    "concept_type": "Mobilier • بستر",
+    "phonetics": {
+      "ur": "لی (Lee)",
+      "ar": "لی",
+      "hi": "Lee",
+      "es": "lit",
+      "en": "lee"
+    },
+    "translations": {
+      "ur": "بستر / پلنگ (Bed)",
+      "ar": "سرير",
+      "hi": "बिस्तर / पलंग",
+      "es": "cama",
+      "en": "bed"
+    },
+    "pedagogical_rules": {
+      "ur": "آخری 't' خاموش ہے۔ سونے کے لیے: aller au lit.",
+      "ar": "تعبير فرنسي أساسي: سرير. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बिस्तर / पलंग।",
+      "es": "Palabra francesa cotidiana: cama.",
+      "en": "Essential French everyday word meaning 'bed'."
+    },
+    "examples": [
+      {
+        "fr": "Le lit est propre et très confortable.",
+        "ur": "بستر صاف ستھرا اور بہت آرام دہ ہے۔",
+        "ar": "سرير",
+        "hi": "बिस्तर / पलंग",
+        "es": "cama",
+        "en": "bed"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le lit est propre et très confortable.",
+      "prompt_native": {
+        "ur": "بستر صاف ستھرا اور بہت آرام دہ ہے۔",
+        "ar": "سرير",
+        "hi": "बिस्तर / पलंग",
+        "es": "cama",
+        "en": "bed"
+      }
+    }
+  },
+  {
+    "id": "card_cle",
+    "french_term": "clé",
+    "ipa": "/kle/",
+    "concept_type": "Objet • چابی",
+    "phonetics": {
+      "ur": "کلے (Klay)",
+      "ar": "کلے",
+      "hi": "Klay",
+      "es": "clé",
+      "en": "klay"
+    },
+    "translations": {
+      "ur": "چابی (Key)",
+      "ar": "مفتاح",
+      "hi": "चाबी",
+      "es": "llave",
+      "en": "key"
+    },
+    "pedagogical_rules": {
+      "ur": "اپارٹمنٹ لیتے وقت مکان مالک سے چابیاں وصول کرنا: la remise des clés.",
+      "ar": "تعبير فرنسي أساسي: مفتاح. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: चाबी।",
+      "es": "Palabra francesa cotidiana: llave.",
+      "en": "Essential French everyday word meaning 'key'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai oublié mes clés à l'intérieur.",
+        "ur": "میں اپنی چابیاں اندر ہی بھول گیا۔",
+        "ar": "مفتاح",
+        "hi": "चाबी",
+        "es": "llave",
+        "en": "key"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai oublié mes clés à l'intérieur.",
+      "prompt_native": {
+        "ur": "میں اپنی چابیاں اندر ہی بھول گیا۔",
+        "ar": "مفتاح",
+        "hi": "चाबी",
+        "es": "llave",
+        "en": "key"
+      }
+    }
+  },
+  {
+    "id": "card_sac",
+    "french_term": "sac",
+    "ipa": "/sak/",
+    "concept_type": "Objet • بستہ",
+    "phonetics": {
+      "ur": "ساک (Sak)",
+      "ar": "ساک",
+      "hi": "Sak",
+      "es": "sac",
+      "en": "sak"
+    },
+    "translations": {
+      "ur": "بستہ / بیگ (Bag)",
+      "ar": "حقيبة / كيس",
+      "hi": "थैला / बैग",
+      "es": "bolsa / bolso",
+      "en": "bag"
+    },
+    "pedagogical_rules": {
+      "ur": "سپر مارکیٹ میں شاپنگ بیگ کو 'un sac plastique / sac cabas' کہا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: حقيبة / كيس. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: थैला / बैग।",
+      "es": "Palabra francesa cotidiana: bolsa / bolso.",
+      "en": "Essential French everyday word meaning 'bag'."
+    },
+    "examples": [
+      {
+        "fr": "N'oubliez pas votre sac sur le siège.",
+        "ur": "نشست پر اپنا بیگ مت بھولیں۔",
+        "ar": "حقيبة / كيس",
+        "hi": "थैला / बैग",
+        "es": "bolsa / bolso",
+        "en": "bag"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "N'oubliez pas votre sac sur le siège.",
+      "prompt_native": {
+        "ur": "نشست پر اپنا بیگ مت بھولیں۔",
+        "ar": "حقيبة / كيس",
+        "hi": "थैला / बैग",
+        "es": "bolsa / bolso",
+        "en": "bag"
+      }
+    }
+  },
+  {
+    "id": "card_telephone",
+    "french_term": "téléphone",
+    "ipa": "/te.le.fɔn/",
+    "concept_type": "Technologie • فون",
+    "phonetics": {
+      "ur": "تیلے فون (Tay-lay-fon)",
+      "ar": "تیلے فون",
+      "hi": "Tay-lay-fon",
+      "es": "téléphone",
+      "en": "tay-lay-fon"
+    },
+    "translations": {
+      "ur": "ٹیلی فون / اسمارٹ فون (Phone)",
+      "ar": "هاتف / تلفون",
+      "hi": "फ़ोन / मोबाइल",
+      "es": "teléfono",
+      "en": "phone"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی موبائل سم کو 'carte SIM' یا 'forfait mobile' کہتے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: هاتف / تلفون. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: फ़ोन / मोबाइल।",
+      "es": "Palabra francesa cotidiana: teléfono.",
+      "en": "Essential French everyday word meaning 'phone'."
+    },
+    "examples": [
+      {
+        "fr": "Mon numéro de téléphone est sur le document.",
+        "ur": "میرا فون نمبر دستاویز پر درج ہے۔",
+        "ar": "هاتف / تلفون",
+        "hi": "फ़ोन / मोबाइल",
+        "es": "teléfono",
+        "en": "phone"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Mon numéro de téléphone est sur le document.",
+      "prompt_native": {
+        "ur": "میرا فون نمبر دستاویز پر درج ہے۔",
+        "ar": "هاتف / تلفون",
+        "hi": "फ़ोन / मोबाइल",
+        "es": "teléfono",
+        "en": "phone"
+      }
+    }
+  },
+  {
+    "id": "card_ordinateur",
+    "french_term": "ordinateur",
+    "ipa": "/ɔʁ.di.na.tœʁ/",
+    "concept_type": "Technologie • کمپیوٹر",
+    "phonetics": {
+      "ur": "اوردیناتور (Or-dee-nah-tur)",
+      "ar": "اوردیناتور",
+      "hi": "Or-dee-nah-tur",
+      "es": "ordinateur",
+      "en": "or-dee-nah-tur"
+    },
+    "translations": {
+      "ur": "کمپیوٹر / لیپ ٹاپ (Computer)",
+      "ar": "حاسوب / كمبيوتر",
+      "hi": "कंप्यूटर / लैपटॉप",
+      "es": "ordenador / computadora",
+      "en": "computer"
+    },
+    "pedagogical_rules": {
+      "ur": "لیپ ٹاپ کو 'ordinateur portable' کہا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: حاسوب / كمبيوتر. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कंप्यूटर / लैपटॉप।",
+      "es": "Palabra francesa cotidiana: ordenador / computadora.",
+      "en": "Essential French everyday word meaning 'computer'."
+    },
+    "examples": [
+      {
+        "fr": "Je travaille toute la journée sur mon ordinateur.",
+        "ur": "میں سارا دن اپنے کمپیوٹر پر کام کرتا ہوں۔",
+        "ar": "حاسوب / كمبيوتر",
+        "hi": "कंप्यूटर / लैपटॉप",
+        "es": "ordenador / computadora",
+        "en": "computer"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je travaille toute la journée sur mon ordinateur.",
+      "prompt_native": {
+        "ur": "میں سارا دن اپنے کمپیوٹر پر کام کرتا ہوں۔",
+        "ar": "حاسوب / كمبيوتر",
+        "hi": "कंप्यूटर / लैपटॉप",
+        "es": "ordenador / computadora",
+        "en": "computer"
+      }
+    }
+  },
+  {
+    "id": "card_stylo",
+    "french_term": "stylo",
+    "ipa": "/sti.lo/",
+    "concept_type": "Bureau • قلم",
+    "phonetics": {
+      "ur": "ستیلو (Stee-loh)",
+      "ar": "ستیلو",
+      "hi": "Stee-loh",
+      "es": "stylo",
+      "en": "stee-loh"
+    },
+    "translations": {
+      "ur": "قلم / بال پوائنٹ (Pen)",
+      "ar": "قلم حبر",
+      "hi": "पेन / कलम",
+      "es": "bolígrafo / pluma",
+      "en": "pen"
+    },
+    "pedagogical_rules": {
+      "ur": "سرکاری فارم پر دستخط کرنے کے لیے: Avez-vous un stylo noir s'il vous plaît ?",
+      "ar": "تعبير فرنسي أساسي: قلم حبر. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पेन / कलम।",
+      "es": "Palabra francesa cotidiana: bolígrafo / pluma.",
+      "en": "Essential French everyday word meaning 'pen'."
+    },
+    "examples": [
+      {
+        "fr": "Prêtez-moi votre stylo pour signer le contrat.",
+        "ur": "معاہدے پر دستخط کرنے کے لیے مجھے اپنا قلم ادھار دیجیے۔",
+        "ar": "قلم حبر",
+        "hi": "पेन / कलम",
+        "es": "bolígrafo / pluma",
+        "en": "pen"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Prêtez-moi votre stylo pour signer le contrat.",
+      "prompt_native": {
+        "ur": "معاہدے پر دستخط کرنے کے لیے مجھے اپنا قلم ادھار دیجیے۔",
+        "ar": "قلم حبر",
+        "hi": "पेन / कलम",
+        "es": "bolígrafo / pluma",
+        "en": "pen"
+      }
+    }
+  },
+  {
+    "id": "card_papier",
+    "french_term": "papier",
+    "ipa": "/pa.pje/",
+    "concept_type": "Bureau • کاغذ",
+    "phonetics": {
+      "ur": "پاپئیے (Pah-pyay)",
+      "ar": "پاپئیے",
+      "hi": "Pah-pyay",
+      "es": "papier",
+      "en": "pah-pyay"
+    },
+    "translations": {
+      "ur": "کاغذ / سرکاری کاغذات (Paper / Documents)",
+      "ar": "ورق / وثائق",
+      "hi": "कागज़ / दस्तावेज़",
+      "es": "papel / documentos",
+      "en": "paper"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں غیر قانونی یا بغیر دستاویزات کے فرد کو 'sans-papiers' کہا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: ورق / وثائق. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कागज़ / दस्तावेज़।",
+      "es": "Palabra francesa cotidiana: papel / documentos.",
+      "en": "Essential French everyday word meaning 'paper'."
+    },
+    "examples": [
+      {
+        "fr": "Avez-vous tous vos papiers d'identité ?",
+        "ur": "کیا آپ کے پاس اپنی شناخت کے تمام کاغذات موجود ہیں؟",
+        "ar": "ورق / وثائق",
+        "hi": "कागज़ / दस्तावेज़",
+        "es": "papel / documentos",
+        "en": "paper"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Avez-vous tous vos papiers d'identité ?",
+      "prompt_native": {
+        "ur": "کیا آپ کے پاس اپنی شناخت کے تمام کاغذات موجود ہیں؟",
+        "ar": "ورق / وثائق",
+        "hi": "कागज़ / दस्तावेज़",
+        "es": "papel / documentos",
+        "en": "paper"
+      }
+    }
+  },
+  {
+    "id": "card_homme",
+    "french_term": "homme",
+    "ipa": "/ɔm/",
+    "concept_type": "Personne • مرد",
+    "phonetics": {
+      "ur": "اوم (Om)",
+      "ar": "اوم",
+      "hi": "Om",
+      "es": "homme",
+      "en": "om"
+    },
+    "translations": {
+      "ur": "مرد / آدمی (Man)",
+      "ar": "رجل / إنسان",
+      "hi": "पुरुष / आदमी",
+      "es": "hombre",
+      "en": "man"
+    },
+    "pedagogical_rules": {
+      "ur": "'h' خاموش ہے: un homme (بولتے وقت 'آں نوم' لائیزوں ہوتی ہے)۔",
+      "ar": "تعبير فرنسي أساسي: رجل / إنسان. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पुरुष / आदमी।",
+      "es": "Palabra francesa cotidiana: hombre.",
+      "en": "Essential French everyday word meaning 'man'."
+    },
+    "examples": [
+      {
+        "fr": "Cet homme est mon collègue de travail.",
+        "ur": "یہ آدمی میرا دفتری ساتھی ہے۔",
+        "ar": "رجل / إنسان",
+        "hi": "पुरुष / आदमी",
+        "es": "hombre",
+        "en": "man"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Cet homme est mon collègue de travail.",
+      "prompt_native": {
+        "ur": "یہ آدمی میرا دفتری ساتھی ہے۔",
+        "ar": "رجل / إنسان",
+        "hi": "पुरुष / आदमी",
+        "es": "hombre",
+        "en": "man"
+      }
+    }
+  },
+  {
+    "id": "card_femme",
+    "french_term": "femme",
+    "ipa": "/fam/",
+    "concept_type": "Personne • عورت",
+    "phonetics": {
+      "ur": "فام (Fahm)",
+      "ar": "فام",
+      "hi": "Fahm",
+      "es": "femme",
+      "en": "fahm"
+    },
+    "translations": {
+      "ur": "عورت / بیوی (Woman / Wife)",
+      "ar": "امرأة / زوجة",
+      "hi": "महिला / पत्नी",
+      "es": "mujer / esposa",
+      "en": "woman / wife"
+    },
+    "pedagogical_rules": {
+      "ur": "لفظ کے دو مطالب ہیں: 'عورت' اور 'بیوی' (ma femme = میری بیوی)۔",
+      "ar": "تعبير فرنسي أساسي: امرأة / زوجة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: महिला / पत्नी।",
+      "es": "Palabra francesa cotidiana: mujer / esposa.",
+      "en": "Essential French everyday word meaning 'woman / wife'."
+    },
+    "examples": [
+      {
+        "fr": "Sa femme travaille comme avocate.",
+        "ur": "اس کی بیوی وکیل کے طور پر کام کرتی ہے۔",
+        "ar": "امرأة / زوجة",
+        "hi": "महिला / पत्नी",
+        "es": "mujer / esposa",
+        "en": "woman / wife"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Sa femme travaille comme avocate.",
+      "prompt_native": {
+        "ur": "اس کی بیوی وکیل کے طور پر کام کرتی ہے۔",
+        "ar": "امرأة / زوجة",
+        "hi": "महिला / पत्नी",
+        "es": "mujer / esposa",
+        "en": "woman / wife"
+      }
+    }
+  },
+  {
+    "id": "card_enfant",
+    "french_term": "enfant",
+    "ipa": "/ɑ̃.fɑ̃/",
+    "concept_type": "Famille • بچہ",
+    "phonetics": {
+      "ur": "آنفاں (Ahn-fahn)",
+      "ar": "آنفاں",
+      "hi": "Ahn-fahn",
+      "es": "enfant",
+      "en": "ahn-fahn"
+    },
+    "translations": {
+      "ur": "بچہ / بچی (Child)",
+      "ar": "طفل / ولد",
+      "hi": "बच्चा / संतान",
+      "es": "niño / hijo",
+      "en": "child / kid"
+    },
+    "pedagogical_rules": {
+      "ur": "دونوں 't' اور 'd' خاموش رہتے ہیں: un enfant.",
+      "ar": "تعبير فرنسي أساسي: طفل / ولد. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बच्चा / संतान।",
+      "es": "Palabra francesa cotidiana: niño / hijo.",
+      "en": "Essential French everyday word meaning 'child / kid'."
+    },
+    "examples": [
+      {
+        "fr": "Les enfants jouent joyeusement dans le jardin.",
+        "ur": "بچے باغ میں خوشی سے کھیل رہے ہیں۔",
+        "ar": "طفل / ولد",
+        "hi": "बच्चा / संतान",
+        "es": "niño / hijo",
+        "en": "child / kid"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Les enfants jouent joyeusement dans le jardin.",
+      "prompt_native": {
+        "ur": "بچے باغ میں خوشی سے کھیل رہے ہیں۔",
+        "ar": "طفل / ولد",
+        "hi": "बच्चा / संतान",
+        "es": "niño / hijo",
+        "en": "child / kid"
+      }
+    }
+  },
+  {
+    "id": "card_fille",
+    "french_term": "fille",
+    "ipa": "/fij/",
+    "concept_type": "Famille • لڑکی",
+    "phonetics": {
+      "ur": "فئی (Fee-y)",
+      "ar": "فئی",
+      "hi": "Fee-y",
+      "es": "fille",
+      "en": "fee-y"
+    },
+    "translations": {
+      "ur": "لڑکی / بیٹی (Girl / Daughter)",
+      "ar": "فتاة / ابنة",
+      "hi": "लड़की / बेटी",
+      "es": "chica / hija",
+      "en": "girl / daughter"
+    },
+    "pedagogical_rules": {
+      "ur": "'ill' کا تلفظ 'ای' کی طرح ہوتا ہے (نہ کہ 'فل')۔ ma fille = میری بیٹی۔",
+      "ar": "تعبير فرنسي أساسي: فتاة / ابنة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: लड़की / बेटी।",
+      "es": "Palabra francesa cotidiana: chica / hija.",
+      "en": "Essential French everyday word meaning 'girl / daughter'."
+    },
+    "examples": [
+      {
+        "fr": "C'est une jeune fille très intelligente.",
+        "ur": "یہ بہت ذہین نوجوان لڑکی ہے۔",
+        "ar": "فتاة / ابنة",
+        "hi": "लड़की / बेटी",
+        "es": "chica / hija",
+        "en": "girl / daughter"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "C'est une jeune fille très intelligente.",
+      "prompt_native": {
+        "ur": "یہ بہت ذہین نوجوان لڑکی ہے۔",
+        "ar": "فتاة / ابنة",
+        "hi": "लड़की / बेटी",
+        "es": "chica / hija",
+        "en": "girl / daughter"
+      }
+    }
+  },
+  {
+    "id": "card_garcon",
+    "french_term": "garçon",
+    "ipa": "/ɡaʁ.sɔ̃/",
+    "concept_type": "Famille • لڑکا",
+    "phonetics": {
+      "ur": "گارساں (Gahr-sohn)",
+      "ar": "گارساں",
+      "hi": "Gahr-sohn",
+      "es": "garçon",
+      "en": "gahr-sohn"
+    },
+    "translations": {
+      "ur": "لڑکا / بیٹا (Boy)",
+      "ar": "ولد / صبي",
+      "hi": "लड़का",
+      "es": "chico / niño",
+      "en": "boy"
+    },
+    "pedagogical_rules": {
+      "ur": "'ç' کے نیچے کا نشان (cédille) اسے 'س' کی آواز دیتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: ولد / صبي. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: लड़का।",
+      "es": "Palabra francesa cotidiana: chico / niño.",
+      "en": "Essential French everyday word meaning 'boy'."
+    },
+    "examples": [
+      {
+        "fr": "Le petit garçon apprend à faire du vélo.",
+        "ur": "چھوٹا لڑکا سائیکل چلانا سیکھ رہا ہے۔",
+        "ar": "ولد / صبي",
+        "hi": "लड़का",
+        "es": "chico / niño",
+        "en": "boy"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le petit garçon apprend à faire du vélo.",
+      "prompt_native": {
+        "ur": "چھوٹا لڑکا سائیکل چلانا سیکھ رہا ہے۔",
+        "ar": "ولد / صبي",
+        "hi": "लड़का",
+        "es": "chico / niño",
+        "en": "boy"
+      }
+    }
+  },
+  {
+    "id": "card_ami",
+    "french_term": "ami",
+    "ipa": "/a.mi/",
+    "concept_type": "Relation • دوست",
+    "phonetics": {
+      "ur": "آمی (Ah-mee)",
+      "ar": "آمی",
+      "hi": "Ah-mee",
+      "es": "ami",
+      "en": "ah-mee"
+    },
+    "translations": {
+      "ur": "دوست (Friend)",
+      "ar": "صديق",
+      "hi": "दोस्त / मित्र",
+      "es": "amigo",
+      "en": "friend"
+    },
+    "pedagogical_rules": {
+      "ur": "مونث سہیلی کے لیے 'amie' لکھا جاتا ہے، دونوں کا تلفظ 'آمی' ہی رہتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: صديق. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: दोस्त / मित्र।",
+      "es": "Palabra francesa cotidiana: amigo.",
+      "en": "Essential French everyday word meaning 'friend'."
+    },
+    "examples": [
+      {
+        "fr": "C'est mon meilleur ami d'enfance.",
+        "ur": "یہ میرے بچپن کا بہترین دوست ہے۔",
+        "ar": "صديق",
+        "hi": "दोस्त / मित्र",
+        "es": "amigo",
+        "en": "friend"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "C'est mon meilleur ami d'enfance.",
+      "prompt_native": {
+        "ur": "یہ میرے بچپن کا بہترین دوست ہے۔",
+        "ar": "صديق",
+        "hi": "दोस्त / मित्र",
+        "es": "amigo",
+        "en": "friend"
+      }
+    }
+  },
+  {
+    "id": "card_famille",
+    "french_term": "famille",
+    "ipa": "/fa.mij/",
+    "concept_type": "Société • خاندان",
+    "phonetics": {
+      "ur": "فامی (Fah-mee-y)",
+      "ar": "فامی",
+      "hi": "Fah-mee-y",
+      "es": "famille",
+      "en": "fah-mee-y"
+    },
+    "translations": {
+      "ur": "خاندان / کنبہ (Family)",
+      "ar": "عائلة / أسرة",
+      "hi": "परिवार / कुटुंब",
+      "es": "familia",
+      "en": "family"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی ثقافت میں فیملی کے ساتھ اتوار کا دوپہر کا کھانا ایک روایت ہے۔",
+      "ar": "تعبير فرنسي أساسي: عائلة / أسرة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: परिवार / कुटुंब।",
+      "es": "Palabra francesa cotidiana: familia.",
+      "en": "Essential French everyday word meaning 'family'."
+    },
+    "examples": [
+      {
+        "fr": "Ma famille habite au Pakistan.",
+        "ur": "میری فیملی پاکستان میں رہتی ہے۔",
+        "ar": "عائلة / أسرة",
+        "hi": "परिवार / कुटुंब",
+        "es": "familia",
+        "en": "family"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Ma famille habite au Pakistan.",
+      "prompt_native": {
+        "ur": "میری فیملی پاکستان میں رہتی ہے۔",
+        "ar": "عائلة / أسرة",
+        "hi": "परिवार / कुटुंब",
+        "es": "familia",
+        "en": "family"
+      }
+    }
+  },
+  {
+    "id": "card_travail",
+    "french_term": "travail",
+    "ipa": "/tʁa.vaj/",
+    "concept_type": "Société • کام",
+    "phonetics": {
+      "ur": "تراوائے (Trah-vah-y)",
+      "ar": "تراوائے",
+      "hi": "Trah-vah-y",
+      "es": "travail",
+      "en": "trah-vah-y"
+    },
+    "translations": {
+      "ur": "کام / ملازمت (Work / Job)",
+      "ar": "عمل / وظيفة",
+      "hi": "काम / नौकरी",
+      "es": "trabajo",
+      "en": "work / job"
+    },
+    "pedagogical_rules": {
+      "ur": "مستقل ملازمت کا معاہدہ: CDI (Contrat à Durée Indéterminée)۔",
+      "ar": "تعبير فرنسي أساسي: عمل / وظيفة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: काम / नौकरी।",
+      "es": "Palabra francesa cotidiana: trabajo.",
+      "en": "Essential French everyday word meaning 'work / job'."
+    },
+    "examples": [
+      {
+        "fr": "Je cherche un travail dans l'informatique.",
+        "ur": "میں آئی ٹی کے شعبے میں ملازمت تلاش کر رہا ہوں۔",
+        "ar": "عمل / وظيفة",
+        "hi": "काम / नौकरी",
+        "es": "trabajo",
+        "en": "work / job"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je cherche un travail dans l'informatique.",
+      "prompt_native": {
+        "ur": "میں آئی ٹی کے شعبے میں ملازمت تلاش کر رہا ہوں۔",
+        "ar": "عمل / وظيفة",
+        "hi": "काम / नौकरी",
+        "es": "trabajo",
+        "en": "work / job"
+      }
+    }
+  },
+  {
+    "id": "card_ecole",
+    "french_term": "école",
+    "ipa": "/e.kɔl/",
+    "concept_type": "Éducation • اسکول",
+    "phonetics": {
+      "ur": "ایکول (Ay-kol)",
+      "ar": "ایکول",
+      "hi": "Ay-kol",
+      "es": "école",
+      "en": "ay-kol"
+    },
+    "translations": {
+      "ur": "اسکول / تعلیمی ادارہ (School)",
+      "ar": "مدرسة",
+      "hi": "स्कूल / विद्यालय",
+      "es": "escuela",
+      "en": "school"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں 3 سے 16 سال کی عمر تک اسکول جانا قانونی طور پر لازمی اور بالکل مفت ہے۔",
+      "ar": "تعبير فرنسي أساسي: مدرسة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: स्कूल / विद्यालय।",
+      "es": "Palabra francesa cotidiana: escuela.",
+      "en": "Essential French everyday word meaning 'school'."
+    },
+    "examples": [
+      {
+        "fr": "Les enfants vont à l'école le matin.",
+        "ur": "بچے صبح اسکول جاتے ہیں۔",
+        "ar": "مدرسة",
+        "hi": "स्कूल / विद्यालय",
+        "es": "escuela",
+        "en": "school"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Les enfants vont à l'école le matin.",
+      "prompt_native": {
+        "ur": "بچے صبح اسکول جاتے ہیں۔",
+        "ar": "مدرسة",
+        "hi": "स्कूल / विद्यालय",
+        "es": "escuela",
+        "en": "school"
+      }
+    }
+  },
+  {
+    "id": "card_argent",
+    "french_term": "argent",
+    "ipa": "/aʁ.ʒɑ̃/",
+    "concept_type": "Finance • پیسے",
+    "phonetics": {
+      "ur": "آرجاں (Ahr-zhahn)",
+      "ar": "آرجاں",
+      "hi": "Ahr-zhahn",
+      "es": "argent",
+      "en": "ahr-zhahn"
+    },
+    "translations": {
+      "ur": "پیسے / دولت (Money)",
+      "ar": "نقود / مال",
+      "hi": "पैसा / धन",
+      "es": "dinero",
+      "en": "money"
+    },
+    "pedagogical_rules": {
+      "ur": "لفظی طور پر چاندی (silver) کو بھی کہتے ہیں، لیکن عام بول چال میں رقم/پیسے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: نقود / مال. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पैसा / धन।",
+      "es": "Palabra francesa cotidiana: dinero.",
+      "en": "Essential French everyday word meaning 'money'."
+    },
+    "examples": [
+      {
+        "fr": "Je n'ai pas assez d'argent liquide sur moi.",
+        "ur": "میرے پاس زیادہ نقد پیسے موجود نہیں ہیں۔",
+        "ar": "نقود / مال",
+        "hi": "पैसा / धन",
+        "es": "dinero",
+        "en": "money"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je n'ai pas assez d'argent liquide sur moi.",
+      "prompt_native": {
+        "ur": "میرے پاس زیادہ نقد پیسے موجود نہیں ہیں۔",
+        "ar": "نقود / مال",
+        "hi": "पैसा / धन",
+        "es": "dinero",
+        "en": "money"
+      }
+    }
+  },
+  {
+    "id": "card_pomme",
+    "french_term": "pomme",
+    "ipa": "/pɔm/",
+    "concept_type": "Alimentation • پھل",
+    "phonetics": {
+      "ur": "پوم (Pom)",
+      "ar": "پوم",
+      "hi": "Pom",
+      "es": "pomme",
+      "en": "pom"
+    },
+    "translations": {
+      "ur": "سیب (Apple)",
+      "ar": "تفاحة",
+      "hi": "सेब",
+      "es": "manzana",
+      "en": "apple"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں سیب سب سے زیادہ کھایا جانے والا پھل ہے۔ آلو کو 'pomme de terre' (زمین کا سیب) کہتے ہیں۔",
+      "ar": "تعبير فرنسي أساسي: تفاحة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सेब।",
+      "es": "Palabra francesa cotidiana: manzana.",
+      "en": "Essential French everyday word meaning 'apple'."
+    },
+    "examples": [
+      {
+        "fr": "J'achète un kilo de pommes au marché.",
+        "ur": "میں بازار سے ایک کلو سیب خریدتا ہوں۔",
+        "ar": "تفاحة",
+        "hi": "सेब",
+        "es": "manzana",
+        "en": "apple"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'achète un kilo de pommes au marché.",
+      "prompt_native": {
+        "ur": "میں بازار سے ایک کلو سیب خریدتا ہوں۔",
+        "ar": "تفاحة",
+        "hi": "सेब",
+        "es": "manzana",
+        "en": "apple"
+      }
+    }
+  },
+  {
+    "id": "card_lait",
+    "french_term": "lait",
+    "ipa": "/lɛ/",
+    "concept_type": "Alimentation • دودھ",
+    "phonetics": {
+      "ur": "لے (Leh)",
+      "ar": "لے",
+      "hi": "Leh",
+      "es": "lait",
+      "en": "leh"
+    },
+    "translations": {
+      "ur": "دودھ (Milk)",
+      "ar": "حليب",
+      "hi": "दूध",
+      "es": "leche",
+      "en": "milk"
+    },
+    "pedagogical_rules": {
+      "ur": "آخری 't' خاموش ہے: du lait.",
+      "ar": "تعبير فرنسي أساسي: حليب. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: दूध।",
+      "es": "Palabra francesa cotidiana: leche.",
+      "en": "Essential French everyday word meaning 'milk'."
+    },
+    "examples": [
+      {
+        "fr": "Un café avec un peu de lait s'il vous plaît.",
+        "ur": "تھوڑے سے دودھ کے ساتھ کافی دیجیے برائے مہربانی۔",
+        "ar": "حليب",
+        "hi": "दूध",
+        "es": "leche",
+        "en": "milk"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Un café avec un peu de lait s'il vous plaît.",
+      "prompt_native": {
+        "ur": "تھوڑے سے دودھ کے ساتھ کافی دیجیے برائے مہربانی۔",
+        "ar": "حليب",
+        "hi": "दूध",
+        "es": "leche",
+        "en": "milk"
+      }
+    }
+  },
+  {
+    "id": "card_fromage",
+    "french_term": "fromage",
+    "ipa": "/fʁɔ.maʒ/",
+    "concept_type": "Alimentation • پنیر",
+    "phonetics": {
+      "ur": "فروماژ (Froh-mahzh)",
+      "ar": "فروماژ",
+      "hi": "Froh-mahzh",
+      "es": "fromage",
+      "en": "froh-mahzh"
+    },
+    "translations": {
+      "ur": "پنیر (Cheese)",
+      "ar": "جبن / جبنة",
+      "hi": "पनीर / चीज़",
+      "es": "queso",
+      "en": "cheese"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانس میں 1200 سے زیادہ اقسام کے پنیر بنائے جاتے ہیں۔ کھانے کے بعد میٹھے سے پہلے پیش کیا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: جبن / جبنة. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: पनीर / चीज़।",
+      "es": "Palabra francesa cotidiana: queso.",
+      "en": "Essential French everyday word meaning 'cheese'."
+    },
+    "examples": [
+      {
+        "fr": "La France est célèbre pour ses excellents fromages.",
+        "ur": "فرانس اپنے بہترین پنیروں کے لیے دنیا بھر میں مشہور ہے۔",
+        "ar": "جبن / جبنة",
+        "hi": "पनीर / चीज़",
+        "es": "queso",
+        "en": "cheese"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "La France est célèbre pour ses excellents fromages.",
+      "prompt_native": {
+        "ur": "فرانس اپنے بہترین پنیروں کے لیے دنیا بھر میں مشہور ہے۔",
+        "ar": "جبن / جبنة",
+        "hi": "पनीर / चीज़",
+        "es": "queso",
+        "en": "cheese"
+      }
+    }
+  },
+  {
+    "id": "card_viande",
+    "french_term": "viande",
+    "ipa": "/vjɑ̃d/",
+    "concept_type": "Alimentation • گوشت",
+    "phonetics": {
+      "ur": "ویاند (Vyand)",
+      "ar": "ویاند",
+      "hi": "Vyand",
+      "es": "viande",
+      "en": "vyand"
+    },
+    "translations": {
+      "ur": "گوشت (Meat)",
+      "ar": "لحم",
+      "hi": "मांस / गोश्त",
+      "es": "carne",
+      "en": "meat"
+    },
+    "pedagogical_rules": {
+      "ur": "حلال گوشت کے لیے دکانوں پر 'Viande Halal' کا لیبل تلاش کریں۔",
+      "ar": "تعبير فرنسي أساسي: لحم. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मांस / गोश्त।",
+      "es": "Palabra francesa cotidiana: carne.",
+      "en": "Essential French everyday word meaning 'meat'."
+    },
+    "examples": [
+      {
+        "fr": "Je préfère manger de la viande bien cuite.",
+        "ur": "میں اچھی طرح پکا ہوا گوشت کھانا پسند کرتا ہوں۔",
+        "ar": "لحم",
+        "hi": "मांस / गोश्त",
+        "es": "carne",
+        "en": "meat"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je préfère manger de la viande bien cuite.",
+      "prompt_native": {
+        "ur": "میں اچھی طرح پکا ہوا گوشت کھانا پسند کرتا ہوں۔",
+        "ar": "لحم",
+        "hi": "मांस / गोश्त",
+        "es": "carne",
+        "en": "meat"
+      }
+    }
+  },
+  {
+    "id": "card_poisson",
+    "french_term": "poisson",
+    "ipa": "/pwa.sɔ̃/",
+    "concept_type": "Alimentation • مچھلی",
+    "phonetics": {
+      "ur": "پواساں (Pwah-sohn)",
+      "ar": "پواساں",
+      "hi": "Pwah-sohn",
+      "es": "poisson",
+      "en": "pwah-sohn"
+    },
+    "translations": {
+      "ur": "مچھلی (Fish)",
+      "ar": "سمك",
+      "hi": "मछली",
+      "es": "pescado / pez",
+      "en": "fish"
+    },
+    "pedagogical_rules": {
+      "ur": "احتیاط: 'poisson' (مچھلی) اور 'poison' (زہر) میں صرف ایک 's' کا فرق ہے! مچھلی میں سخت 'س' بولا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: سمك. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मछली।",
+      "es": "Palabra francesa cotidiana: pescado / pez.",
+      "en": "Essential French everyday word meaning 'fish'."
+    },
+    "examples": [
+      {
+        "fr": "Le poisson frais est délicieux avec du citron.",
+        "ur": "تازہ مچھلی لیموں کے ساتھ بہت مزیدار لگتی ہے۔",
+        "ar": "سمك",
+        "hi": "मछली",
+        "es": "pescado / pez",
+        "en": "fish"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le poisson frais est délicieux avec du citron.",
+      "prompt_native": {
+        "ur": "تازہ مچھلی لیموں کے ساتھ بہت مزیدار لگتی ہے۔",
+        "ar": "سمك",
+        "hi": "मछली",
+        "es": "pescado / pez",
+        "en": "fish"
+      }
+    }
+  },
+  {
+    "id": "card_grand",
+    "french_term": "grand",
+    "ipa": "/ɡʁɑ̃/",
+    "concept_type": "Adjectif • بڑا",
+    "phonetics": {
+      "ur": "گراں (Grahn)",
+      "ar": "گراں",
+      "hi": "Grahn",
+      "es": "grand",
+      "en": "grahn"
+    },
+    "translations": {
+      "ur": "بڑا / لمبا (Big / Tall)",
+      "ar": "كبير / طويل",
+      "hi": "बड़ा / लंबा",
+      "es": "grande",
+      "en": "big / tall"
+    },
+    "pedagogical_rules": {
+      "ur": "مونث میں 'grande' بنتا ہے اور 'd' کی آواز ادا ہوتی ہے۔",
+      "ar": "تعبير فرنسي أساسي: كبير / طويل. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बड़ा / लंबा।",
+      "es": "Palabra francesa cotidiana: grande.",
+      "en": "Essential French everyday word meaning 'big / tall'."
+    },
+    "examples": [
+      {
+        "fr": "Paris est une très grande ville.",
+        "ur": "پیرس ایک بہت بڑا شہر ہے۔",
+        "ar": "كبير / طويل",
+        "hi": "बड़ा / लंबा",
+        "es": "grande",
+        "en": "big / tall"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Paris est une très grande ville.",
+      "prompt_native": {
+        "ur": "پیرس ایک بہت بڑا شہر ہے۔",
+        "ar": "كبير / طويل",
+        "hi": "बड़ा / लंबा",
+        "es": "grande",
+        "en": "big / tall"
+      }
+    }
+  },
+  {
+    "id": "card_petit",
+    "french_term": "petit",
+    "ipa": "/pə.ti/",
+    "concept_type": "Adjectif • چھوٹا",
+    "phonetics": {
+      "ur": "پُتی (Puh-tee)",
+      "ar": "پُتی",
+      "hi": "Puh-tee",
+      "es": "petit",
+      "en": "puh-tee"
+    },
+    "translations": {
+      "ur": "چھوٹا (Small / Little)",
+      "ar": "صغير",
+      "hi": "छोटा",
+      "es": "pequeño",
+      "en": "small / little"
+    },
+    "pedagogical_rules": {
+      "ur": "مونث میں 'petite' بنتا ہے اور 't' بولا جاتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: صغير. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: छोटा।",
+      "es": "Palabra francesa cotidiana: pequeño.",
+      "en": "Essential French everyday word meaning 'small / little'."
+    },
+    "examples": [
+      {
+        "fr": "J'habite dans un petit appartement au centre.",
+        "ur": "میں مرکز میں ایک چھوٹے سے فلیٹ میں رہتا ہوں۔",
+        "ar": "صغير",
+        "hi": "छोटा",
+        "es": "pequeño",
+        "en": "small / little"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'habite dans un petit appartement au centre.",
+      "prompt_native": {
+        "ur": "میں مرکز میں ایک چھوٹے سے فلیٹ میں رہتا ہوں۔",
+        "ar": "صغير",
+        "hi": "छोटा",
+        "es": "pequeño",
+        "en": "small / little"
+      }
+    }
+  },
+  {
+    "id": "card_bon",
+    "french_term": "bon",
+    "ipa": "/bɔ̃/",
+    "concept_type": "Adjectif • اچھا",
+    "phonetics": {
+      "ur": "بوں (Bohn)",
+      "ar": "بوں",
+      "hi": "Bohn",
+      "es": "bon",
+      "en": "bohn"
+    },
+    "translations": {
+      "ur": "اچھا / لذیذ (Good / Tasty)",
+      "ar": "جيد / طيب / لذيذ",
+      "hi": "अच्छा / स्वादिष्ट",
+      "es": "bueno / rico",
+      "en": "good / tasty"
+    },
+    "pedagogical_rules": {
+      "ur": "مونث میں 'bonne' بنتا ہے: Bonne journée (آپ کا دن اچھا گزرے)۔",
+      "ar": "تعبير فرنسي أساسي: جيد / طيب / لذيذ. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: अच्छा / स्वादिष्ट।",
+      "es": "Palabra francesa cotidiana: bueno / rico.",
+      "en": "Essential French everyday word meaning 'good / tasty'."
+    },
+    "examples": [
+      {
+        "fr": "Ce croissant est vraiment très bon !",
+        "ur": "یہ کرواساں واقعی بہت اچھا اور لذیذ ہے!",
+        "ar": "جيد / طيب / لذيذ",
+        "hi": "अच्छा / स्वादिष्ट",
+        "es": "bueno / rico",
+        "en": "good / tasty"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Ce croissant est vraiment très bon !",
+      "prompt_native": {
+        "ur": "یہ کرواساں واقعی بہت اچھا اور لذیذ ہے!",
+        "ar": "جيد / طيب / لذيذ",
+        "hi": "अच्छा / स्वादिष्ट",
+        "es": "bueno / rico",
+        "en": "good / tasty"
+      }
+    }
+  },
+  {
+    "id": "card_mauvais",
+    "french_term": "mauvais",
+    "ipa": "/mɔ.vɛ/",
+    "concept_type": "Adjectif • برا",
+    "phonetics": {
+      "ur": "مووے (Moh-veh)",
+      "ar": "مووے",
+      "hi": "Moh-veh",
+      "es": "mauvais",
+      "en": "moh-veh"
+    },
+    "translations": {
+      "ur": "برا / خراب (Bad)",
+      "ar": "سيء / رديء",
+      "hi": "बुरा / खराब",
+      "es": "malo",
+      "en": "bad"
+    },
+    "pedagogical_rules": {
+      "ur": "آخری 's' خاموش ہے۔ مونث: mauvaise.",
+      "ar": "تعبير فرنسي أساسي: سيء / رديء. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: बुरा / खराब।",
+      "es": "Palabra francesa cotidiana: malo.",
+      "en": "Essential French everyday word meaning 'bad'."
+    },
+    "examples": [
+      {
+        "fr": "Il fait mauvais temps aujourd'hui.",
+        "ur": "آج موسم خراب ہے۔",
+        "ar": "سيء / رديء",
+        "hi": "बुरा / खराब",
+        "es": "malo",
+        "en": "bad"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Il fait mauvais temps aujourd'hui.",
+      "prompt_native": {
+        "ur": "آج موسم خراب ہے۔",
+        "ar": "سيء / رديء",
+        "hi": "बुरा / खराब",
+        "es": "malo",
+        "en": "bad"
+      }
+    }
+  },
+  {
+    "id": "card_beau",
+    "french_term": "beau",
+    "ipa": "/bo/",
+    "concept_type": "Adjectif • خوبصورت",
+    "phonetics": {
+      "ur": "بو (Boh)",
+      "ar": "بو",
+      "hi": "Boh",
+      "es": "beau",
+      "en": "boh"
+    },
+    "translations": {
+      "ur": "خوبصورت / پیارا (Beautiful)",
+      "ar": "جميل / وسيم",
+      "hi": "सुंदर / खूबसूरत",
+      "es": "hermoso / bello",
+      "en": "beautiful / handsome"
+    },
+    "pedagogical_rules": {
+      "ur": "مونث میں مکمل بدل کر 'belle' بن جاتا ہے: Une belle ville.",
+      "ar": "تعبير فرنسي أساسي: جميل / وسيم. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: सुंदर / खूबसूरत।",
+      "es": "Palabra francesa cotidiana: hermoso / bello.",
+      "en": "Essential French everyday word meaning 'beautiful / handsome'."
+    },
+    "examples": [
+      {
+        "fr": "C'est un très beau quartier de Paris.",
+        "ur": "یہ پیرس کا بہت خوبصورت علاقہ ہے۔",
+        "ar": "جميل / وسيم",
+        "hi": "सुंदर / खूबसूरत",
+        "es": "hermoso / bello",
+        "en": "beautiful / handsome"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "C'est un très beau quartier de Paris.",
+      "prompt_native": {
+        "ur": "یہ پیرس کا بہت خوبصورت علاقہ ہے۔",
+        "ar": "جميل / وسيم",
+        "hi": "सुंदर / खूबसूरत",
+        "es": "hermoso / bello",
+        "en": "beautiful / handsome"
+      }
+    }
+  },
+  {
+    "id": "card_facile",
+    "french_term": "facile",
+    "ipa": "/fa.sil/",
+    "concept_type": "Adjectif • آسان",
+    "phonetics": {
+      "ur": "فاسیل (Fah-seel)",
+      "ar": "فاسیل",
+      "hi": "Fah-seel",
+      "es": "facile",
+      "en": "fah-seel"
+    },
+    "translations": {
+      "ur": "آسان (Easy)",
+      "ar": "سهل / يسير",
+      "hi": "आसान / सरल",
+      "es": "fácil",
+      "en": "easy"
+    },
+    "pedagogical_rules": {
+      "ur": "مذکر اور مونث دونوں کے لیے یکساں رہتا ہے۔",
+      "ar": "تعبير فرنسي أساسي: سهل / يسير. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: आसान / सरल।",
+      "es": "Palabra francesa cotidiana: fácil.",
+      "en": "Essential French everyday word meaning 'easy'."
+    },
+    "examples": [
+      {
+        "fr": "Le français est facile avec Bienvenue !",
+        "ur": "Bienvenue کے ساتھ فرانسیسی آسان ہے!",
+        "ar": "سهل / يسير",
+        "hi": "आसान / सरल",
+        "es": "fácil",
+        "en": "easy"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Le français est facile avec Bienvenue !",
+      "prompt_native": {
+        "ur": "Bienvenue کے ساتھ فرانسیسی آسان ہے!",
+        "ar": "سهل / يسير",
+        "hi": "आसान / सरल",
+        "es": "fácil",
+        "en": "easy"
+      }
+    }
+  },
+  {
+    "id": "card_difficile",
+    "french_term": "difficile",
+    "ipa": "/di.fi.sil/",
+    "concept_type": "Adjectif • مشکل",
+    "phonetics": {
+      "ur": "دیفیسیل (Dee-fee-seel)",
+      "ar": "دیفیسیل",
+      "hi": "Dee-fee-seel",
+      "es": "difficile",
+      "en": "dee-fee-seel"
+    },
+    "translations": {
+      "ur": "مشکل / کٹھن (Difficult)",
+      "ar": "صعب / عسير",
+      "hi": "कठिन / मुश्किल",
+      "es": "difícil",
+      "en": "difficult"
+    },
+    "pedagogical_rules": {
+      "ur": "کسی بات کی وضاحت مانگنے کے لیے: C'est un peu difficile à comprendre.",
+      "ar": "تعبير فرنسي أساسي: صعب / عسير. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: कठिन / मुश्किल।",
+      "es": "Palabra francesa cotidiana: difícil.",
+      "en": "Essential French everyday word meaning 'difficult'."
+    },
+    "examples": [
+      {
+        "fr": "La prononciation française n'est pas si difficile.",
+        "ur": "فرانسیسی تلفظ اتنا بھی مشکل نہیں ہے۔",
+        "ar": "صعب / عسير",
+        "hi": "कठिन / मुश्किल",
+        "es": "difícil",
+        "en": "difficult"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "La prononciation française n'est pas si difficile.",
+      "prompt_native": {
+        "ur": "فرانسیسی تلفظ اتنا بھی مشکل نہیں ہے۔",
+        "ar": "صعب / عسير",
+        "hi": "कठिन / मुश्किल",
+        "es": "difícil",
+        "en": "difficult"
+      }
+    }
+  },
+  {
+    "id": "card_chaud",
+    "french_term": "chaud",
+    "ipa": "/ʃo/",
+    "concept_type": "Sensation • گرم",
+    "phonetics": {
+      "ur": "شو (Shoh)",
+      "ar": "شو",
+      "hi": "Shoh",
+      "es": "chaud",
+      "en": "shoh"
+    },
+    "translations": {
+      "ur": "گرم (Hot / Warm)",
+      "ar": "ساخن / حار",
+      "hi": "गर्म",
+      "es": "caliente",
+      "en": "hot / warm"
+    },
+    "pedagogical_rules": {
+      "ur": "جسمانی احساس بتانے کے لیے 'avoir' لگائیں: J'ai chaud (مجھے گرمی لگ رہی ہے)۔",
+      "ar": "تعبير فرنسي أساسي: ساخن / حار. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: गर्म।",
+      "es": "Palabra francesa cotidiana: caliente.",
+      "en": "Essential French everyday word meaning 'hot / warm'."
+    },
+    "examples": [
+      {
+        "fr": "Attention, le café est très chaud !",
+        "ur": "دھیان رہے، کافی بہت گرم ہے!",
+        "ar": "ساخن / حار",
+        "hi": "गर्म",
+        "es": "caliente",
+        "en": "hot / warm"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Attention, le café est très chaud !",
+      "prompt_native": {
+        "ur": "دھیان رہے، کافی بہت گرم ہے!",
+        "ar": "ساخن / حار",
+        "hi": "गर्म",
+        "es": "caliente",
+        "en": "hot / warm"
+      }
+    }
+  },
+  {
+    "id": "card_froid",
+    "french_term": "froid",
+    "ipa": "/fʁwa/",
+    "concept_type": "Sensation • ٹھنڈا",
+    "phonetics": {
+      "ur": "فروا (Frwah)",
+      "ar": "فروا",
+      "hi": "Frwah",
+      "es": "froid",
+      "en": "frwah"
+    },
+    "translations": {
+      "ur": "سرد / ٹھنڈا (Cold)",
+      "ar": "بارد",
+      "hi": "ठंडा / सर्द",
+      "es": "frío",
+      "en": "cold"
+    },
+    "pedagogical_rules": {
+      "ur": "جسمانی احساس بتانے کے لیے 'avoir' لگائیں: J'ai froid (مجھے سردی لگ رہی ہے)۔",
+      "ar": "تعبير فرنسي أساسي: بارد. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: ठंडा / सर्द।",
+      "es": "Palabra francesa cotidiana: frío.",
+      "en": "Essential French everyday word meaning 'cold'."
+    },
+    "examples": [
+      {
+        "fr": "Il fait très froid en hiver à Paris.",
+        "ur": "پیرس میں سردیوں میں شدید سردی ہوتی ہے۔",
+        "ar": "بارد",
+        "hi": "ठंडा / सर्द",
+        "es": "frío",
+        "en": "cold"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Il fait très froid en hiver à Paris.",
+      "prompt_native": {
+        "ur": "پیرس میں سردیوں میں شدید سردی ہوتی ہے۔",
+        "ar": "بارد",
+        "hi": "ठंडा / सर्द",
+        "es": "frío",
+        "en": "cold"
+      }
+    }
+  },
+  {
+    "id": "card_aide",
+    "french_term": "aide",
+    "ipa": "/ɛd/",
+    "concept_type": "Urgence • مدد",
+    "phonetics": {
+      "ur": "اید (Ehd)",
+      "ar": "اید",
+      "hi": "Ehd",
+      "es": "aide",
+      "en": "ehd"
+    },
+    "translations": {
+      "ur": "مدد / امداد (Help)",
+      "ar": "مساعدة / عون",
+      "hi": "मदद / सहायता",
+      "es": "ayuda",
+      "en": "help"
+    },
+    "pedagogical_rules": {
+      "ur": "ہنگامی مدد مانگنے کے لیے پکاریں: 'À l'aide !' (بچاؤ / مدد کرو!)۔",
+      "ar": "تعبير فرنسي أساسي: مساعدة / عون. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: मदद / सहायता।",
+      "es": "Palabra francesa cotidiana: ayuda.",
+      "en": "Essential French everyday word meaning 'help'."
+    },
+    "examples": [
+      {
+        "fr": "J'ai besoin de votre aide s'il vous plaît.",
+        "ur": "مجھے آپ کی مدد کی ضرورت ہے برائے مہربانی۔",
+        "ar": "مساعدة / عون",
+        "hi": "मदद / सहायता",
+        "es": "ayuda",
+        "en": "help"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "J'ai besoin de votre aide s'il vous plaît.",
+      "prompt_native": {
+        "ur": "مجھے آپ کی مدد کی ضرورت ہے برائے مہربانی۔",
+        "ar": "مساعدة / عون",
+        "hi": "मदद / सहायता",
+        "es": "ayuda",
+        "en": "help"
+      }
+    }
+  },
+  {
+    "id": "card_urgent",
+    "french_term": "urgent",
+    "ipa": "/yʁ.ʒɑ̃/",
+    "concept_type": "Urgence • ضروری",
+    "phonetics": {
+      "ur": "اوڑژاں (Oor-zhahn)",
+      "ar": "اوڑژاں",
+      "hi": "Oor-zhahn",
+      "es": "urgent",
+      "en": "oor-zhahn"
+    },
+    "translations": {
+      "ur": "ہنگامی / فوری (Urgent)",
+      "ar": "عاجل / طارئ",
+      "hi": "ज़रूरी / तत्काल",
+      "es": "urgente",
+      "en": "urgent"
+    },
+    "pedagogical_rules": {
+      "ur": "ہسپتال کی ایمرجنسی کو 'Les Urgences' کہا جاتا ہے۔ ایمرجنسی فون نمبر 15 (SAMU) ہے۔",
+      "ar": "تعبير فرنسي أساسي: عاجل / طارئ. يُستخدم في الحياة اليومية في فرنسا.",
+      "hi": "महत्वपूर्ण फ्रांसीसी शब्द: ज़रूरी / तत्काल।",
+      "es": "Palabra francesa cotidiana: urgente.",
+      "en": "Essential French everyday word meaning 'urgent'."
+    },
+    "examples": [
+      {
+        "fr": "C'est un cas médical très urgent.",
+        "ur": "یہ ایک انتہائی فوری اور ہنگامی طبی معاملہ ہے۔",
+        "ar": "عاجل / طارئ",
+        "hi": "ज़रूरी / तत्काल",
+        "es": "urgente",
+        "en": "urgent"
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "C'est un cas médical très urgent.",
+      "prompt_native": {
+        "ur": "یہ ایک انتہائی فوری اور ہنگامی طبی معاملہ ہے۔",
+        "ar": "عاجل / طارئ",
+        "hi": "ज़रूरी / तत्काल",
+        "es": "urgente",
+        "en": "urgent"
+      }
+    }
+  },
+  {
+    "id": "card_japon",
+    "french_term": "Japon",
+    "ipa": "/ʒa.pɔ̃/",
+    "concept_type": "Nom propre • ملک",
+    "phonetics": {
+      "ur": "ژاپوں (Zha-pohn)",
+      "ar": "اليابان (نطق)",
+      "hi": "जापान",
+      "es": "Japón",
+      "en": "zha-pohn"
+    },
+    "translations": {
+      "en": "Japan",
+      "ur": "جاپان (Japan)",
+      "ar": "اليابان (Japan)",
+      "hi": "जापान (Japan)",
+      "es": "Japón"
+    },
+    "pedagogical_rules": {
+      "ur": "فرانسیسی میں ممالک کے ناموں کے ساتھ حروف تعریف لگائے جاتے ہیں: 'Le Japon' (مذکر)۔ حرف 'J' کو نرم 'ژ' (/ʒ/) بولا جاتا ہے۔",
+      "ar": "في الفرنسية، يُستخدم أداة التعريف مع أسماء الدول مثل 'Le Japon' (مذكر).",
+      "hi": "फ़्रेंच में देशों के नाम के साथ आर्टिकल आता है जैसे 'Le Japon' (पुल्लिंग)।",
+      "es": "En francés, los nombres de países llevan artículo, como 'Le Japon' (masculino).",
+      "en": "In French, country names take a definite article: 'Le Japon' (masculine). 'J' sounds soft like 'zh' (/ʒ/)."
+    },
+    "examples": [
+      {
+        "fr": "Je voyage au Japon.",
+        "ur": "میں جاپان کا سفر کر رہا ہوں۔",
+        "ar": "أنا مسافر إلى اليابان.",
+        "hi": "मैं जापान की यात्रा कर रहा हूँ।",
+        "es": "Viajo a Japón.",
+        "en": "I am traveling to Japan."
+      }
+    ],
+    "practice_prompt": {
+      "type": "speak_or_type",
+      "prompt_fr": "Je voyage au Japon.",
+      "prompt_native": {
+        "ur": "« Je voyage au Japon » (میں جاپان جا رہا ہوں) بولیں۔",
+        "ar": "انطق « Je voyage au Japon ».",
+        "hi": "« Je voyage au Japon » बोलें।",
+        "es": "Pronuncie « Je voyage au Japon ».",
+        "en": "Say « Je voyage au Japon » (I travel to Japan)."
+      }
+    }
   }
 ];

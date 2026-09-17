@@ -13,11 +13,14 @@ class SearchResultItem(BaseModel):
     phonetic_native: str
     translation_native: str
     rule_summary: Optional[str] = None
+    did_you_mean: Optional[str] = None
+    source: Optional[str] = None
 
 class SearchResponse(BaseModel):
     query: str
     lang: str
     total_matches: int
+    did_you_mean: Optional[str] = None
     results: List[SearchResultItem]
 
 class ExampleSentence(BaseModel):
